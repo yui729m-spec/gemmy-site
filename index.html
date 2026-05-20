@@ -322,6 +322,9 @@ function renderMatchInfo(d) {
 // ============================================================
 // Gemmy キャラクター
 // ============================================================
+// 画像読み込み状態を管理（'loading' | 'ok' | 'error'）
+const imgState = {};  // { 'gemmy_positive.png': 'ok', ... }
+
 function renderGemmy(d) {
   const ctype  = d.comment_type || 'default';
   const imgSrc = CHAR_MAP[ctype] || 'gemmy_default.png';
@@ -331,17 +334,42 @@ function renderGemmy(d) {
   const avatar = document.getElementById('gemmy-avatar');
   const img    = document.getElementById('gemmy-img');
 
-  if (img) {
-    if (!img.src.endsWith(imgSrc)) {
+  const state = imgState[imgSrc];
+
+  if (state === 'error') {
+    // 一度エラーになったファイルは絵文字を維持
+    if (img) img.style.display = 'none';
+    setEmojiAvatar(avatar, ctype);
+    return;
+  }
+
+  if (state === 'ok') {
+    // 読み込み済み: src が違う場合だけ差し替え
+    if (img && !img.src.endsWith(imgSrc)) {
       img.style.display = 'block';
       img.src = imgSrc;
-      img.onerror = () => {
-        img.style.display = 'none';
-        setEmojiAvatar(avatar, ctype);
-      };
     }
-  } else {
-    setEmojiAvatar(avatar, ctype);
+    // 絵文字があれば消す
+    const span = avatar.querySelector('.gemmy-emoji');
+    if (span) span.remove();
+    return;
+  }
+
+  // まだ試していない（state === undefined）: 初回ロード
+  if (img) {
+    imgState[imgSrc] = 'loading';
+    img.style.display = 'block';
+    img.src = imgSrc;
+    img.onload = () => {
+      imgState[imgSrc] = 'ok';
+      const span = avatar.querySelector('.gemmy-emoji');
+      if (span) span.remove();
+    };
+    img.onerror = () => {
+      imgState[imgSrc] = 'error';
+      img.style.display = 'none';
+      setEmojiAvatar(avatar, ctype);
+    };
   }
 }
 
