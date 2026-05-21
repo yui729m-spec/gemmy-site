@@ -1,13 +1,13 @@
 {
   "end_no": 7,
-  "shot_no": 10,
+  "shot_no": 5,
   "my_score": 3,
   "opp_score": 4,
   "score_diff": -1,
   "hammer": true,
-  "my_color": "yellow",
-  "left_team": "カナダ",
-  "right_team": "日本",
+  "my_color": "red",
+  "left_team": "日本",
+  "right_team": "カナダ",
   "recommendations": [
     {
       "rank": 1,
@@ -16,61 +16,30 @@
       "vx": -0.054,
       "vy": 2.45,
       "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.61,
-      "stability": 0.58,
+      "target_y": 38.41,
+      "wp": 0.55,
+      "stability": 0.52,
       "stability_std": 0.04,
       "template": "C1. 後投・ハンマーあり・同点",
       "future": [
-        {"x":  0.05, "y": 38.41, "color": 0, "dist": 0.05,  "is_shot_stone": true},
-        {"x": -0.22, "y": 38.25, "color": 1, "dist": 0.37,  "is_shot_stone": false},
-        {"x":  0.35, "y": 38.60, "color": 0, "dist": 0.43,  "is_shot_stone": false},
-        {"x": -0.50, "y": 38.00, "color": 1, "dist": 0.64,  "is_shot_stone": false},
-        {"x":  0.80, "y": 38.20, "color": 0, "dist": 0.84,  "is_shot_stone": false},
-        {"x": -0.90, "y": 37.90, "color": 1, "dist": 1.08,  "is_shot_stone": false},
-        {"x":  0.15, "y": 35.80, "color": 1, "dist": 2.63,  "is_shot_stone": false},
-        {"x": -0.20, "y": 35.20, "color": 0, "dist": 3.22,  "is_shot_stone": false}
-      ]
-    },
-    {
-      "rank": 2,
-      "type": "freeze",
-      "turn": 1,
-      "vx": 0.048,
-      "vy": 2.39,
-      "target_x": -0.22,
-      "target_y": 38.25,
-      "wp": 0.55,
-      "stability": 0.50,
-      "stability_std": 0.08,
-      "template": "C1. 後投・ハンマーあり・同点",
-      "future": [
-        {"x": -0.20, "y": 38.26, "color": 0, "dist": 0.35,  "is_shot_stone": true},
-        {"x": -0.22, "y": 38.25, "color": 1, "dist": 0.37,  "is_shot_stone": false},
-        {"x":  0.35, "y": 38.60, "color": 0, "dist": 0.43,  "is_shot_stone": false},
-        {"x": -0.50, "y": 38.00, "color": 1, "dist": 0.64,  "is_shot_stone": false}
-      ]
-    },
-    {
-      "rank": 3,
-      "type": "takeout",
-      "turn": -1,
-      "vx": -0.10,
-      "vy": 2.82,
-      "target_x": -0.50,
-      "target_y": 38.00,
-      "wp": 0.48,
-      "stability": 0.42,
-      "stability_std": 0.12,
-      "template": "C1. 後投・ハンマーあり・同点",
-      "future": [
-        {"x":  0.35, "y": 38.60, "color": 0, "dist": 0.43,  "is_shot_stone": false},
-        {"x":  0.80, "y": 38.20, "color": 0, "dist": 0.84,  "is_shot_stone": false},
-        {"x": -0.50, "y": 38.30, "color": 0, "dist": 0.62,  "is_shot_stone": true}
+        {
+          "x": 0.05,
+          "y": 38.41,
+          "color": 0,
+          "dist": 0.05,
+          "is_shot_stone": true
+        },
+        {
+          "x": -0.2,
+          "y": 38.25,
+          "color": 1,
+          "dist": 0.36,
+          "is_shot_stone": false
+        }
       ]
     }
   ],
-  "comment": "ここはドローで確実に点を取りましょう！",
+  "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-05-20T11:00:00"
+  "updated_at": "2026-05-21T05:56:23"
 }
