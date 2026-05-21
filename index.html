@@ -203,7 +203,8 @@ body {
 <!-- Gemmy キャラクター -->
 <div class="gemmy-section">
   <div class="gemmy-avatar" id="gemmy-avatar">
-    <img id="gemmy-img" src="" alt="Gemmy" style="display:none">
+    <img id="gemmy-img" src="gemmy_default.png" alt="Gemmy"
+         onerror="this.style.display='none'">
   </div>
   <div class="gemmy-right">
     <div class="gemmy-bubble" id="gemmy-comment">データを待っています...</div>
@@ -252,18 +253,15 @@ const TEE_Y    = 38.405;
 const HOUSE_R  = 1.8288;
 const STONE_R  = 0.145;
 
-// キャラクター画像マッピング
+// キャラクター画像マッピング（実際のファイル名に合わせた5種類）
 const CHAR_MAP = {
   positive:   'gemmy_positive.png',
-  focused:    'gemmy_focused.png',
-  aggressive: 'gemmy_aggressive.png',
-  analysing:  'gemmy_analysing.png',
-  celebrate:  'gemmy_celebrate.png',
   thinking:   'gemmy_thinking.png',
+  aggressive: 'gemmy_aggressive.png',
+  celebrate:  'gemmy_celebrate.png',
 };
 const CHAR_EMOJI = {
-  positive:'😊', focused:'🎯', aggressive:'💥',
-  analysing:'🔍', celebrate:'🎉', thinking:'🤔',
+  positive:'😊', thinking:'🤔', aggressive:'💥', celebrate:'🎉',
 };
 
 // ============================================================
