@@ -1,187 +1,45 @@
 {
-  "end_no": 9,
-  "shot_no": 16,
-  "my_score": 5,
-  "opp_score": 8,
-  "score_diff": -3,
+  "end_no": 7,
+  "shot_no": 5,
+  "my_score": 3,
+  "opp_score": 4,
+  "score_diff": -1,
   "hammer": true,
-  "my_color": "yellow",
-  "left_team": "スウェーデン",
-  "right_team": "日本",
+  "my_color": "red",
+  "left_team": "日本",
+  "right_team": "カナダ",
   "recommendations": [
     {
       "rank": 1,
       "type": "draw",
       "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
+      "vx": -0.054,
+      "vy": 2.45,
       "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.6372,
-      "stability": 0.4227,
-      "stability_std": 0.1407,
-      "template": "デフォルト",
+      "target_y": 38.41,
+      "wp": 0.55,
+      "stability": 0.52,
+      "stability_std": 0.04,
+      "template": "C1. 後投・ハンマーあり・同点",
       "future": [
         {
-          "x": 1.0935,
-          "y": 33.2461,
+          "x": 0.05,
+          "y": 38.41,
           "color": 0,
-          "dist": 5.2735,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.9659,
-          "y": 38.5174,
-          "color": 0,
-          "dist": 0.9724,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.2445,
-          "y": 38.3321,
-          "color": 0,
-          "dist": 0.2551,
+          "dist": 0.05,
           "is_shot_stone": true
         },
         {
-          "x": 0.5734,
-          "y": 37.7223,
-          "color": 0,
-          "dist": 0.8916,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.1437,
-          "y": 38.8177,
+          "x": -0.2,
+          "y": 38.25,
           "color": 1,
-          "dist": 1.2159,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.9791,
-          "y": 37.5818,
-          "color": 1,
-          "dist": 1.2792,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "type": "draw",
-      "turn": 1,
-      "vx": 0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.6369,
-      "stability": 0.3803,
-      "stability_std": 0.1322,
-      "template": "デフォルト",
-      "future": [
-        {
-          "x": 1.0935,
-          "y": 33.2461,
-          "color": 0,
-          "dist": 5.2735,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.9659,
-          "y": 38.5174,
-          "color": 0,
-          "dist": 0.9724,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.407,
-          "y": 37.9596,
-          "color": 0,
-          "dist": 0.6034,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.2827,
-          "y": 38.3796,
-          "color": 0,
-          "dist": 0.2838,
-          "is_shot_stone": true
-        },
-        {
-          "x": -1.1437,
-          "y": 38.8177,
-          "color": 1,
-          "dist": 1.2159,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.9035,
-          "y": 37.5612,
-          "color": 1,
-          "dist": 1.2362,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "type": "draw",
-      "turn": -1,
-      "vx": -0.0836,
-      "vy": 2.4247,
-      "target_x": 0.4,
-      "target_y": 38.005,
-      "wp": 0.638,
-      "stability": 0.3483,
-      "stability_std": 0.1039,
-      "template": "デフォルト",
-      "future": [
-        {
-          "x": 1.0935,
-          "y": 33.2461,
-          "color": 0,
-          "dist": 5.2735,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.9659,
-          "y": 38.5174,
-          "color": 0,
-          "dist": 0.9724,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.0892,
-          "y": 38.5695,
-          "color": 0,
-          "dist": 0.1871,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.884,
-          "y": 37.9517,
-          "color": 0,
-          "dist": 0.9934,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.1437,
-          "y": 38.8177,
-          "color": 1,
-          "dist": 1.2159,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.9035,
-          "y": 37.5612,
-          "color": 1,
-          "dist": 1.2362,
+          "dist": 0.36,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "逆転を狙いましょう！",
-  "comment_type": "aggressive",
-  "updated_at": "2026-05-21T06:01:38"
+  "comment": "ハンマーを活かしましょう！",
+  "comment_type": "thinking",
+  "updated_at": "2026-05-24T21:46:27"
 }
