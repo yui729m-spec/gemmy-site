@@ -312,7 +312,8 @@ function renderMatchInfo(d) {
   document.getElementById('match-teams').textContent = teams;
 
   const endStr  = `${d.end_no}E`;
-  const shotStr = `${d.shot_no}投目`;
+  // shot_no は「N投後の盤面」→ 表示は「N+1投目の予想」
+  const shotStr = `${d.shot_no + 1}投目の予想`;
   document.getElementById('match-end').textContent = `${endStr}｜${shotStr}`;
 }
 
