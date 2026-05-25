@@ -180,9 +180,142 @@ body {
   border-top: 1px solid #eee;
 }
 #updated-at { color: #d05090; }
+
+/* ---- スタートページ ---- */
+#standby-page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  min-height: 100vh;
+}
+.standby-hero {
+  width: 100%;
+  background: linear-gradient(180deg, #fce8f4 0%, #fff 100%);
+  padding: 12px 16px 0;
+  text-align: center;
+}
+.standby-hero img {
+  width: 88%;
+  max-width: 340px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.standby-intro {
+  width: 100%;
+  padding: 14px 20px;
+  background: #fff0f8;
+  border-top: 2px solid #f0a0c0;
+  border-bottom: 2px solid #f0a0c0;
+}
+.standby-intro-title {
+  font-size: .78rem;
+  font-weight: 700;
+  color: #d05090;
+  letter-spacing: .08em;
+  margin-bottom: 6px;
+}
+.standby-intro-text {
+  font-size: .82rem;
+  line-height: 1.8;
+  color: #555;
+}
+.standby-schedule {
+  width: 100%;
+  padding: 16px 20px;
+}
+.standby-schedule-title {
+  font-size: .78rem;
+  font-weight: 700;
+  color: #d05090;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+}
+.schedule-card {
+  background: #fafafa;
+  border: 1.5px solid #f0a0c0;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.schedule-card.empty {
+  border-color: #eee;
+  text-align: center;
+  color: #bbb;
+  font-size: .82rem;
+  padding: 24px;
+}
+.schedule-tournament {
+  font-size: .72rem;
+  color: #d05090;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.schedule-match {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: #222;
+  margin-bottom: 8px;
+}
+.schedule-datetime {
+  font-size: .82rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+.schedule-note {
+  font-size: .75rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* ---- スクロール誘導 ---- */
+.scroll-hint {
+  text-align: center;
+  padding: 6px 0 2px;
+  color: #f0a0c0;
+  font-size: .72rem;
+  letter-spacing: .05em;
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,100% { transform: translateY(0); opacity: .6; }
+  50%      { transform: translateY(6px); opacity: 1; }
+}
 </style>
 </head>
 <body>
+
+<!-- ===== スタートページ（standby） ===== -->
+<div id="standby-page">
+  <div class="title-bar">
+    <img class="title-img" src="gemmy_title.png" alt=""
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+    <div class="title-text" style="display:none">🥌 Gemmyのカーリング投石予想 🥌</div>
+  </div>
+
+  <div class="standby-hero">
+    <img src="3DGemmy_throw.png" alt="Gemmy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="standby-intro">
+    <div class="standby-intro-title">🥌 Gemmyとは？</div>
+    <div class="standby-intro-text">
+      GemmyはカーリングAIです。試合中、リアルタイムで盤面を分析し、次の投石の最適手を予想します。DC4物理エンジンによる精密なシミュレーションで、プロレベルの戦略を分かりやすく表示します。
+    </div>
+  </div>
+
+  <div class="standby-schedule">
+    <div class="standby-schedule-title">📅 次の公開予定</div>
+    <div id="schedule-card" class="schedule-card empty">
+      現在、公開予定の試合はありません
+    </div>
+  </div>
+
+  <div class="footer">Gemmy カーリングAI</div>
+</div>
+
+<!-- ===== ライブページ（live） ===== -->
+<div id="live-page">
 
 <!-- タイトルバー -->
 <div class="title-bar">
@@ -239,10 +372,17 @@ body {
   <div class="waiting-text">試合データを待機中です<br>投石が記録されると自動で更新されます</div>
 </div>
 
+<!-- スクロール誘導 -->
+<div class="scroll-hint" id="scroll-hint" style="display:none">
+  ▼ 下にスクロールして推奨ショット情報を見る ▼
+</div>
+
 <!-- フッター -->
 <div class="footer">
   Gemmy カーリングAI &nbsp;|&nbsp; 最終更新: <span id="updated-at">---</span>
 </div>
+
+</div><!-- /live-page -->
 
 <script>
 // ============================================================
@@ -291,16 +431,69 @@ async function poll() {
 }
 
 // ============================================================
-// 全体レンダリング
+// 全体レンダリング（mode で standby / live を切り替え）
 // ============================================================
 function render(d) {
+  const mode = d.mode || 'live';
+
+  if (mode === 'standby') {
+    // ---- スタートページ表示 ----
+    document.getElementById('standby-page').style.display = 'flex';
+    document.getElementById('live-page').style.display    = 'none';
+    renderSchedule(d.schedule);
+    return;
+  }
+
+  // ---- ライブページ表示 ----
+  document.getElementById('standby-page').style.display = 'none';
+  document.getElementById('live-page').style.display    = 'block';
+
   renderMatchInfo(d);
   renderGemmy(d);
   drawHouse(d);
   renderShotInfo(d);
+
   document.getElementById('waiting-msg').style.display = 'none';
   document.getElementById('updated-at').textContent =
     (d.updated_at || '').replace('T',' ').substring(0,19);
+
+  // スクロール誘導：推奨ショット情報が表示されたら下矢印を表示
+  const hint = document.getElementById('scroll-hint');
+  if (hint) hint.style.display = 'block';
+}
+
+// ============================================================
+// スケジュール表示（standby モード用）
+// ============================================================
+function renderSchedule(schedule) {
+  const card = document.getElementById('schedule-card');
+  if (!card) return;
+
+  if (!schedule || !schedule.match) {
+    card.className = 'schedule-card empty';
+    card.innerHTML = '現在、公開予定の試合はありません';
+    return;
+  }
+
+  // 日時フォーマット
+  let dateStr = '';
+  if (schedule.datetime) {
+    const dt = new Date(schedule.datetime);
+    const y  = dt.getFullYear();
+    const mo = dt.getMonth() + 1;
+    const d  = dt.getDate();
+    const h  = String(dt.getHours()).padStart(2, '0');
+    const mi = String(dt.getMinutes()).padStart(2, '0');
+    dateStr = `${y}年${mo}月${d}日 ${h}:${mi}〜`;
+  }
+
+  card.className = 'schedule-card';
+  card.innerHTML = `
+    <div class="schedule-tournament">${schedule.tournament || ''}</div>
+    <div class="schedule-match">${schedule.match}</div>
+    ${dateStr ? `<div class="schedule-datetime">📅 ${dateStr}</div>` : ''}
+    ${schedule.note ? `<div class="schedule-note">📺 ${schedule.note}</div>` : ''}
+  `;
 }
 
 // ============================================================
