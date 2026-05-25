@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Gemmyのカーリング投石予想</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: 'Noto Sans JP', sans-serif;
+  max-width: 420px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* ---- タイトルバー ---- */
+.title-bar {
+  background: #fff;
+  padding: 8px 12px 4px;
+  border-bottom: 2px solid #f0a0c0;
+  text-align: center;
+}
+.title-bar img.title-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* 画像がない場合のテキストタイトル */
+.title-text {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #d05090;
+  letter-spacing: .05em;
+  padding: 6px 0 2px;
+}
+
+/* ---- 試合情報行 ---- */
+.match-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 14px;
+  background: #fff;
+  font-size: .95rem;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+.match-teams { color: #222; }
+.match-end   { color: #222; }
+
+/* ---- 更新バー ---- */
+.refresh-bar  { height: 2px; background: #f0d0e0; }
+.refresh-fill { height: 100%; background: #d05090; width: 0%; transition: width 1s linear; }
+
+/* ---- Gemmy セクション ---- */
+.gemmy-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.gemmy-avatar {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #f0a0c0;
+  background: #fce8f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  overflow: hidden;
+}
+.gemmy-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.gemmy-right { flex: 1; }
+.gemmy-bubble {
+  background: #fff0f8;
+  border: 1.5px solid #f0a0c0;
+  border-radius: 4px 16px 16px 16px;
+  padding: 8px 12px;
+  font-size: .88rem;
+  line-height: 1.5;
+  color: #444;
+  min-height: 42px;
+}
+
+/* ---- ハウス図エリア ---- */
+.house-section {
+  padding: 10px 14px 6px;
+  background: #fff;
+}
+.house-label {
+  font-size: .72rem;
+  color: #999;
+  letter-spacing: .08em;
+  margin-bottom: 6px;
+}
+#house-canvas {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1.5px solid #ddd;
+}
+
+/* ---- 推奨ショット情報 ---- */
+.shot-info {
+  margin: 8px 14px 16px;
+  background: #fafafa;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.shot-info-title {
+  font-size: .72rem;
+  color: #d05090;
+  font-weight: 700;
+  letter-spacing: .06em;
+  margin-bottom: 6px;
+}
+.shot-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3px 12px;
+  font-size: .82rem;
+}
+.shot-grid .label { color: #888; }
+.shot-grid .value { color: #222; font-weight: 700; }
+
+.wp-row {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.wp-label { font-size: .75rem; color: #888; flex-shrink: 0; }
+.wp-bar-wrap {
+  flex: 1;
+  background: #e8e8e8;
+  border-radius: 4px;
+  height: 6px;
+  overflow: hidden;
+}
+.wp-bar {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #f0a0c0, #d05090);
+  transition: width .6s ease;
+}
+.wp-value { font-size: .82rem; font-weight: 700; color: #d05090; flex-shrink: 0; }
+
+/* ---- 待機表示 ---- */
+.waiting {
+  text-align: center;
+  padding: 40px 24px;
+  color: #bbb;
+}
+.waiting-icon { font-size: 2.5rem; margin-bottom: 10px; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+.waiting-text { font-size: .85rem; line-height: 1.7; }
+
+/* ---- フッター ---- */
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: .62rem;
+  color: #bbb;
+  border-top: 1px solid #eee;
+}
+#updated-at { color: #d05090; }
+
+/* ---- スタートページ ---- */
+#standby-page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  min-height: 100vh;
+}
+.standby-hero {
+  width: 100%;
+  background: linear-gradient(180deg, #fce8f4 0%, #fff 100%);
+  padding: 12px 16px 0;
+  text-align: center;
+}
+.standby-hero img {
+  width: 88%;
+  max-width: 340px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.standby-intro {
+  width: 100%;
+  padding: 14px 20px;
+  background: #fff0f8;
+  border-top: 2px solid #f0a0c0;
+  border-bottom: 2px solid #f0a0c0;
+}
+.standby-intro-title {
+  font-size: .78rem;
+  font-weight: 700;
+  color: #d05090;
+  letter-spacing: .08em;
+  margin-bottom: 6px;
+}
+.standby-intro-text {
+  font-size: .82rem;
+  line-height: 1.8;
+  color: #555;
+}
+.standby-schedule {
+  width: 100%;
+  padding: 16px 20px;
+}
+.standby-schedule-title {
+  font-size: .78rem;
+  font-weight: 700;
+  color: #d05090;
+  letter-spacing: .08em;
+  margin-bottom: 10px;
+}
+.schedule-card {
+  background: #fafafa;
+  border: 1.5px solid #f0a0c0;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.schedule-card.empty {
+  border-color: #eee;
+  text-align: center;
+  color: #bbb;
+  font-size: .82rem;
+  padding: 24px;
+}
+.schedule-tournament {
+  font-size: .72rem;
+  color: #d05090;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.schedule-match {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: #222;
+  margin-bottom: 8px;
+}
+.schedule-datetime {
+  font-size: .82rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+.schedule-note {
+  font-size: .75rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* ---- スクロール誘導 ---- */
+.scroll-hint {
+  text-align: center;
+  padding: 6px 0 2px;
+  color: #f0a0c0;
+  font-size: .72rem;
+  letter-spacing: .05em;
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,100% { transform: translateY(0); opacity: .6; }
+  50%      { transform: translateY(6px); opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== スタートページ（standby） ===== -->
+<div id="standby-page">
+  <div class="title-bar">
+    <img class="title-img" src="gemmy_title.png" alt=""
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+    <div class="title-text" style="display:none">🥌 Gemmyのカーリング投石予想 🥌</div>
+  </div>
+
+  <div class="standby-hero">
+    <img src="3DGemmy_throw.png" alt="Gemmy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="standby-intro">
+    <div class="standby-intro-title">🥌 Gemmyとは？</div>
+    <div class="standby-intro-text">
+      GemmyはカーリングAIです。試合中、リアルタイムで盤面を分析し、次の投石の最適手を予想します。テレビで観戦しながらGemmyの予想をお楽しみください。よちよち歩きのGemmyが成長する姿を応援してください。
+    </div>
+  </div>
+
+  <div class="standby-schedule">
+    <div class="standby-schedule-title">📅 次の公開予定</div>
+    <div id="schedule-card" class="schedule-card empty">
+      現在、公開予定の試合はありません
+    </div>
+  </div>
+
+  <div class="footer">Gemmy カーリングAI</div>
+</div>
+
+<!-- ===== ライブページ（live） ===== -->
+<div id="live-page">
+
+<!-- タイトルバー -->
+<div class="title-bar">
+  <img class="title-img" id="title-img" src="gemmy_title.png" alt=""
+       onerror="this.style.display='none'; document.getElementById('title-text').style.display='block'">
+  <div class="title-text" id="title-text" style="display:none">🥌 Gemmyのカーリング投石予想 🥌</div>
+</div>
+
+<!-- 試合情報 -->
+<div class="match-info">
+  <span class="match-teams" id="match-teams">---</span>
+  <span class="match-end"   id="match-end">---</span>
+</div>
+
+<!-- 更新バー -->
+<div class="refresh-bar"><div class="refresh-fill" id="refresh-fill"></div></div>
+
+<!-- Gemmy キャラクター -->
+<div class="gemmy-section">
+  <div class="gemmy-avatar" id="gemmy-avatar">
+    <img id="gemmy-img" src="gemmy_default.png" alt="Gemmy"
+         onerror="this.style.display='none'">
+  </div>
+  <div class="gemmy-right">
+    <div class="gemmy-bubble" id="gemmy-comment">データを待っています...</div>
+  </div>
+</div>
+
+<!-- ハウス図 -->
+<div class="house-section">
+  <div class="house-label">投後の予測盤面（第1推奨）</div>
+  <canvas id="house-canvas"></canvas>
+</div>
+
+<!-- 推奨ショット情報 -->
+<div class="shot-info" id="shot-info" style="display:none">
+  <div class="shot-info-title">◉ 第1推奨ショット</div>
+  <div class="shot-grid">
+    <span class="label">種別</span><span class="value" id="si-type">---</span>
+    <span class="label">スピン</span><span class="value" id="si-spin">---</span>
+    <span class="label">安定性</span><span class="value" id="si-stab">---</span>
+    <span class="label">局面</span><span class="value" id="si-tmpl">---</span>
+  </div>
+  <div class="wp-row">
+    <span class="wp-label">勝率</span>
+    <div class="wp-bar-wrap"><div class="wp-bar" id="wp-bar" style="width:0%"></div></div>
+    <span class="wp-value" id="wp-value">--%</span>
+  </div>
+</div>
+
+<!-- 待機表示 -->
+<div class="waiting" id="waiting-msg">
+  <div class="waiting-icon">❄️</div>
+  <div class="waiting-text">試合データを待機中です<br>投石が記録されると自動で更新されます</div>
+</div>
+
+<!-- スクロール誘導 -->
+<div class="scroll-hint" id="scroll-hint" style="display:none">
+  ▼ 下にスクロールして推奨ショット情報を見る ▼
+</div>
+
+<!-- フッター -->
+<div class="footer">
+  Gemmy カーリングAI &nbsp;|&nbsp; 最終更新: <span id="updated-at">---</span>
+</div>
+
+</div><!-- /live-page -->
+
+<script>
+// ============================================================
+// 定数
+// ============================================================
+const POLL_MS  = 10000;
+const TEE_Y    = 38.405;
+const HOUSE_R  = 1.8288;
+const STONE_R  = 0.145;
+
+// キャラクター画像マッピング（実際のファイル名に合わせた5種類）
+const CHAR_MAP = {
+  positive:   'gemmy_positive.png',
+  thinking:   'gemmy_thinking.png',
+  aggressive: 'gemmy_aggressive.png',
+  celebrate:  'gemmy_celebrate.png',
+};
+const CHAR_EMOJI = {
+  positive:'😊', thinking:'🤔', aggressive:'💥', celebrate:'🎉',
+};
+
+// ============================================================
+// 状態
+// ============================================================
+let lastUpdatedAt = '';
+let fillPct = 0;
+
+// ============================================================
+// ポーリング
+// ============================================================
+async function fetchData() {
+  try {
+    const r = await fetch('data.json?t=' + Date.now());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch(e) { return null; }
+}
+
+async function poll() {
+  const d = await fetchData();
+  if (!d) return;
+  if (d.updated_at === lastUpdatedAt && lastUpdatedAt !== '') return;
+  lastUpdatedAt = d.updated_at;
+  fillPct = 0;
+  render(d);
+}
+
+// ============================================================
+// 全体レンダリング（mode で standby / live を切り替え）
+// ============================================================
+function render(d) {
+  const mode = d.mode || 'live';
+
+  if (mode === 'standby') {
+    // ---- スタートページ表示 ----
+    document.getElementById('standby-page').style.display = 'flex';
+    document.getElementById('live-page').style.display    = 'none';
+    renderSchedule(d.schedule);
+    return;
+  }
+
+  // ---- ライブページ表示 ----
+  document.getElementById('standby-page').style.display = 'none';
+  document.getElementById('live-page').style.display    = 'block';
+
+  renderMatchInfo(d);
+  renderGemmy(d);
+  drawHouse(d);
+  renderShotInfo(d);
+
+  document.getElementById('waiting-msg').style.display = 'none';
+  document.getElementById('updated-at').textContent =
+    (d.updated_at || '').replace('T',' ').substring(0,19);
+
+  // スクロール誘導：推奨ショット情報が表示されたら下矢印を表示
+  const hint = document.getElementById('scroll-hint');
+  if (hint) hint.style.display = 'block';
+}
+
+// ============================================================
+// スケジュール表示（standby モード用）
+// ============================================================
+function renderSchedule(schedule) {
+  const card = document.getElementById('schedule-card');
+  if (!card) return;
+
+  if (!schedule || !schedule.match) {
+    card.className = 'schedule-card empty';
+    card.innerHTML = '現在、公開予定の試合はありません';
+    return;
+  }
+
+  // 日時フォーマット
+  let dateStr = '';
+  if (schedule.datetime) {
+    const dt = new Date(schedule.datetime);
+    const y  = dt.getFullYear();
+    const mo = dt.getMonth() + 1;
+    const d  = dt.getDate();
+    const h  = String(dt.getHours()).padStart(2, '0');
+    const mi = String(dt.getMinutes()).padStart(2, '0');
+    dateStr = `${y}年${mo}月${d}日 ${h}:${mi}〜`;
+  }
+
+  card.className = 'schedule-card';
+  card.innerHTML = `
+    <div class="schedule-tournament">${schedule.tournament || ''}</div>
+    <div class="schedule-match">${schedule.match}</div>
+    ${dateStr ? `<div class="schedule-datetime">📅 ${dateStr}</div>` : ''}
+    ${schedule.note ? `<div class="schedule-note">📺 ${schedule.note}</div>` : ''}
+  `;
+}
+
+// ============================================================
+// 試合情報
+// ============================================================
+function renderMatchInfo(d) {
+  // チーム名（left_team vs right_team）
+  const teams = `${d.left_team || '---'} 対 ${d.right_team || '---'}`;
+  document.getElementById('match-teams').textContent = teams;
+
+  const endStr  = `${d.end_no}E`;
+  // shot_no は「N投後の盤面」→ 表示は「N+1投目の予想」
+  const shotStr = `${d.shot_no + 1}投目の予想`;
+  document.getElementById('match-end').textContent = `${endStr}｜${shotStr}`;
+}
+
+// ============================================================
+// Gemmy キャラクター
+// ============================================================
+// 画像読み込み状態を管理（'loading' | 'ok' | 'error'）
+const imgState = {};  // { 'gemmy_positive.png': 'ok', ... }
+
+function renderGemmy(d) {
+  const ctype  = d.comment_type || 'default';
+  const imgSrc = CHAR_MAP[ctype] || 'gemmy_default.png';
+
+  document.getElementById('gemmy-comment').textContent = d.comment || '頑張れ！';
+
+  const avatar = document.getElementById('gemmy-avatar');
+  const img    = document.getElementById('gemmy-img');
+
+  const state = imgState[imgSrc];
+
+  if (state === 'error') {
+    // 一度エラーになったファイルは絵文字を維持
+    if (img) img.style.display = 'none';
+    setEmojiAvatar(avatar, ctype);
+    return;
+  }
+
+  if (state === 'ok') {
+    // 読み込み済み: src が違う場合だけ差し替え
+    if (img && !img.src.endsWith(imgSrc)) {
+      img.style.display = 'block';
+      img.src = imgSrc;
+    }
+    // 絵文字があれば消す
+    const span = avatar.querySelector('.gemmy-emoji');
+    if (span) span.remove();
+    return;
+  }
+
+  // まだ試していない（state === undefined）: 初回ロード
+  if (img) {
+    imgState[imgSrc] = 'loading';
+    img.style.display = 'block';
+    img.src = imgSrc;
+    img.onload = () => {
+      imgState[imgSrc] = 'ok';
+      const span = avatar.querySelector('.gemmy-emoji');
+      if (span) span.remove();
+    };
+    img.onerror = () => {
+      imgState[imgSrc] = 'error';
+      img.style.display = 'none';
+      setEmojiAvatar(avatar, ctype);
+    };
+  }
+}
+
+function setEmojiAvatar(avatar, ctype) {
+  let span = avatar.querySelector('.gemmy-emoji');
+  if (!span) {
+    span = document.createElement('span');
+    span.className = 'gemmy-emoji';
+    span.style.fontSize = '2.4rem';
+    avatar.appendChild(span);
+  }
+  span.textContent = CHAR_EMOJI[ctype] || '🥌';
+}
+
+// ============================================================
+// ハウス図描画
+// ============================================================
+function drawHouse(d) {
+  const canvas = document.getElementById('house-canvas');
+  const ctx    = canvas.getContext('2d');
+
+  // --- Canvas サイズ ---
+  // 幅: ページ幅から左右パディング28px分を引く（最大392px）
+  // 高さ: 縦長にしてガードゾーンを表示（幅の1.9倍）
+  const W = Math.min(window.innerWidth - 28, 392);
+  const H = Math.round(W * 1.9);
+  canvas.width        = W;
+  canvas.height       = H;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+
+  ctx.clearRect(0, 0, W, H);
+
+  // --- 表示範囲の設計（テレビ中継: ハック下・ハウス上） ---
+  //   上端: ティーより HOUSE_R * 1.2m 上まで表示（バックライン側の余白）
+  //   下端: ティーより 7.5m 下まで表示（ガードゾーン=約6.4m＋余白1.1m）
+  const VIEW_UP   = HOUSE_R * 1.2;   // ティー上方の余白(m)
+  const VIEW_DOWN = 7.5;             // ティー下方（ガード側）(m)
+  const VIEW_H    = VIEW_UP + VIEW_DOWN;
+
+  // スケール: 縦方向の表示範囲(VIEW_H)がキャンバス高さ(H)にぴったり収まる
+  const scale = H / VIEW_H;
+
+  // ティーの画面座標
+  const cx    = W / 2;
+  const teeY  = VIEW_UP * scale;   // ティーは上から teeY px の位置
+
+  // --- 背景（白） ---
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, W, H);
+
+  // --- ハウス リング（外→内の順で塗りつぶし）---
+  // サイズ: HOUSE_R = 1.8288m を12ftリングとし、比率は元の4段構成を維持
+  // 配色: 青(外) → 白 → 赤 → 白(ボタン)  ※色は薄め
+  const ringDefs = [
+    { r: HOUSE_R,         fill: '#c8dff4' },  // 青（薄め）12ft
+    { r: HOUSE_R * 0.667, fill: '#ffffff' },  // 白         8ft
+    { r: HOUSE_R * 0.333, fill: '#f0a0a0' },  // 赤（薄め） 4ft
+    { r: HOUSE_R * 0.083, fill: '#ffffff' },  // 白（ボタン）1ft ≈ 15cm
+  ];
+  for (const { r, fill } of ringDefs) {
+    ctx.beginPath();
+    ctx.arc(cx, teeY, r * scale, 0, Math.PI * 2);
+    ctx.fillStyle = fill;
+    ctx.fill();
+  }
+
+  // --- センターライン（縦・実線・全体貫通・枠と同色） ---
+  ctx.strokeStyle = '#aaa';
+  ctx.lineWidth   = 1;
+  ctx.setLineDash([]);
+  ctx.beginPath();
+  ctx.moveTo(cx, 0);
+  ctx.lineTo(cx, H);
+  ctx.stroke();
+
+  // --- T-line（横・実線・全体貫通・枠と同色） ---
+  ctx.strokeStyle = '#aaa';
+  ctx.lineWidth   = 1;
+  ctx.setLineDash([]);
+  ctx.beginPath();
+  ctx.moveTo(0, teeY);
+  ctx.lineTo(W, teeY);
+  ctx.stroke();
+
+  // --- ホグライン（実線・薄め・枠と同色） ---
+  const hogY = teeY + 6.4 * scale;
+  if (hogY < H) {
+    ctx.strokeStyle = '#aaa';
+    ctx.lineWidth   = 1;
+    ctx.setLineDash([]);
+    ctx.beginPath();
+    ctx.moveTo(0, hogY);
+    ctx.lineTo(W, hogY);
+    ctx.stroke();
+
+    ctx.fillStyle    = '#bbb';
+    ctx.font         = '10px sans-serif';
+    ctx.textAlign    = 'right';
+    ctx.textBaseline = 'top';
+    ctx.fillText('ホグライン', W - 4, hogY + 2);
+  }
+
+  // --- ストーン描画 ---
+  const rec = d.recommendations && d.recommendations[0];
+  if (!rec || !rec.future) return;
+
+  // ストーン半径（物理サイズ STONE_R をスケール変換・最小6px）
+  const sr = Math.max(6, STONE_R * scale);
+
+  for (const s of rec.future) {
+    // DC4座標 → Canvas座標変換
+    //   x: 右がプラス → cx + x*scale
+    //   y: TEE_Y がティー → teeY が基準、ハック側（y<TEE_Y）は画面下
+    const px = cx + s.x * scale;
+    const py = teeY - (s.y - TEE_Y) * scale;
+
+    // 画面外はスキップ
+    if (px < -sr || px > W + sr || py < -sr || py > H + sr) continue;
+
+    const isOwn = s.color === 0;  // 0=自チーム, 1=相手
+
+    // 投石ストーンのグロー
+    if (s.is_shot_stone) {
+      ctx.save();
+      ctx.shadowColor = isOwn ? '#e0a000' : '#e04040';
+      ctx.shadowBlur  = 14;
+    }
+
+    // ストーン本体
+    ctx.beginPath();
+    ctx.arc(px, py, sr, 0, Math.PI * 2);
+    ctx.fillStyle   = isOwn ? '#f0c020' : '#e04040';
+    ctx.strokeStyle = isOwn ? '#a07000' : '#900000';
+    ctx.lineWidth   = 1.5;
+    ctx.fill();
+    ctx.stroke();
+
+    if (s.is_shot_stone) {
+      ctx.restore();
+      // 投石ストーンに★マーク
+      ctx.fillStyle    = '#fff';
+      ctx.font         = `bold ${Math.max(7, sr * 0.85)}px sans-serif`;
+      ctx.textAlign    = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('★', px, py);
+    }
+  }
+
+  // --- カール軌道描画 ---
+  // ハック（DC4 y=0）からターゲットへの二次ベジェ曲線
+  // カール方向: turn=1(OUT/CCW)→右に膨らむ / turn=-1(IN/CW)→左に膨らむ
+  if (rec.target_x !== undefined && rec.target_y !== undefined) {
+
+    // 始点: ハック位置（センターライン上・画面下方）
+    const startX = cx;
+    const startY = Math.min(teeY + TEE_Y * scale, H + 50);  // 画面外でもOK
+
+    // 終点: ターゲット座標
+    const endX = cx + rec.target_x * scale;
+    const endY = teeY - (rec.target_y - TEE_Y) * scale;
+
+    // 軌道の縦方向中間点（始点と終点の中間のy座標）
+    const midY = (startY + endY) / 2;
+
+    // カールの横方向膨らみ量
+    // 投距離に比例させる（距離が長いほど大きくカール）
+    const dist_m  = TEE_Y - rec.target_y;          // ティーまでの距離(m)
+    const curlAmt = Math.max(0.3, dist_m * 0.12);  // 0.3m〜（距離の12%）
+
+    // turn=1(OUT)→正のx方向（右）に膨らむ
+    // turn=-1(IN)→負のx方向（左）に膨らむ
+    const curlDir = rec.turn === -1 ? -1 : 1;
+    const ctrlX   = cx + curlDir * curlAmt * scale;
+    const ctrlY   = midY;
+
+    // 矢印の先端（終点より少し手前）
+    const arrowT  = 0.85;
+    const arrowX  = (1 - arrowT) * (1 - arrowT) * startX
+                  + 2 * (1 - arrowT) * arrowT * ctrlX
+                  + arrowT * arrowT * endX;
+    const arrowY  = (1 - arrowT) * (1 - arrowT) * startY
+                  + 2 * (1 - arrowT) * arrowT * ctrlY
+                  + arrowT * arrowT * endY;
+
+    // 矢印の向き
+    const angle = Math.atan2(endY - arrowY, endX - arrowX);
+
+    ctx.save();
+
+    // 曲線本体
+    ctx.beginPath();
+    ctx.moveTo(startX, startY);
+    ctx.quadraticCurveTo(ctrlX, ctrlY, endX, endY);
+    ctx.strokeStyle = 'rgba(160, 100, 200, 0.55)';
+    ctx.lineWidth   = 2;
+    ctx.setLineDash([6, 4]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // 矢印の先端（三角形）
+    const arrowLen = 10;
+    ctx.beginPath();
+    ctx.moveTo(endX, endY);
+    ctx.lineTo(
+      endX - arrowLen * Math.cos(angle - Math.PI / 6),
+      endY - arrowLen * Math.sin(angle - Math.PI / 6)
+    );
+    ctx.lineTo(
+      endX - arrowLen * Math.cos(angle + Math.PI / 6),
+      endY - arrowLen * Math.sin(angle + Math.PI / 6)
+    );
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(160, 100, 200, 0.75)';
+    ctx.fill();
+
+    ctx.restore();
+  }
+
+}
+
+// ============================================================
+// 推奨ショット情報
+// ============================================================
+function renderShotInfo(d) {
+  const rec = d.recommendations && d.recommendations[0];
+  if (!rec) return;
+
+  const typeDisp = (rec.type || '').charAt(0).toUpperCase() + (rec.type || '').slice(1);
+  const spinStr  = rec.turn === -1 ? 'イン(CW)' : 'アウト(CCW)';
+  const wpPct    = Math.round(rec.wp * 100);
+  const stabPct  = Math.round(rec.stability * 100);
+  const stdPct   = Math.round(rec.stability_std * 100);
+
+  document.getElementById('si-type').textContent = typeDisp;
+  document.getElementById('si-spin').textContent = spinStr;
+  document.getElementById('si-stab').textContent = `${stabPct}%（±${stdPct}%）`;
+  document.getElementById('si-tmpl').textContent = rec.template || '---';
+  document.getElementById('wp-bar').style.width  = Math.min(wpPct, 100) + '%';
+  document.getElementById('wp-value').textContent = wpPct + '%';
+
+  document.getElementById('shot-info').style.display = 'block';
+}
+
+// ============================================================
+// 更新プログレスバー
+// ============================================================
+setInterval(() => {
+  fillPct = Math.min(fillPct + 100 / (POLL_MS / 1000), 100);
+  document.getElementById('refresh-fill').style.width = fillPct + '%';
+  if (fillPct >= 100) fillPct = 0;
+}, 1000);
+
+// ============================================================
+// リサイズ時の再描画
+// ============================================================
+window.addEventListener('resize', async () => {
+  const d = await fetchData();
+  if (d) drawHouse(d);
+});
+
+// ============================================================
+// 起動
+// ============================================================
+poll();
+setInterval(poll, POLL_MS);
+</script>
+</body>
+</html>
