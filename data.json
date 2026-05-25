@@ -1,10 +1,10 @@
 {
   "mode": "standby",
   "schedule": {
-    "tournament": "（大会名を入力してください）",
-    "match": "日本 vs （対戦相手）",
-    "datetime": "2026-06-01T10:00:00",
-    "note": "（放送情報など）"
+    "tournament": "日本カーリング選手権大会 横浜2026",
+    "match": "GRANDIR vs LOCOSOLARE",
+    "datetime": "2026-06-07T17:00:00",
+    "note": "放送未定"
   },
   "end_no": 7,
   "shot_no": 10,
