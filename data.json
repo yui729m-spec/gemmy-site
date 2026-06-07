@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 7,
-  "shot_no": 1,
+  "shot_no": 3,
   "my_score": 8,
   "opp_score": 2,
   "score_diff": 6,
@@ -16,9 +16,9 @@
       "type": "guard",
       "turn": -1,
       "vx": -0.0791,
-      "vy": 2.2322,
+      "vy": 2.2321,
       "target_x": -0.3087,
-      "target_y": 36.552,
+      "target_y": 36.553,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
@@ -26,16 +26,23 @@
       "future": [
         {
           "x": -0.441,
-          "y": 39.052,
+          "y": 39.053,
           "color": 0,
-          "dist": 0.783,
+          "dist": 0.7838,
           "is_shot_stone": true
         },
         {
-          "x": 0.5837,
-          "y": 32.7546,
+          "x": 0.12,
+          "y": 37.326,
           "color": 0,
-          "dist": 5.6805,
+          "dist": 1.0857,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.5837,
+          "y": 32.753,
+          "color": 0,
+          "dist": 5.682,
           "is_shot_stone": false
         }
       ]
@@ -45,9 +52,9 @@
       "type": "guard",
       "turn": -1,
       "vx": -0.1091,
-      "vy": 2.1822,
+      "vy": 2.1821,
       "target_x": -0.3087,
-      "target_y": 36.552,
+      "target_y": 36.553,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
@@ -55,16 +62,23 @@
       "future": [
         {
           "x": -0.441,
-          "y": 39.052,
+          "y": 39.053,
           "color": 0,
-          "dist": 0.783,
+          "dist": 0.7838,
           "is_shot_stone": true
         },
         {
-          "x": 0.0879,
-          "y": 31.2358,
+          "x": 0.12,
+          "y": 37.326,
           "color": 0,
-          "dist": 7.1697,
+          "dist": 1.0857,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.0879,
+          "y": 31.2339,
+          "color": 0,
+          "dist": 7.1717,
           "is_shot_stone": false
         }
       ]
@@ -74,9 +88,9 @@
       "type": "guard",
       "turn": -1,
       "vx": -0.1091,
-      "vy": 2.2322,
+      "vy": 2.2321,
       "target_x": -0.3087,
-      "target_y": 36.552,
+      "target_y": 36.553,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
@@ -84,16 +98,23 @@
       "future": [
         {
           "x": -0.441,
-          "y": 39.052,
+          "y": 39.053,
           "color": 0,
-          "dist": 0.783,
+          "dist": 0.7838,
           "is_shot_stone": true
         },
         {
-          "x": 0.145,
-          "y": 32.8042,
+          "x": 0.12,
+          "y": 37.326,
           "color": 0,
-          "dist": 5.6027,
+          "dist": 1.0857,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.145,
+          "y": 32.8027,
+          "color": 0,
+          "dist": 5.6042,
           "is_shot_stone": false
         }
       ]
@@ -101,5 +122,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-07T09:39:39"
+  "updated_at": "2026-06-07T09:40:44"
 }
