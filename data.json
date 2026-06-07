@@ -1,11 +1,6 @@
 {
   "mode": "standby",
-  "schedule": {
-    "tournament": "日本カーリング選手権大会 横浜2026",
-    "match": "GRANDIR vs LOCOSOLARE",
-    "datetime": "2026-06-07T17:00:00",
-    "note": "放送未定"
-  },
+  "schedule": {},
   "end_no": 7,
   "shot_no": 10,
   "my_score": 3,
@@ -76,5 +71,5 @@
   ],
   "comment": "次の試合もよろしくお願いします！",
   "comment_type": "positive",
-  "updated_at": "2026-06-02T00:32:43"
+  "updated_at": "2026-06-07T07:02:27"
 }
