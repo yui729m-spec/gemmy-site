@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 4,
-  "shot_no": 3,
+  "shot_no": 4,
   "my_score": 2,
   "opp_score": 0,
   "score_diff": 2,
@@ -20,9 +20,9 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.9769,
-      "stability": 0.9687,
-      "stability_std": 0.0065,
-      "template": "A2. 序投・ハンマーなし",
+      "stability": 0.9032,
+      "stability_std": 0.071,
+      "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
           "x": 0.2827,
@@ -30,6 +30,13 @@
           "color": 0,
           "dist": 0.2838,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.86,
+          "y": 33.028,
+          "color": 1,
+          "dist": 5.4453,
+          "is_shot_stone": false
         }
       ]
     },
@@ -42,9 +49,9 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.9769,
-      "stability": 0.9024,
-      "stability_std": 0.0706,
-      "template": "A2. 序投・ハンマーなし",
+      "stability": 0.9019,
+      "stability_std": 0.0704,
+      "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
           "x": -0.2827,
@@ -52,6 +59,13 @@
           "color": 0,
           "dist": 0.2838,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.86,
+          "y": 33.028,
+          "color": 1,
+          "dist": 5.4453,
+          "is_shot_stone": false
         }
       ]
     },
@@ -64,9 +78,9 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.9716,
-      "stability": 0.86,
-      "stability_std": 0.0877,
-      "template": "A2. 序投・ハンマーなし",
+      "stability": 0.8618,
+      "stability_std": 0.0895,
+      "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
           "x": 0.7603,
@@ -74,11 +88,18 @@
           "color": 0,
           "dist": 0.764,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.86,
+          "y": 33.028,
+          "color": 1,
+          "dist": 5.4453,
+          "is_shot_stone": false
         }
       ]
     }
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-07T08:51:43"
+  "updated_at": "2026-06-07T08:52:22"
 }
