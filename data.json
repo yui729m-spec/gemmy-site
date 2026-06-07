@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 1,
-  "shot_no": 12,
+  "shot_no": 14,
   "my_score": 0,
   "opp_score": 0,
   "score_diff": 0,
@@ -20,10 +20,17 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.5569,
-      "stability": 0.4755,
-      "stability_std": 0.0608,
+      "stability": 0.5514,
+      "stability_std": 0.0031,
       "template": "D2. 終投・ハンマーなし・同点",
       "future": [
+        {
+          "x": 2.213,
+          "y": 39.667,
+          "color": 0,
+          "dist": 2.5476,
+          "is_shot_stone": false
+        },
         {
           "x": -0.2827,
           "y": 38.3796,
@@ -42,10 +49,17 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.5569,
-      "stability": 0.4753,
-      "stability_std": 0.0606,
+      "stability": 0.5463,
+      "stability_std": 0.0034,
       "template": "D2. 終投・ハンマーなし・同点",
       "future": [
+        {
+          "x": 2.213,
+          "y": 39.667,
+          "color": 0,
+          "dist": 2.5476,
+          "is_shot_stone": false
+        },
         {
           "x": 0.2827,
           "y": 38.3796,
@@ -64,10 +78,17 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.5516,
-      "stability": 0.4521,
-      "stability_std": 0.0642,
+      "stability": 0.5032,
+      "stability_std": 0.0481,
       "template": "D2. 終投・ハンマーなし・同点",
       "future": [
+        {
+          "x": 2.213,
+          "y": 39.667,
+          "color": 0,
+          "dist": 2.5476,
+          "is_shot_stone": false
+        },
         {
           "x": 0.7603,
           "y": 38.33,
@@ -80,5 +101,5 @@
   ],
   "comment": "慎重に行きましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-07T08:16:41"
+  "updated_at": "2026-06-07T08:18:13"
 }
