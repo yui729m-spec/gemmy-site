@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 7,
-  "shot_no": 13,
+  "shot_no": 14,
   "my_score": 8,
   "opp_score": 2,
   "score_diff": 6,
@@ -25,31 +25,31 @@
       "template": "デフォルト",
       "future": [
         {
-          "x": 0.12,
-          "y": 37.327,
+          "x": 0.119,
+          "y": 37.326,
           "color": 0,
-          "dist": 1.0847,
+          "dist": 1.0855,
           "is_shot_stone": false
         },
         {
-          "x": -1.286,
+          "x": -1.285,
           "y": 37.503,
           "color": 0,
-          "dist": 1.5708,
+          "dist": 1.57,
           "is_shot_stone": false
         },
         {
-          "x": -0.375,
-          "y": 37.697,
+          "x": -0.439,
+          "y": 39.052,
           "color": 0,
-          "dist": 0.8012,
+          "dist": 0.7819,
           "is_shot_stone": false
         },
         {
-          "x": -0.7136,
-          "y": 38.8895,
+          "x": -0.6481,
+          "y": 41.6878,
           "color": 0,
-          "dist": 0.8625,
+          "dist": 3.3462,
           "is_shot_stone": false
         },
         {
@@ -64,6 +64,13 @@
           "y": 36.684,
           "color": 1,
           "dist": 1.7281,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.696,
+          "y": 38.927,
+          "color": 1,
+          "dist": 1.7745,
           "is_shot_stone": false
         }
       ]
@@ -82,31 +89,31 @@
       "template": "デフォルト",
       "future": [
         {
-          "x": 0.12,
-          "y": 37.327,
+          "x": 0.119,
+          "y": 37.326,
           "color": 0,
-          "dist": 1.0847,
+          "dist": 1.0855,
           "is_shot_stone": false
         },
         {
-          "x": -1.286,
+          "x": -1.285,
           "y": 37.503,
           "color": 0,
-          "dist": 1.5708,
+          "dist": 1.57,
           "is_shot_stone": false
         },
         {
-          "x": -0.375,
-          "y": 37.697,
+          "x": -0.439,
+          "y": 39.052,
           "color": 0,
-          "dist": 0.8012,
+          "dist": 0.7819,
           "is_shot_stone": true
         },
         {
-          "x": -0.7136,
-          "y": 38.8895,
+          "x": -0.6481,
+          "y": 41.6878,
           "color": 0,
-          "dist": 0.8625,
+          "dist": 3.3462,
           "is_shot_stone": false
         },
         {
@@ -121,6 +128,13 @@
           "y": 36.965,
           "color": 1,
           "dist": 1.4534,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.696,
+          "y": 38.927,
+          "color": 1,
+          "dist": 1.7745,
           "is_shot_stone": false
         }
       ]
@@ -139,31 +153,31 @@
       "template": "デフォルト",
       "future": [
         {
-          "x": 0.12,
-          "y": 37.327,
+          "x": 0.119,
+          "y": 37.326,
           "color": 0,
-          "dist": 1.0847,
+          "dist": 1.0855,
           "is_shot_stone": false
         },
         {
-          "x": -1.286,
+          "x": -1.285,
           "y": 37.503,
           "color": 0,
-          "dist": 1.5708,
+          "dist": 1.57,
           "is_shot_stone": false
         },
         {
-          "x": -0.375,
-          "y": 37.697,
+          "x": -0.439,
+          "y": 39.052,
           "color": 0,
-          "dist": 0.8012,
+          "dist": 0.7819,
           "is_shot_stone": true
         },
         {
-          "x": -0.7136,
-          "y": 38.8895,
+          "x": -0.6481,
+          "y": 41.6878,
           "color": 0,
-          "dist": 0.8625,
+          "dist": 3.3462,
           "is_shot_stone": false
         },
         {
@@ -179,11 +193,18 @@
           "color": 1,
           "dist": 0.9626,
           "is_shot_stone": false
+        },
+        {
+          "x": 1.696,
+          "y": 38.927,
+          "color": 1,
+          "dist": 1.7745,
+          "is_shot_stone": false
         }
       ]
     }
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-07T09:49:15"
+  "updated_at": "2026-06-07T09:49:36"
 }
