@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 4,
-  "shot_no": 6,
+  "shot_no": 7,
   "my_score": 1,
   "opp_score": 3,
   "score_diff": -2,
@@ -15,27 +15,34 @@
       "rank": 1,
       "type": "guard",
       "turn": -1,
-      "vx": -0.0796,
-      "vy": 2.2814,
-      "target_x": 0.0735,
-      "target_y": 35.403,
-      "wp": 0.0394,
-      "stability": 0.0394,
+      "vx": -0.0795,
+      "vy": 2.2793,
+      "target_x": 0.0903,
+      "target_y": 35.451,
+      "wp": 0.0398,
+      "stability": 0.0398,
       "stability_std": 0.0,
       "template": "B4. 中投・ハンマーなし・ビハインド",
       "future": [
         {
-          "x": 0.105,
-          "y": 37.903,
+          "x": 0.129,
+          "y": 37.951,
           "color": 0,
-          "dist": 0.5129,
+          "dist": 0.472,
           "is_shot_stone": true
         },
         {
-          "x": 0.034,
-          "y": 34.245,
+          "x": -0.015,
+          "y": 37.301,
           "color": 0,
-          "dist": 4.1601,
+          "dist": 1.1041,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.033,
+          "y": 34.246,
+          "color": 0,
+          "dist": 4.1591,
           "is_shot_stone": false
         },
         {
@@ -46,24 +53,24 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.6465,
-          "y": 34.342,
+          "x": 0.6454,
+          "y": 34.2741,
           "color": 0,
-          "dist": 4.1141,
+          "dist": 4.181,
           "is_shot_stone": false
         },
         {
-          "x": -0.205,
-          "y": 38.092,
+          "x": -0.206,
+          "y": 38.091,
           "color": 1,
-          "dist": 0.3742,
+          "dist": 0.3755,
           "is_shot_stone": false
         },
         {
-          "x": -0.055,
-          "y": 37.579,
+          "x": -0.147,
+          "y": 37.74,
           "color": 1,
-          "dist": 0.8278,
+          "dist": 0.6811,
           "is_shot_stone": false
         }
       ]
@@ -72,27 +79,34 @@
       "rank": 2,
       "type": "guard",
       "turn": -1,
-      "vx": -0.1096,
-      "vy": 2.2314,
-      "target_x": 0.0735,
-      "target_y": 35.403,
-      "wp": 0.0394,
-      "stability": 0.0394,
+      "vx": -0.1095,
+      "vy": 2.2293,
+      "target_x": 0.0903,
+      "target_y": 35.451,
+      "wp": 0.0398,
+      "stability": 0.0398,
       "stability_std": 0.0,
       "template": "B4. 中投・ハンマーなし・ビハインド",
       "future": [
         {
-          "x": 0.105,
-          "y": 37.903,
+          "x": 0.129,
+          "y": 37.951,
           "color": 0,
-          "dist": 0.5129,
+          "dist": 0.472,
           "is_shot_stone": true
         },
         {
-          "x": 0.034,
-          "y": 34.245,
+          "x": -0.015,
+          "y": 37.301,
           "color": 0,
-          "dist": 4.1601,
+          "dist": 1.1041,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.033,
+          "y": 34.246,
+          "color": 0,
+          "dist": 4.1591,
           "is_shot_stone": false
         },
         {
@@ -103,24 +117,24 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.1361,
-          "y": 32.7795,
+          "x": 0.1355,
+          "y": 32.7134,
           "color": 0,
-          "dist": 5.6271,
+          "dist": 5.6932,
           "is_shot_stone": false
         },
         {
-          "x": -0.205,
-          "y": 38.092,
+          "x": -0.206,
+          "y": 38.091,
           "color": 1,
-          "dist": 0.3742,
+          "dist": 0.3755,
           "is_shot_stone": false
         },
         {
-          "x": -0.055,
-          "y": 37.579,
+          "x": -0.147,
+          "y": 37.74,
           "color": 1,
-          "dist": 0.8278,
+          "dist": 0.6811,
           "is_shot_stone": false
         }
       ]
@@ -129,27 +143,34 @@
       "rank": 3,
       "type": "guard",
       "turn": -1,
-      "vx": -0.1096,
-      "vy": 2.2814,
-      "target_x": 0.0735,
-      "target_y": 35.403,
-      "wp": 0.0394,
-      "stability": 0.0394,
+      "vx": -0.1095,
+      "vy": 2.2793,
+      "target_x": 0.0903,
+      "target_y": 35.451,
+      "wp": 0.0398,
+      "stability": 0.0398,
       "stability_std": 0.0,
       "template": "B4. 中投・ハンマーなし・ビハインド",
       "future": [
         {
-          "x": 0.105,
-          "y": 37.903,
+          "x": 0.129,
+          "y": 37.951,
           "color": 0,
-          "dist": 0.5129,
+          "dist": 0.472,
           "is_shot_stone": true
         },
         {
-          "x": -0.0182,
-          "y": 34.577,
+          "x": -0.015,
+          "y": 37.301,
           "color": 0,
-          "dist": 3.828,
+          "dist": 1.1041,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.0176,
+          "y": 34.5027,
+          "color": 0,
+          "dist": 3.9024,
           "is_shot_stone": false
         },
         {
@@ -160,24 +181,24 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.1481,
-          "y": 33.9776,
+          "x": 0.1607,
+          "y": 33.9846,
           "color": 0,
-          "dist": 4.4299,
+          "dist": 4.4234,
           "is_shot_stone": false
         },
         {
-          "x": -0.205,
-          "y": 38.092,
+          "x": -0.206,
+          "y": 38.091,
           "color": 1,
-          "dist": 0.3742,
+          "dist": 0.3755,
           "is_shot_stone": false
         },
         {
-          "x": -0.055,
-          "y": 37.579,
+          "x": -0.147,
+          "y": 37.74,
           "color": 1,
-          "dist": 0.8278,
+          "dist": 0.6811,
           "is_shot_stone": false
         }
       ]
@@ -185,5 +206,5 @@
   ],
   "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T00:57:43"
+  "updated_at": "2026-06-08T00:58:11"
 }
