@@ -15,13 +15,13 @@
       "rank": 1,
       "type": "takeout",
       "turn": -1,
-      "vx": -0.0651,
-      "vy": 2.8252,
-      "target_x": 1.438,
-      "target_y": 37.461,
+      "vx": -0.0977,
+      "vy": 2.8091,
+      "target_x": 0.168,
+      "target_y": 38.283,
       "wp": 0.3513,
-      "stability": 0.0572,
-      "stability_std": 0.1535,
+      "stability": 0.0854,
+      "stability_std": 0.2895,
       "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
@@ -39,31 +39,31 @@
           "is_shot_stone": false
         },
         {
-          "x": -1.158,
-          "y": 34.813,
+          "x": -1.9143,
+          "y": 34.8487,
           "color": 0,
-          "dist": 3.774,
+          "dist": 4.0387,
           "is_shot_stone": false
         },
         {
-          "x": -2.8445,
-          "y": 39.0687,
+          "x": -1.9371,
+          "y": 38.7361,
           "color": 0,
-          "dist": 2.9209,
+          "dist": 1.9652,
           "is_shot_stone": false
         },
         {
-          "x": 0.6493,
-          "y": 35.9615,
+          "x": -0.8803,
+          "y": 34.9368,
           "color": 0,
-          "dist": 2.5283,
+          "dist": 3.5782,
           "is_shot_stone": false
         },
         {
-          "x": -0.2003,
-          "y": 34.8615,
+          "x": 2.2651,
+          "y": 36.2416,
           "color": 1,
-          "dist": 3.5491,
+          "dist": 3.1322,
           "is_shot_stone": false
         },
         {
@@ -74,17 +74,17 @@
           "is_shot_stone": false
         },
         {
-          "x": 1.2695,
-          "y": 44.3681,
+          "x": 0.6322,
+          "y": 41.3117,
           "color": 1,
-          "dist": 6.0967,
+          "dist": 2.9747,
           "is_shot_stone": false
         },
         {
-          "x": 1.6095,
-          "y": 38.5138,
+          "x": 1.5478,
+          "y": 38.6213,
           "color": 1,
-          "dist": 1.6132,
+          "dist": 1.5629,
           "is_shot_stone": false
         }
       ]
@@ -248,5 +248,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T02:28:51"
+  "updated_at": "2026-06-08T02:29:19"
 }
