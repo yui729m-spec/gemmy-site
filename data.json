@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 5,
-  "shot_no": 8,
+  "shot_no": 10,
   "my_score": 0,
   "opp_score": 3,
   "score_diff": -3,
@@ -20,36 +20,29 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.3982,
-      "stability": 0.3231,
-      "stability_std": 0.0744,
+      "stability": 0.2801,
+      "stability_std": 0.0944,
       "template": "C3. 後投・大差ビハインド",
       "future": [
         {
-          "x": 0.553,
-          "y": 38.1705,
+          "x": 0.5521,
+          "y": 38.1696,
           "color": 0,
-          "dist": 0.6006,
+          "dist": 0.6002,
           "is_shot_stone": false
         },
         {
-          "x": 0.1424,
-          "y": 38.3276,
+          "x": 0.1446,
+          "y": 38.3308,
           "color": 0,
-          "dist": 0.1621,
+          "dist": 0.1625,
           "is_shot_stone": true
         },
         {
           "x": -0.334,
-          "y": 35.886,
+          "y": 35.885,
           "color": 1,
-          "dist": 2.541,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.714,
-          "y": 38.736,
-          "color": 1,
-          "dist": 1.7457,
+          "dist": 2.542,
           "is_shot_stone": false
         }
       ]
@@ -57,21 +50,57 @@
     {
       "rank": 2,
       "type": "draw",
+      "turn": -1,
+      "vx": -0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.3952,
+      "stability": 0.2801,
+      "stability_std": 0.0943,
+      "template": "C3. 後投・大差ビハインド",
+      "future": [
+        {
+          "x": 0.4284,
+          "y": 38.2914,
+          "color": 0,
+          "dist": 0.4432,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.7887,
+          "y": 38.0174,
+          "color": 0,
+          "dist": 0.8788,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.334,
+          "y": 35.885,
+          "color": 1,
+          "dist": 2.542,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "type": "draw",
       "turn": 1,
       "vx": 0.114,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.3969,
-      "stability": 0.2806,
-      "stability_std": 0.0948,
+      "stability": 0.2438,
+      "stability_std": 0.0999,
       "template": "C3. 後投・大差ビハインド",
       "future": [
         {
-          "x": 0.502,
+          "x": 0.503,
           "y": 38.159,
           "color": 0,
-          "dist": 0.559,
+          "dist": 0.5599,
           "is_shot_stone": false
         },
         {
@@ -83,59 +112,9 @@
         },
         {
           "x": -0.334,
-          "y": 35.886,
+          "y": 35.885,
           "color": 1,
-          "dist": 2.541,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.714,
-          "y": 38.736,
-          "color": 1,
-          "dist": 1.7457,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "type": "draw",
-      "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.3952,
-      "stability": 0.2798,
-      "stability_std": 0.094,
-      "template": "C3. 後投・大差ビハインド",
-      "future": [
-        {
-          "x": 0.428,
-          "y": 38.2888,
-          "color": 0,
-          "dist": 0.4435,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.7898,
-          "y": 38.02,
-          "color": 0,
-          "dist": 0.8786,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.334,
-          "y": 35.886,
-          "color": 1,
-          "dist": 2.541,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.714,
-          "y": 38.736,
-          "color": 1,
-          "dist": 1.7457,
+          "dist": 2.542,
           "is_shot_stone": false
         }
       ]
@@ -143,5 +122,5 @@
   ],
   "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T05:36:53"
+  "updated_at": "2026-06-08T05:38:28"
 }
