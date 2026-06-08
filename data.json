@@ -1,5 +1,5 @@
 {
-  "mode": "live",
+  "mode": "standby",
   "schedule": {},
   "end_no": 7,
   "shot_no": 4,
@@ -143,5 +143,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T01:45:59"
+  "updated_at": "2026-06-08T01:46:26"
 }
