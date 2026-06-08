@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 2,
-  "shot_no": 10,
+  "shot_no": 12,
   "my_score": 1,
   "opp_score": 0,
   "score_diff": 1,
@@ -15,35 +15,42 @@
       "rank": 1,
       "type": "draw",
       "turn": -1,
-      "vx": -0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.7169,
-      "stability": 0.7074,
-      "stability_std": 0.0059,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "vx": -0.1161,
+      "vy": 2.3747,
+      "target_x": -0.4,
+      "target_y": 38.005,
+      "wp": 0.71,
+      "stability": 0.5972,
+      "stability_std": 0.0747,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
           "x": 0.078,
-          "y": 32.48,
+          "y": 32.479,
           "color": 0,
-          "dist": 5.9255,
+          "dist": 5.9265,
           "is_shot_stone": false
         },
         {
           "x": 1.643,
-          "y": 40.233,
+          "y": 40.234,
           "color": 0,
-          "dist": 2.4579,
+          "dist": 2.4586,
           "is_shot_stone": false
         },
         {
-          "x": 0.2827,
-          "y": 38.3796,
+          "x": 0.215,
+          "y": 37.5161,
           "color": 0,
-          "dist": 0.2838,
+          "dist": 0.9146,
           "is_shot_stone": true
+        },
+        {
+          "x": -2.133,
+          "y": 38.426,
+          "color": 1,
+          "dist": 2.1331,
+          "is_shot_stone": false
         }
       ]
     },
@@ -56,29 +63,36 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.7156,
-      "stability": 0.6235,
-      "stability_std": 0.0696,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "stability": 0.5963,
+      "stability_std": 0.0726,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
-          "x": -0.401,
-          "y": 38.3902,
+          "x": -0.4,
+          "y": 38.3911,
           "color": 0,
-          "dist": 0.4013,
+          "dist": 0.4002,
           "is_shot_stone": true
         },
         {
           "x": 1.643,
-          "y": 40.233,
+          "y": 40.234,
           "color": 0,
-          "dist": 2.4579,
+          "dist": 2.4586,
           "is_shot_stone": false
         },
         {
-          "x": 0.1531,
-          "y": 32.1983,
+          "x": 0.1528,
+          "y": 32.1972,
           "color": 0,
-          "dist": 6.2086,
+          "dist": 6.2096,
+          "is_shot_stone": false
+        },
+        {
+          "x": -2.133,
+          "y": 38.426,
+          "color": 1,
+          "dist": 2.1331,
           "is_shot_stone": false
         }
       ]
@@ -87,40 +101,47 @@
       "rank": 3,
       "type": "draw",
       "turn": -1,
-      "vx": -0.1161,
-      "vy": 2.3747,
-      "target_x": -0.4,
-      "target_y": 38.005,
-      "wp": 0.71,
-      "stability": 0.5979,
-      "stability_std": 0.0759,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7169,
+      "stability": 0.5745,
+      "stability_std": 0.0705,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
           "x": 0.078,
-          "y": 32.48,
+          "y": 32.479,
           "color": 0,
-          "dist": 5.9255,
+          "dist": 5.9265,
           "is_shot_stone": false
         },
         {
           "x": 1.643,
-          "y": 40.233,
+          "y": 40.234,
           "color": 0,
-          "dist": 2.4579,
+          "dist": 2.4586,
           "is_shot_stone": false
         },
         {
-          "x": 0.215,
-          "y": 37.5161,
+          "x": 0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 0.9146,
+          "dist": 0.2838,
           "is_shot_stone": true
+        },
+        {
+          "x": -2.133,
+          "y": 38.426,
+          "color": 1,
+          "dist": 2.1331,
+          "is_shot_stone": false
         }
       ]
     }
   ],
   "comment": "慎重に行きましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-08T09:25:42"
+  "updated_at": "2026-06-08T09:27:09"
 }
