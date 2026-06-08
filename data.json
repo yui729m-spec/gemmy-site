@@ -1,168 +1,189 @@
 {
   "mode": "live",
   "schedule": {},
-  "end_no": 6,
-  "shot_no": 14,
+  "end_no": 7,
+  "shot_no": 5,
   "my_score": 4,
-  "opp_score": 6,
-  "score_diff": -2,
-  "hammer": false,
+  "opp_score": 7,
+  "score_diff": -3,
+  "hammer": true,
   "my_color": "yellow",
   "left_team": "SC軽井沢クラブJr.",
   "right_team": "LOCOSOLARE",
   "recommendations": [
     {
       "rank": 1,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.0675,
-      "vy": 2.8197,
-      "target_x": -0.316,
-      "target_y": 38.085,
-      "wp": 0.6634,
-      "stability": 0.4006,
-      "stability_std": 0.2367,
-      "template": "デフォルト",
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.0216,
+      "stability": 0.0111,
+      "stability_std": 0.0052,
+      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
       "future": [
         {
-          "x": 0.688,
-          "y": 38.773,
+          "x": -0.99,
+          "y": 36.007,
           "color": 0,
-          "dist": 0.7802,
+          "dist": 2.5943,
           "is_shot_stone": false
         },
         {
-          "x": -1.593,
-          "y": 38.186,
+          "x": 1.033,
+          "y": 34.921,
           "color": 0,
-          "dist": 1.608,
+          "dist": 3.6339,
           "is_shot_stone": false
         },
         {
-          "x": -0.156,
-          "y": 37.8174,
+          "x": 0.7603,
+          "y": 38.33,
           "color": 0,
-          "dist": 0.6079,
+          "dist": 0.764,
           "is_shot_stone": true
         },
         {
-          "x": 1.882,
-          "y": 35.427,
+          "x": -0.161,
+          "y": 38.232,
           "color": 1,
-          "dist": 3.5228,
+          "dist": 0.2363,
           "is_shot_stone": false
         },
         {
-          "x": -2.3649,
-          "y": 54.2778,
+          "x": -0.176,
+          "y": 39.245,
           "color": 1,
-          "dist": 16.048,
+          "dist": 0.8582,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.037,
+          "y": 35.693,
+          "color": 1,
+          "dist": 2.7123,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
+      "type": "draw",
       "turn": 1,
-      "vx": 0.0675,
-      "vy": 2.7697,
-      "target_x": -0.316,
-      "target_y": 38.085,
-      "wp": 0.6625,
-      "stability": 0.1585,
-      "stability_std": 0.2931,
-      "template": "デフォルト",
+      "vx": 0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.0216,
+      "stability": 0.01,
+      "stability_std": 0.0,
+      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
       "future": [
         {
-          "x": 0.688,
-          "y": 38.773,
+          "x": -0.99,
+          "y": 36.007,
           "color": 0,
-          "dist": 0.7802,
+          "dist": 2.5943,
           "is_shot_stone": false
         },
         {
-          "x": -1.593,
-          "y": 38.186,
+          "x": 1.033,
+          "y": 34.921,
           "color": 0,
-          "dist": 1.608,
+          "dist": 3.6339,
           "is_shot_stone": false
         },
         {
-          "x": -0.3151,
-          "y": 37.7965,
+          "x": -0.7603,
+          "y": 38.33,
           "color": 0,
-          "dist": 0.6852,
+          "dist": 0.764,
           "is_shot_stone": true
         },
         {
-          "x": 1.882,
-          "y": 35.427,
+          "x": -0.161,
+          "y": 38.232,
           "color": 1,
-          "dist": 3.5228,
+          "dist": 0.2363,
           "is_shot_stone": false
         },
         {
-          "x": -0.4998,
-          "y": 52.5125,
+          "x": -0.176,
+          "y": 39.245,
           "color": 1,
-          "dist": 14.1164,
+          "dist": 0.8582,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.037,
+          "y": 35.693,
+          "color": 1,
+          "dist": 2.7123,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
+      "type": "draw",
       "turn": 1,
-      "vx": 0.0675,
-      "vy": 2.8697,
-      "target_x": -0.316,
-      "target_y": 38.085,
-      "wp": 0.664,
-      "stability": 0.1372,
-      "stability_std": 0.2588,
-      "template": "デフォルト",
+      "vx": 0.0536,
+      "vy": 2.4747,
+      "target_x": -0.4,
+      "target_y": 38.005,
+      "wp": 0.0248,
+      "stability": 0.0098,
+      "stability_std": 0.003,
+      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
       "future": [
         {
-          "x": 0.688,
-          "y": 38.773,
+          "x": -2.0224,
+          "y": 36.6834,
           "color": 0,
-          "dist": 0.7802,
+          "dist": 2.6559,
           "is_shot_stone": false
         },
         {
-          "x": -1.593,
-          "y": 38.186,
+          "x": 1.033,
+          "y": 34.921,
           "color": 0,
-          "dist": 1.608,
+          "dist": 3.6339,
           "is_shot_stone": false
         },
         {
-          "x": 0.3485,
-          "y": 37.9834,
+          "x": 0.4753,
+          "y": 38.4043,
           "color": 0,
-          "dist": 0.547,
+          "dist": 0.4753,
           "is_shot_stone": true
         },
         {
-          "x": 1.882,
-          "y": 35.427,
+          "x": -0.161,
+          "y": 38.232,
           "color": 1,
-          "dist": 3.5228,
+          "dist": 0.2363,
           "is_shot_stone": false
         },
         {
-          "x": -4.6507,
-          "y": 55.0835,
+          "x": -0.176,
+          "y": 39.245,
           "color": 1,
-          "dist": 17.3148,
+          "dist": 0.8582,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.037,
+          "y": 35.693,
+          "color": 1,
+          "dist": 2.7123,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "思い切ってテイクアウトです！",
+  "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T10:37:10"
+  "updated_at": "2026-06-08T10:43:31"
 }
