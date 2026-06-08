@@ -1,5 +1,5 @@
 {
-  "mode": "live",
+  "mode": "standby",
   "schedule": {},
   "end_no": 10,
   "shot_no": 15,
@@ -290,5 +290,5 @@
   ],
   "comment": "慎重に行きましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-08T07:15:04"
+  "updated_at": "2026-06-08T07:16:06"
 }
