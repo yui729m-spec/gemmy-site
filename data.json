@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 6,
-  "shot_no": 4,
+  "shot_no": 6,
   "my_score": 3,
   "opp_score": 3,
   "score_diff": 0,
@@ -20,15 +20,15 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.6516,
-      "stability": 0.313,
-      "stability_std": 0.2231,
+      "stability": 0.3352,
+      "stability_std": 0.2606,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.353,
-          "y": 35.908,
+          "y": 35.909,
           "color": 0,
-          "dist": 2.84,
+          "dist": 2.8391,
           "is_shot_stone": false
         },
         {
@@ -39,103 +39,103 @@
           "is_shot_stone": true
         },
         {
-          "x": 0.088,
-          "y": 36.879,
+          "x": -1.42,
+          "y": 39.535,
           "color": 1,
-          "dist": 1.5285,
+          "dist": 1.8147,
           "is_shot_stone": false
         },
         {
-          "x": -1.419,
-          "y": 39.533,
+          "x": 0.361,
+          "y": 36.497,
           "color": 1,
-          "dist": 1.8127,
+          "dist": 1.9418,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
-      "turn": -1,
-      "vx": -0.07,
-      "vy": 2.8669,
-      "target_x": 0.088,
-      "target_y": 36.879,
-      "wp": 0.6502,
-      "stability": 0.189,
-      "stability_std": 0.2698,
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.6569,
+      "stability": 0.2603,
+      "stability_std": 0.2629,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.353,
-          "y": 35.908,
+          "y": 35.909,
           "color": 0,
-          "dist": 2.84,
+          "dist": 2.8391,
           "is_shot_stone": false
         },
         {
-          "x": 0.5404,
-          "y": 36.6812,
+          "x": -0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 1.8065,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": -3.3485,
-          "y": 54.7716,
+          "x": -1.42,
+          "y": 39.535,
           "color": 1,
-          "dist": 16.7056,
+          "dist": 1.8147,
           "is_shot_stone": false
         },
         {
-          "x": -1.419,
-          "y": 39.533,
+          "x": 0.361,
+          "y": 36.497,
           "color": 1,
-          "dist": 1.8127,
+          "dist": 1.9418,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.0759,
-      "vy": 2.9293,
-      "target_x": -1.419,
-      "target_y": 39.533,
-      "wp": 0.6505,
-      "stability": 0.1479,
-      "stability_std": 0.1946,
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.6569,
+      "stability": 0.2437,
+      "stability_std": 0.211,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.353,
-          "y": 35.908,
+          "y": 35.909,
           "color": 0,
-          "dist": 2.84,
+          "dist": 2.8391,
           "is_shot_stone": false
         },
         {
-          "x": -0.1639,
-          "y": 36.6292,
+          "x": 0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 1.7834,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": 2.7686,
-          "y": 58.7051,
+          "x": -1.42,
+          "y": 39.535,
           "color": 1,
-          "dist": 20.488,
+          "dist": 1.8147,
           "is_shot_stone": false
         },
         {
-          "x": -1.419,
-          "y": 39.533,
+          "x": 0.361,
+          "y": 36.497,
           "color": 1,
-          "dist": 1.8127,
+          "dist": 1.9418,
           "is_shot_stone": false
         }
       ]
@@ -143,5 +143,5 @@
   ],
   "comment": "慎重に行きましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-08T01:31:25"
+  "updated_at": "2026-06-08T01:31:45"
 }
