@@ -1,76 +1,18 @@
 {
-  "mode": "standby",
+  "mode": "live",
   "schedule": {},
-  "end_no": 1,
-  "shot_no": 10,
-  "my_score": 0,
+  "end_no": 2,
+  "shot_no": 2,
+  "my_score": 1,
   "opp_score": 0,
-  "score_diff": 0,
-  "hammer": true,
+  "score_diff": 1,
+  "hammer": false,
   "my_color": "yellow",
   "left_team": "コンサドーレ",
   "right_team": "SC軽井沢クラブJr.",
   "recommendations": [
     {
       "rank": 1,
-      "type": "takeout",
-      "turn": -1,
-      "vx": -0.1321,
-      "vy": 2.8982,
-      "target_x": -0.659,
-      "target_y": 39.288,
-      "wp": 0.722,
-      "stability": 0.5802,
-      "stability_std": 0.0976,
-      "template": "C1. 後投・ハンマーあり・同点/僅差リード",
-      "future": [
-        {
-          "x": -0.3163,
-          "y": 39.0649,
-          "color": 0,
-          "dist": 0.7318,
-          "is_shot_stone": true
-        },
-        {
-          "x": -3.8983,
-          "y": 56.5105,
-          "color": 1,
-          "dist": 18.5204,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "type": "draw",
-      "turn": 1,
-      "vx": 0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.7169,
-      "stability": 0.5257,
-      "stability_std": 0.1236,
-      "template": "C1. 後投・ハンマーあり・同点/僅差リード",
-      "future": [
-        {
-          "x": -0.2827,
-          "y": 38.3796,
-          "color": 0,
-          "dist": 0.2838,
-          "is_shot_stone": true
-        },
-        {
-          "x": -0.659,
-          "y": 39.288,
-          "color": 1,
-          "dist": 1.1018,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 3,
       "type": "draw",
       "turn": -1,
       "vx": -0.114,
@@ -78,9 +20,9 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.7169,
-      "stability": 0.5244,
-      "stability_std": 0.1263,
-      "template": "C1. 後投・ハンマーあり・同点/僅差リード",
+      "stability": 0.6576,
+      "stability_std": 0.0565,
+      "template": "A2. 序投・ハンマーなし",
       "future": [
         {
           "x": 0.2827,
@@ -90,16 +32,74 @@
           "is_shot_stone": true
         },
         {
-          "x": -0.659,
-          "y": 39.288,
+          "x": 0.659,
+          "y": 35.688,
           "color": 1,
-          "dist": 1.1018,
+          "dist": 2.7958,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7116,
+      "stability": 0.6568,
+      "stability_std": 0.0558,
+      "template": "A2. 序投・ハンマーなし",
+      "future": [
+        {
+          "x": -0.7603,
+          "y": 38.33,
+          "color": 0,
+          "dist": 0.764,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.659,
+          "y": 35.688,
+          "color": 1,
+          "dist": 2.7958,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7169,
+      "stability": 0.6261,
+      "stability_std": 0.0723,
+      "template": "A2. 序投・ハンマーなし",
+      "future": [
+        {
+          "x": -0.2827,
+          "y": 38.3796,
+          "color": 0,
+          "dist": 0.2838,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.659,
+          "y": 35.688,
+          "color": 1,
+          "dist": 2.7958,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "思い切ってテイクアウトです！",
-  "comment_type": "aggressive",
-  "updated_at": "2026-06-08T00:21:59"
+  "comment": "慎重に行きましょう！",
+  "comment_type": "thinking",
+  "updated_at": "2026-06-08T00:24:03"
 }
