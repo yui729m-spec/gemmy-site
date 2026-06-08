@@ -13,6 +13,77 @@
   "recommendations": [
     {
       "rank": 1,
+      "type": "takeout",
+      "turn": -1,
+      "vx": -0.0702,
+      "vy": 2.8528,
+      "target_x": 0.336,
+      "target_y": 36.078,
+      "wp": 0.1449,
+      "stability": 0.1998,
+      "stability_std": 0.2497,
+      "template": "D2. 終投・ハンマーなし・同点",
+      "future": [
+        {
+          "x": -0.0269,
+          "y": 37.4317,
+          "color": 0,
+          "dist": 0.9736,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.4827,
+          "y": 38.6199,
+          "color": 0,
+          "dist": 0.5284,
+          "is_shot_stone": false
+        },
+        {
+          "x": -5.0369,
+          "y": 39.0183,
+          "color": 0,
+          "dist": 5.0741,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.6982,
+          "y": 41.5239,
+          "color": 0,
+          "dist": 3.5513,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.1608,
+          "y": 35.9086,
+          "color": 0,
+          "dist": 2.7531,
+          "is_shot_stone": true
+        },
+        {
+          "x": -0.244,
+          "y": 37.726,
+          "color": 1,
+          "dist": 0.7215,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.166,
+          "y": 38.668,
+          "color": 1,
+          "dist": 0.311,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.336,
+          "y": 36.078,
+          "color": 1,
+          "dist": 2.3511,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "type": "guard",
       "turn": -1,
       "vx": -0.081,
@@ -83,7 +154,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "type": "guard",
       "turn": -1,
       "vx": -0.111,
@@ -152,80 +223,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.073,
-      "vy": 2.9028,
-      "target_x": 0.336,
-      "target_y": 36.078,
-      "wp": 0.1496,
-      "stability": 0.1407,
-      "stability_std": 0.0053,
-      "template": "D2. 終投・ハンマーなし・同点",
-      "future": [
-        {
-          "x": 0.1421,
-          "y": 37.306,
-          "color": 0,
-          "dist": 1.1081,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.606,
-          "y": 37.728,
-          "color": 0,
-          "dist": 0.9086,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.2491,
-          "y": 37.025,
-          "color": 0,
-          "dist": 1.4023,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.7452,
-          "y": 38.7103,
-          "color": 0,
-          "dist": 0.8053,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.5651,
-          "y": 35.6606,
-          "color": 0,
-          "dist": 2.802,
-          "is_shot_stone": true
-        },
-        {
-          "x": -5.1062,
-          "y": 47.9054,
-          "color": 1,
-          "dist": 10.7857,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.166,
-          "y": 38.668,
-          "color": 1,
-          "dist": 0.311,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.684,
-          "y": 36.525,
-          "color": 1,
-          "dist": 2.524,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
-  "comment": "慎重に行きましょう！",
-  "comment_type": "thinking",
-  "updated_at": "2026-06-08T02:15:32"
+  "comment": "思い切ってテイクアウトです！",
+  "comment_type": "aggressive",
+  "updated_at": "2026-06-08T02:17:39"
 }
