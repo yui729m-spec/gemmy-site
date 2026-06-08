@@ -699,17 +699,7 @@ function drawHouse(d) {
     ctx.fill();
     ctx.stroke();
 
-    // 投石ストーンは青い破線円で囲む
     if (s.is_shot_stone) {
-      ctx.restore();
-      ctx.save();
-      ctx.beginPath();
-      ctx.arc(px, py, sr * 1.6, 0, Math.PI * 2);
-      ctx.strokeStyle = '#3399ff';
-      ctx.lineWidth   = 2;
-      ctx.setLineDash([4, 3]);
-      ctx.stroke();
-      ctx.setLineDash([]);
       ctx.restore();
     }
   }
