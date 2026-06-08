@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 3,
-  "shot_no": 2,
+  "shot_no": 3,
   "my_score": 0,
   "opp_score": 3,
   "score_diff": -3,
@@ -13,36 +13,43 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1303,
-      "vy": 2.77,
-      "target_x": -0.435,
-      "target_y": 38.264,
-      "wp": 0.2739,
-      "stability": 0.2176,
-      "stability_std": 0.0678,
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.2778,
+      "stability": 0.0456,
+      "stability_std": 0.1205,
       "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 0.638,
+          "x": 0.64,
           "y": 36.174,
           "color": 0,
-          "dist": 2.3204,
+          "dist": 2.321,
           "is_shot_stone": false
         },
         {
-          "x": -1.4692,
-          "y": 38.3715,
+          "x": -0.0026,
+          "y": 38.1994,
           "color": 0,
-          "dist": 1.4696,
+          "dist": 0.2057,
           "is_shot_stone": true
         },
         {
-          "x": 4.3379,
-          "y": 50.0228,
+          "x": -0.436,
+          "y": 38.261,
           "color": 1,
-          "dist": 12.4013,
+          "dist": 0.4592,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.5311,
+          "y": 37.7254,
+          "color": 1,
+          "dist": 0.8625,
           "is_shot_stone": false
         }
       ]
@@ -56,71 +63,85 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.277,
-      "stability": 0.0159,
-      "stability_std": 0.0948,
+      "stability": 0.0435,
+      "stability_std": 0.1229,
       "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 0.638,
+          "x": 0.64,
           "y": 36.174,
           "color": 0,
-          "dist": 2.3204,
+          "dist": 2.321,
           "is_shot_stone": false
         },
         {
-          "x": -0.132,
-          "y": 38.1624,
+          "x": -0.1306,
+          "y": 38.1631,
           "color": 0,
-          "dist": 0.2762,
+          "dist": 0.2749,
           "is_shot_stone": true
         },
         {
-          "x": -0.5868,
-          "y": 38.382,
+          "x": -0.5875,
+          "y": 38.3775,
           "color": 1,
-          "dist": 0.5873,
+          "dist": 0.5882,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.441,
+          "y": 37.697,
+          "color": 1,
+          "dist": 0.8341,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "draw",
+      "type": "guard",
       "turn": -1,
-      "vx": -0.114,
-      "vy": 2.4,
+      "vx": -0.0791,
+      "vy": 2.2594,
       "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.2769,
-      "stability": 0.0126,
-      "stability_std": 0.0043,
+      "target_y": 35.905,
+      "wp": 0.025,
+      "stability": 0.025,
+      "stability_std": 0.0,
       "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 0.638,
+          "x": 0.64,
           "y": 36.174,
           "color": 0,
-          "dist": 2.3204,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.2827,
-          "y": 38.3796,
-          "color": 0,
-          "dist": 0.2838,
+          "dist": 2.321,
           "is_shot_stone": true
         },
         {
-          "x": -0.435,
-          "y": 38.264,
+          "x": 0.6224,
+          "y": 33.6263,
+          "color": 0,
+          "dist": 4.819,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.436,
+          "y": 38.261,
           "color": 1,
-          "dist": 0.4573,
+          "dist": 0.4592,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.441,
+          "y": 37.697,
+          "color": 1,
+          "dist": 0.8341,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "思い切ってテイクアウトです！",
+  "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T00:40:18"
+  "updated_at": "2026-06-08T00:40:52"
 }
