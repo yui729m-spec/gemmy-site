@@ -1,5 +1,5 @@
 {
-  "mode": "live",
+  "mode": "standby",
   "schedule": {},
   "end_no": 5,
   "shot_no": 14,
@@ -185,5 +185,5 @@
   ],
   "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-08T05:45:12"
+  "updated_at": "2026-06-08T06:03:31"
 }
