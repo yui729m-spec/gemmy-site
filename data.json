@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 4,
-  "shot_no": 7,
+  "shot_no": 9,
   "my_score": 0,
   "opp_score": 4,
   "score_diff": -4,
@@ -15,62 +15,62 @@
       "rank": 1,
       "type": "takeout",
       "turn": 1,
-      "vx": 0.1307,
-      "vy": 2.8567,
-      "target_x": -0.245,
-      "target_y": 35.979,
-      "wp": 0.055,
-      "stability": 0.0108,
-      "stability_std": 0.0052,
-      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
+      "vx": 0.1286,
+      "vy": 2.7716,
+      "target_x": -0.042,
+      "target_y": 37.912,
+      "wp": 0.0202,
+      "stability": 0.0113,
+      "stability_std": 0.0182,
+      "template": "C3. 後投・大差ビハインド",
       "future": [
         {
-          "x": 1.3574,
-          "y": 38.6101,
+          "x": 1.309,
+          "y": 36.8,
           "color": 0,
-          "dist": 1.3728,
+          "dist": 2.0711,
           "is_shot_stone": false
         },
         {
-          "x": 3.3104,
-          "y": 36.7344,
+          "x": 0.8639,
+          "y": 38.1656,
           "color": 0,
-          "dist": 3.708,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.512,
-          "y": 35.344,
-          "color": 0,
-          "dist": 3.1035,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.5261,
-          "y": 36.3764,
-          "color": 0,
-          "dist": 2.0957,
+          "dist": 0.8965,
           "is_shot_stone": true
         },
         {
-          "x": 1.1012,
-          "y": 41.3284,
-          "color": 1,
-          "dist": 3.1239,
+          "x": -2.6699,
+          "y": 36.8038,
+          "color": 0,
+          "dist": 3.1132,
           "is_shot_stone": false
         },
         {
-          "x": -1.489,
-          "y": 38.2274,
-          "color": 1,
-          "dist": 1.4995,
+          "x": 3.1696,
+          "y": 35.768,
+          "color": 0,
+          "dist": 4.1231,
           "is_shot_stone": false
         },
         {
-          "x": -0.245,
-          "y": 35.979,
+          "x": 0.2187,
+          "y": 40.1208,
           "color": 1,
-          "dist": 2.4383,
+          "dist": 1.7297,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.0942,
+          "y": 37.6259,
+          "color": 1,
+          "dist": 0.7848,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.319,
+          "y": 35.863,
+          "color": 1,
+          "dist": 2.5619,
           "is_shot_stone": false
         }
       ]
@@ -79,42 +79,42 @@
       "rank": 2,
       "type": "draw",
       "turn": -1,
-      "vx": -0.0861,
-      "vy": 2.4247,
-      "target_x": -0.4,
-      "target_y": 38.005,
-      "wp": 0.018,
-      "stability": 0.0107,
-      "stability_std": 0.0041,
-      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
+      "vx": -0.054,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.0171,
+      "stability": 0.0108,
+      "stability_std": 0.0018,
+      "template": "C3. 後投・大差ビハインド",
       "future": [
         {
-          "x": 1.308,
-          "y": 36.799,
+          "x": 1.309,
+          "y": 36.8,
           "color": 0,
-          "dist": 2.0713,
+          "dist": 2.0711,
           "is_shot_stone": false
         },
         {
-          "x": 0.87,
-          "y": 36.003,
+          "x": 1.1625,
+          "y": 38.6067,
           "color": 0,
-          "dist": 2.5547,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.512,
-          "y": 35.344,
-          "color": 0,
-          "dist": 3.1035,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.7656,
-          "y": 39.1904,
-          "color": 0,
-          "dist": 1.0968,
+          "dist": 1.1799,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.388,
+          "y": 35.655,
+          "color": 0,
+          "dist": 2.7772,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.8583,
+          "y": 35.7125,
+          "color": 0,
+          "dist": 2.826,
+          "is_shot_stone": false
         },
         {
           "x": -0.042,
@@ -124,17 +124,17 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.096,
-          "y": 36.784,
+          "x": -0.049,
+          "y": 36.557,
           "color": 1,
-          "dist": 1.6238,
+          "dist": 1.8487,
           "is_shot_stone": false
         },
         {
-          "x": -0.245,
-          "y": 35.979,
+          "x": -0.319,
+          "y": 35.863,
           "color": 1,
-          "dist": 2.4383,
+          "dist": 2.5619,
           "is_shot_stone": false
         }
       ]
@@ -147,38 +147,38 @@
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.0216,
-      "stability": 0.0105,
-      "stability_std": 0.0023,
-      "template": "B1x. 中投・ハンマーあり・大差ビハインド",
+      "wp": 0.0218,
+      "stability": 0.0106,
+      "stability_std": 0.0157,
+      "template": "C3. 後投・大差ビハインド",
       "future": [
         {
-          "x": 1.308,
-          "y": 36.799,
+          "x": 1.309,
+          "y": 36.8,
           "color": 0,
-          "dist": 2.0713,
+          "dist": 2.0711,
           "is_shot_stone": false
         },
         {
           "x": 0.87,
-          "y": 36.003,
+          "y": 36.002,
           "color": 0,
-          "dist": 2.5547,
+          "dist": 2.5556,
           "is_shot_stone": false
         },
         {
-          "x": -0.512,
-          "y": 35.344,
+          "x": 0.712,
+          "y": 38.6487,
           "color": 0,
-          "dist": 3.1035,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.7603,
-          "y": 38.33,
-          "color": 0,
-          "dist": 0.764,
+          "dist": 0.7525,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.3734,
+          "y": 35.3659,
+          "color": 0,
+          "dist": 3.0619,
+          "is_shot_stone": false
         },
         {
           "x": -0.042,
@@ -188,17 +188,17 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.096,
-          "y": 36.784,
+          "x": -0.049,
+          "y": 36.557,
           "color": 1,
-          "dist": 1.6238,
+          "dist": 1.8487,
           "is_shot_stone": false
         },
         {
-          "x": -0.245,
-          "y": 35.979,
+          "x": -0.319,
+          "y": 35.863,
           "color": 1,
-          "dist": 2.4383,
+          "dist": 2.5619,
           "is_shot_stone": false
         }
       ]
@@ -206,5 +206,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T00:53:21"
+  "updated_at": "2026-06-09T00:56:10"
 }
