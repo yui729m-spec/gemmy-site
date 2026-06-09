@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 7,
-  "shot_no": 12,
+  "shot_no": 14,
   "my_score": 8,
   "opp_score": 3,
   "score_diff": 5,
@@ -26,37 +26,44 @@
       "future": [
         {
           "x": -1.043,
-          "y": 37.787,
+          "y": 37.788,
           "color": 0,
-          "dist": 1.2123,
+          "dist": 1.2118,
           "is_shot_stone": false
         },
         {
-          "x": -1.332,
-          "y": 37.716,
+          "x": -1.334,
+          "y": 37.717,
           "color": 0,
-          "dist": 1.4996,
+          "dist": 1.501,
           "is_shot_stone": false
         },
         {
-          "x": 1.878,
+          "x": 1.881,
           "y": 39.711,
           "color": 0,
-          "dist": 2.2875,
+          "dist": 2.2899,
           "is_shot_stone": false
         },
         {
-          "x": -0.325,
-          "y": 39.454,
+          "x": 2.19,
+          "y": 39.526,
           "color": 0,
-          "dist": 1.0982,
+          "dist": 2.4602,
           "is_shot_stone": false
         },
         {
-          "x": 0.884,
-          "y": 38.778,
+          "x": -0.327,
+          "y": 39.456,
           "color": 0,
-          "dist": 0.9595,
+          "dist": 1.1007,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.329,
+          "y": 39.849,
+          "color": 0,
+          "dist": 1.481,
           "is_shot_stone": false
         },
         {
@@ -67,17 +74,17 @@
           "is_shot_stone": true
         },
         {
-          "x": -0.924,
-          "y": 34.554,
-          "color": 1,
-          "dist": 3.9603,
-          "is_shot_stone": false
-        },
-        {
           "x": -0.637,
           "y": 36.269,
           "color": 1,
           "dist": 2.229,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.923,
+          "y": 34.554,
+          "color": 1,
+          "dist": 3.9601,
           "is_shot_stone": false
         }
       ]
@@ -97,38 +104,45 @@
       "future": [
         {
           "x": -1.043,
-          "y": 37.787,
+          "y": 37.788,
           "color": 0,
-          "dist": 1.2123,
+          "dist": 1.2118,
           "is_shot_stone": false
         },
         {
-          "x": -1.332,
-          "y": 37.716,
+          "x": -1.334,
+          "y": 37.717,
           "color": 0,
-          "dist": 1.4996,
+          "dist": 1.501,
           "is_shot_stone": false
         },
         {
-          "x": 1.878,
+          "x": 1.881,
           "y": 39.711,
           "color": 0,
-          "dist": 2.2875,
+          "dist": 2.2899,
           "is_shot_stone": false
         },
         {
-          "x": -0.325,
-          "y": 39.454,
+          "x": 2.19,
+          "y": 39.526,
           "color": 0,
-          "dist": 1.0982,
+          "dist": 2.4602,
           "is_shot_stone": false
         },
         {
-          "x": 0.884,
-          "y": 38.778,
+          "x": -0.327,
+          "y": 39.456,
           "color": 0,
-          "dist": 0.9595,
+          "dist": 1.1007,
           "is_shot_stone": true
+        },
+        {
+          "x": 0.329,
+          "y": 39.849,
+          "color": 0,
+          "dist": 1.481,
+          "is_shot_stone": false
         },
         {
           "x": 0.2162,
@@ -138,17 +152,17 @@
           "is_shot_stone": false
         },
         {
-          "x": -0.924,
-          "y": 34.554,
-          "color": 1,
-          "dist": 3.9603,
-          "is_shot_stone": false
-        },
-        {
           "x": -0.637,
           "y": 36.269,
           "color": 1,
           "dist": 2.229,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.923,
+          "y": 34.554,
+          "color": 1,
+          "dist": 3.9601,
           "is_shot_stone": false
         }
       ]
@@ -168,37 +182,44 @@
       "future": [
         {
           "x": -1.043,
-          "y": 37.787,
+          "y": 37.788,
           "color": 0,
-          "dist": 1.2123,
+          "dist": 1.2118,
           "is_shot_stone": false
         },
         {
-          "x": -1.332,
-          "y": 37.716,
+          "x": -1.334,
+          "y": 37.717,
           "color": 0,
-          "dist": 1.4996,
+          "dist": 1.501,
           "is_shot_stone": false
         },
         {
-          "x": 1.878,
+          "x": 1.881,
           "y": 39.711,
           "color": 0,
-          "dist": 2.2875,
+          "dist": 2.2899,
           "is_shot_stone": false
         },
         {
-          "x": -0.325,
-          "y": 39.454,
+          "x": 2.19,
+          "y": 39.526,
           "color": 0,
-          "dist": 1.0982,
+          "dist": 2.4602,
           "is_shot_stone": false
         },
         {
-          "x": 0.884,
-          "y": 38.778,
+          "x": -0.327,
+          "y": 39.456,
           "color": 0,
-          "dist": 0.9595,
+          "dist": 1.1007,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.329,
+          "y": 39.849,
+          "color": 0,
+          "dist": 1.481,
           "is_shot_stone": false
         },
         {
@@ -209,17 +230,17 @@
           "is_shot_stone": true
         },
         {
-          "x": -0.924,
-          "y": 34.554,
-          "color": 1,
-          "dist": 3.9603,
-          "is_shot_stone": false
-        },
-        {
           "x": -0.637,
           "y": 36.269,
           "color": 1,
           "dist": 2.229,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.923,
+          "y": 34.554,
+          "color": 1,
+          "dist": 3.9601,
           "is_shot_stone": false
         }
       ]
@@ -227,5 +248,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-09T06:22:22"
+  "updated_at": "2026-06-09T06:25:13"
 }
