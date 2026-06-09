@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 8,
-  "shot_no": 2,
+  "shot_no": 4,
   "my_score": 10,
   "opp_score": 3,
   "score_diff": 7,
@@ -13,108 +13,213 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "guard",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.0794,
-      "vy": 2.2789,
-      "target_x": 0.1148,
-      "target_y": 35.46,
+      "vx": -0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
-      "template": "A2. 序投・ハンマーなし",
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.164,
-          "y": 37.96,
+          "x": -0.1911,
+          "y": 35.3102,
           "color": 0,
-          "dist": 0.4743,
+          "dist": 3.1007,
           "is_shot_stone": false
         },
         {
-          "x": 0.6462,
-          "y": 34.2627,
+          "x": 0.166,
+          "y": 37.959,
           "color": 0,
-          "dist": 4.1924,
+          "dist": 0.4759,
           "is_shot_stone": true
         },
         {
-          "x": 0.599,
-          "y": 34.605,
+          "x": 0.0,
+          "y": 37.566,
+          "color": 0,
+          "dist": 0.839,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.1943,
+          "y": 33.9043,
+          "color": 0,
+          "dist": 4.5049,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.68,
+          "y": 37.52,
           "color": 1,
-          "dist": 3.8469,
+          "dist": 1.8988,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.222,
+          "y": 38.815,
+          "color": 1,
+          "dist": 1.2889,
+          "is_shot_stone": false
+        },
+        {
+          "x": 2.1456,
+          "y": 36.0214,
+          "color": 1,
+          "dist": 3.207,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.861,
+          "y": 34.626,
+          "color": 1,
+          "dist": 3.8758,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "guard",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1094,
-      "vy": 2.2289,
-      "target_x": 0.1148,
-      "target_y": 35.46,
+      "vx": -0.114,
+      "vy": 2.35,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
-      "template": "A2. 序投・ハンマーなし",
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.164,
-          "y": 37.96,
+          "x": 0.295,
+          "y": 34.18,
           "color": 0,
-          "dist": 0.4743,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.1364,
-          "y": 32.7017,
-          "color": 0,
-          "dist": 5.705,
+          "dist": 4.2353,
           "is_shot_stone": false
         },
         {
-          "x": 0.599,
+          "x": 0.166,
+          "y": 37.959,
+          "color": 0,
+          "dist": 0.4759,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.0,
+          "y": 37.566,
+          "color": 0,
+          "dist": 0.839,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.2162,
+          "y": 36.6731,
+          "color": 0,
+          "dist": 1.7453,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.68,
+          "y": 37.52,
+          "color": 1,
+          "dist": 1.8988,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.222,
+          "y": 38.815,
+          "color": 1,
+          "dist": 1.2889,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.598,
           "y": 34.605,
           "color": 1,
-          "dist": 3.8469,
+          "dist": 3.8468,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.861,
+          "y": 34.626,
+          "color": 1,
+          "dist": 3.8758,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "guard",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1094,
-      "vy": 2.2789,
-      "target_x": 0.1148,
-      "target_y": 35.46,
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
-      "template": "A2. 序投・ハンマーなし",
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.164,
-          "y": 37.96,
+          "x": 0.295,
+          "y": 34.18,
           "color": 0,
-          "dist": 0.4743,
+          "dist": 4.2353,
           "is_shot_stone": false
         },
         {
-          "x": 0.1966,
-          "y": 34.3099,
+          "x": 0.2166,
+          "y": 38.023,
           "color": 0,
-          "dist": 4.0998,
+          "dist": 0.4392,
           "is_shot_stone": true
         },
         {
-          "x": 0.599,
+          "x": -0.2742,
+          "y": 38.0134,
+          "color": 0,
+          "dist": 0.4781,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.2155,
+          "y": 37.3466,
+          "color": 0,
+          "dist": 1.0801,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.68,
+          "y": 37.52,
+          "color": 1,
+          "dist": 1.8988,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.222,
+          "y": 38.815,
+          "color": 1,
+          "dist": 1.2889,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.598,
           "y": 34.605,
           "color": 1,
-          "dist": 3.8469,
+          "dist": 3.8468,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.861,
+          "y": 34.626,
+          "color": 1,
+          "dist": 3.8758,
           "is_shot_stone": false
         }
       ]
@@ -122,5 +227,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-09T06:30:04"
+  "updated_at": "2026-06-09T06:31:16"
 }
