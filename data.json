@@ -1,11 +1,11 @@
 {
   "mode": "live",
   "schedule": {},
-  "end_no": 2,
-  "shot_no": 15,
+  "end_no": 3,
+  "shot_no": 1,
   "my_score": 0,
-  "opp_score": 2,
-  "score_diff": -2,
+  "opp_score": 3,
+  "score_diff": -3,
   "hammer": true,
   "my_color": "red",
   "left_team": "KiT CURLING CLUB",
@@ -14,212 +14,86 @@
     {
       "rank": 1,
       "type": "draw",
-      "turn": 1,
-      "vx": 0.084,
+      "turn": -1,
+      "vx": -0.084,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.4516,
-      "stability": 0.234,
-      "stability_std": 0.1439,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "wp": 0.2716,
+      "stability": 0.1728,
+      "stability_std": 0.0796,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 1.339,
-          "y": 35.276,
-          "color": 0,
-          "dist": 3.4035,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.358,
-          "y": 36.882,
-          "color": 0,
-          "dist": 2.0405,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.061,
-          "y": 36.481,
-          "color": 0,
-          "dist": 2.1972,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.7603,
+          "x": 0.7603,
           "y": 38.33,
           "color": 0,
           "dist": 0.764,
           "is_shot_stone": true
         },
         {
-          "x": 2.099,
-          "y": 39.087,
+          "x": -0.308,
+          "y": 35.847,
           "color": 1,
-          "dist": 2.207,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.122,
-          "y": 35.962,
-          "color": 1,
-          "dist": 2.446,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.234,
-          "y": 36.413,
-          "color": 1,
-          "dist": 2.0057,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.33,
-          "y": 37.764,
-          "color": 1,
-          "dist": 1.4764,
+          "dist": 2.5765,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
-      "turn": -1,
-      "vx": -0.1053,
-      "vy": 2.8646,
-      "target_x": -1.33,
-      "target_y": 37.764,
-      "wp": 0.16,
-      "stability": 0.1572,
-      "stability_std": 0.0522,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.2769,
+      "stability": 0.1189,
+      "stability_std": 0.1065,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 1.339,
-          "y": 35.276,
+          "x": -0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 3.4035,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.358,
-          "y": 36.882,
-          "color": 0,
-          "dist": 2.0405,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": 1.061,
-          "y": 36.481,
-          "color": 0,
-          "dist": 2.1972,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.2355,
-          "y": 56.1218,
-          "color": 0,
-          "dist": 17.7598,
-          "is_shot_stone": false
-        },
-        {
-          "x": 2.099,
-          "y": 39.087,
+          "x": -0.308,
+          "y": 35.847,
           "color": 1,
-          "dist": 2.207,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.122,
-          "y": 35.962,
-          "color": 1,
-          "dist": 2.446,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.234,
-          "y": 36.413,
-          "color": 1,
-          "dist": 2.0057,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.33,
-          "y": 37.764,
-          "color": 1,
-          "dist": 1.4764,
+          "dist": 2.5765,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1353,
-      "vy": 2.8146,
-      "target_x": -1.33,
-      "target_y": 37.764,
-      "wp": 0.16,
-      "stability": 0.1543,
-      "stability_std": 0.1078,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "vx": -0.1161,
+      "vy": 2.3747,
+      "target_x": -0.4,
+      "target_y": 38.005,
+      "wp": 0.27,
+      "stability": 0.1168,
+      "stability_std": 0.0813,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": 1.339,
-          "y": 35.276,
+          "x": 0.215,
+          "y": 37.5161,
           "color": 0,
-          "dist": 3.4035,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.358,
-          "y": 36.882,
-          "color": 0,
-          "dist": 2.0405,
+          "dist": 0.9146,
           "is_shot_stone": true
         },
         {
-          "x": 1.061,
-          "y": 36.481,
-          "color": 0,
-          "dist": 2.1972,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.5593,
-          "y": 54.1076,
-          "color": 0,
-          "dist": 15.7126,
-          "is_shot_stone": false
-        },
-        {
-          "x": 2.099,
-          "y": 39.087,
+          "x": -0.308,
+          "y": 35.847,
           "color": 1,
-          "dist": 2.207,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.122,
-          "y": 35.962,
-          "color": 1,
-          "dist": 2.446,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.234,
-          "y": 36.413,
-          "color": 1,
-          "dist": 2.0057,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.33,
-          "y": 37.764,
-          "color": 1,
-          "dist": 1.4764,
+          "dist": 2.5765,
           "is_shot_stone": false
         }
       ]
@@ -227,5 +101,5 @@
   ],
   "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T05:00:32"
+  "updated_at": "2026-06-09T05:03:10"
 }
