@@ -14,14 +14,14 @@
     {
       "rank": 1,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.1136,
-      "vy": 2.4247,
-      "target_x": 0.4,
-      "target_y": 38.805,
-      "wp": 0.7289,
-      "stability": 0.5373,
-      "stability_std": 0.0562,
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7264,
+      "stability": 0.5864,
+      "stability_std": 0.0504,
       "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
@@ -32,59 +32,23 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.8837,
-          "y": 36.922,
+          "x": 0.4554,
+          "y": 36.6959,
           "color": 0,
-          "dist": 1.7263,
+          "dist": 1.7687,
           "is_shot_stone": false
         },
         {
-          "x": -0.7773,
-          "y": 37.7518,
+          "x": -0.7082,
+          "y": 37.387,
           "color": 0,
-          "dist": 1.0153,
+          "dist": 1.2401,
           "is_shot_stone": true
         }
       ]
     },
     {
       "rank": 2,
-      "type": "guard",
-      "turn": -1,
-      "vx": -0.1141,
-      "vy": 2.3413,
-      "target_x": -1.2,
-      "target_y": 35.405,
-      "wp": 0.5957,
-      "stability": 0.5177,
-      "stability_std": 0.0688,
-      "template": "C1c. 後投・ハンマーあり・ビハインド",
-      "future": [
-        {
-          "x": 1.564,
-          "y": 35.018,
-          "color": 0,
-          "dist": 3.7307,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.2956,
-          "y": 36.6658,
-          "color": 0,
-          "dist": 1.7641,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.1665,
-          "y": 36.2065,
-          "color": 0,
-          "dist": 2.2048,
-          "is_shot_stone": true
-        }
-      ]
-    },
-    {
-      "rank": 3,
       "type": "draw",
       "turn": -1,
       "vx": -0.1136,
@@ -92,8 +56,8 @@
       "target_x": 0.4,
       "target_y": 38.005,
       "wp": 0.7289,
-      "stability": 0.5043,
-      "stability_std": 0.0704,
+      "stability": 0.5853,
+      "stability_std": 0.0022,
       "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
@@ -118,9 +82,45 @@
           "is_shot_stone": false
         }
       ]
+    },
+    {
+      "rank": 3,
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.1136,
+      "vy": 2.4247,
+      "target_x": 0.4,
+      "target_y": 38.805,
+      "wp": 0.7289,
+      "stability": 0.4755,
+      "stability_std": 0.071,
+      "template": "C1c. 後投・ハンマーあり・ビハインド",
+      "future": [
+        {
+          "x": 1.564,
+          "y": 35.018,
+          "color": 0,
+          "dist": 3.7307,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.8837,
+          "y": 36.922,
+          "color": 0,
+          "dist": 1.7263,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.7773,
+          "y": 37.7518,
+          "color": 0,
+          "dist": 1.0153,
+          "is_shot_stone": true
+        }
+      ]
     }
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-09T00:27:59"
+  "updated_at": "2026-06-09T00:28:34"
 }
