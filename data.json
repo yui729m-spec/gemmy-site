@@ -18,10 +18,10 @@
       "vx": -0.1136,
       "vy": 2.4247,
       "target_x": 0.4,
-      "target_y": 38.005,
-      "wp": 0.5939,
-      "stability": 0.5345,
-      "stability_std": 0.0546,
+      "target_y": 38.805,
+      "wp": 0.594,
+      "stability": 0.4626,
+      "stability_std": 0.1129,
       "template": "D3. 終投・1点差ビハインド・ハンマーあり",
       "future": [
         {
@@ -32,17 +32,17 @@
           "is_shot_stone": false
         },
         {
-          "x": -0.5536,
-          "y": 38.3794,
+          "x": -0.5445,
+          "y": 38.4006,
           "color": 0,
-          "dist": 0.5542,
+          "dist": 0.5445,
           "is_shot_stone": true
         },
         {
-          "x": 0.4568,
-          "y": 36.3084,
+          "x": 0.4488,
+          "y": 36.3032,
           "color": 1,
-          "dist": 2.1458,
+          "dist": 2.1491,
           "is_shot_stone": false
         },
         {
@@ -143,5 +143,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-09T00:32:48"
+  "updated_at": "2026-06-09T00:33:50"
 }
