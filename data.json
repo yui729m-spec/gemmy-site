@@ -20,8 +20,8 @@
       "target_x": 0.7434,
       "target_y": 34.422,
       "wp": 0.0305,
-      "stability": 0.0273,
-      "stability_std": 0.0045,
+      "stability": 0.0267,
+      "stability_std": 0.0019,
       "template": "C3. 後投・大差ビハインド",
       "future": [
         {
@@ -91,8 +91,8 @@
       "target_x": 0.7434,
       "target_y": 34.422,
       "wp": 0.0286,
-      "stability": 0.0251,
-      "stability_std": 0.0014,
+      "stability": 0.025,
+      "stability_std": 0.0012,
       "template": "C3. 後投・大差ビハインド",
       "future": [
         {
@@ -162,8 +162,8 @@
       "target_x": 0.7434,
       "target_y": 34.422,
       "wp": 0.0251,
-      "stability": 0.0251,
-      "stability_std": 0.0,
+      "stability": 0.0249,
+      "stability_std": 0.0025,
       "template": "C3. 後投・大差ビハインド",
       "future": [
         {
@@ -227,5 +227,5 @@
   ],
   "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T00:57:56"
+  "updated_at": "2026-06-09T00:58:26"
 }
