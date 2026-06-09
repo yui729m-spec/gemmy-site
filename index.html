@@ -671,6 +671,14 @@ function drawHouse(d) {
   // ストーン半径（物理サイズ STONE_R をスケール変換・最小6px）
   const sr = Math.max(6, STONE_R * scale);
 
+  // my_color='yellow': color=0→黄色(自), color=1→赤(相手)
+  // my_color='red'   : color=0→赤(自),  color=1→黄色(相手)
+  const isYellowTeam = (d.my_color || 'yellow') === 'yellow';
+  const ownFill   = isYellowTeam ? '#f0c020' : '#e04040';
+  const ownStroke = isYellowTeam ? '#a07000' : '#900000';
+  const oppFill   = isYellowTeam ? '#e04040' : '#f0c020';
+  const oppStroke = isYellowTeam ? '#900000' : '#a07000';
+
   for (const s of rec.future) {
     // DC4座標 → Canvas座標変換
     //   x: 右がプラス → cx + x*scale
@@ -686,15 +694,17 @@ function drawHouse(d) {
     // 投石ストーンのグロー
     if (s.is_shot_stone) {
       ctx.save();
-      ctx.shadowColor = isOwn ? '#e0a000' : '#e04040';
+      ctx.shadowColor = isOwn
+        ? (isYellowTeam ? '#e0a000' : '#e04040')
+        : (isYellowTeam ? '#e04040' : '#e0a000');
       ctx.shadowBlur  = 14;
     }
 
     // ストーン本体
     ctx.beginPath();
     ctx.arc(px, py, sr, 0, Math.PI * 2);
-    ctx.fillStyle   = isOwn ? '#f0c020' : '#e04040';
-    ctx.strokeStyle = isOwn ? '#a07000' : '#900000';
+    ctx.fillStyle   = isOwn ? ownFill   : oppFill;
+    ctx.strokeStyle = isOwn ? ownStroke : oppStroke;
     ctx.lineWidth   = 1.5;
     ctx.fill();
     ctx.stroke();
