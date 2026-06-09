@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 2,
-  "shot_no": 5,
+  "shot_no": 7,
   "my_score": 0,
   "opp_score": 2,
   "score_diff": -2,
@@ -13,57 +13,64 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.0713,
-      "vy": 2.841,
-      "target_x": 0.5,
-      "target_y": 37.611,
-      "wp": 0.1723,
-      "stability": 0.02,
-      "stability_std": 0.0,
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.054,
+      "vy": 2.45,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.4542,
+      "stability": 0.0383,
+      "stability_std": 0.1567,
       "template": "B1. 中投・ハンマーあり・相手No1",
       "future": [
         {
-          "x": 0.815,
-          "y": 35.951,
+          "x": 2.0695,
+          "y": 37.203,
           "color": 0,
-          "dist": 2.5858,
+          "dist": 2.3932,
           "is_shot_stone": false
         },
         {
           "x": 1.339,
-          "y": 35.274,
+          "y": 35.276,
           "color": 0,
-          "dist": 3.4053,
+          "dist": 3.4035,
           "is_shot_stone": false
         },
         {
-          "x": -0.3296,
-          "y": 36.8169,
+          "x": -0.02,
+          "y": 36.471,
           "color": 0,
-          "dist": 1.6219,
+          "dist": 1.9341,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.1138,
+          "y": 37.8907,
+          "color": 0,
+          "dist": 0.5268,
           "is_shot_stone": true
         },
         {
-          "x": 0.5,
-          "y": 37.611,
+          "x": -0.113,
+          "y": 37.077,
           "color": 1,
-          "dist": 0.9383,
+          "dist": 1.3328,
           "is_shot_stone": false
         },
         {
-          "x": 0.155,
-          "y": 36.655,
+          "x": 0.506,
+          "y": 37.613,
           "color": 1,
-          "dist": 1.7569,
+          "dist": 0.9398,
           "is_shot_stone": false
         },
         {
-          "x": 2.2844,
-          "y": 54.4998,
+          "x": 0.188,
+          "y": 36.242,
           "color": 1,
-          "dist": 16.2561,
+          "dist": 2.1712,
           "is_shot_stone": false
         }
       ]
@@ -77,22 +84,29 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.4516,
-      "stability": 0.0198,
-      "stability_std": 0.054,
+      "stability": 0.0359,
+      "stability_std": 0.0684,
       "template": "B1. 中投・ハンマーあり・相手No1",
       "future": [
         {
-          "x": 0.815,
-          "y": 35.951,
+          "x": 1.062,
+          "y": 36.481,
           "color": 0,
-          "dist": 2.5858,
+          "dist": 2.1976,
           "is_shot_stone": false
         },
         {
           "x": 1.339,
-          "y": 35.274,
+          "y": 35.276,
           "color": 0,
-          "dist": 3.4053,
+          "dist": 3.4035,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.02,
+          "y": 36.471,
+          "color": 0,
+          "dist": 1.9341,
           "is_shot_stone": false
         },
         {
@@ -103,24 +117,24 @@
           "is_shot_stone": true
         },
         {
-          "x": 0.5,
-          "y": 37.611,
-          "color": 1,
-          "dist": 0.9383,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.155,
-          "y": 36.655,
-          "color": 1,
-          "dist": 1.7569,
-          "is_shot_stone": false
-        },
-        {
           "x": -0.113,
           "y": 37.077,
           "color": 1,
           "dist": 1.3328,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.506,
+          "y": 37.613,
+          "color": 1,
+          "dist": 0.9398,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.188,
+          "y": 36.242,
+          "color": 1,
+          "dist": 2.1712,
           "is_shot_stone": false
         }
       ]
@@ -130,60 +144,67 @@
       "type": "takeout",
       "turn": 1,
       "vx": 0.0713,
-      "vy": 2.791,
-      "target_x": 0.5,
-      "target_y": 37.611,
-      "wp": 0.1722,
-      "stability": 0.0151,
-      "stability_std": 0.053,
+      "vy": 2.7911,
+      "target_x": 0.506,
+      "target_y": 37.613,
+      "wp": 0.4612,
+      "stability": 0.0205,
+      "stability_std": 0.0025,
       "template": "B1. 中投・ハンマーあり・相手No1",
       "future": [
         {
-          "x": 0.815,
-          "y": 35.951,
+          "x": 1.062,
+          "y": 36.481,
           "color": 0,
-          "dist": 2.5858,
+          "dist": 2.1976,
           "is_shot_stone": false
         },
         {
           "x": 1.339,
-          "y": 35.274,
+          "y": 35.276,
           "color": 0,
-          "dist": 3.4053,
+          "dist": 3.4035,
           "is_shot_stone": false
         },
         {
-          "x": -0.7413,
-          "y": 36.9509,
+          "x": 0.0292,
+          "y": 37.6002,
           "color": 0,
-          "dist": 1.6321,
+          "dist": 0.8054,
           "is_shot_stone": true
         },
         {
-          "x": 0.5,
-          "y": 37.611,
-          "color": 1,
-          "dist": 0.9383,
+          "x": -2.1264,
+          "y": 37.4528,
+          "color": 0,
+          "dist": 2.3298,
           "is_shot_stone": false
         },
         {
-          "x": 0.155,
-          "y": 36.655,
+          "x": -0.113,
+          "y": 37.077,
           "color": 1,
-          "dist": 1.7569,
+          "dist": 1.3328,
           "is_shot_stone": false
         },
         {
-          "x": 3.2081,
-          "y": 51.1752,
+          "x": 6.0511,
+          "y": 45.9957,
           "color": 1,
-          "dist": 13.167,
+          "dist": 9.7075,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.188,
+          "y": 36.242,
+          "color": 1,
+          "dist": 2.1712,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "思い切ってテイクアウトです！",
+  "comment": "逆転を狙いましょう！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T04:51:43"
+  "updated_at": "2026-06-09T04:53:16"
 }
