@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 5,
-  "shot_no": 10,
+  "shot_no": 12,
   "my_score": 3,
   "opp_score": 4,
   "score_diff": -1,
@@ -15,69 +15,69 @@
       "rank": 1,
       "type": "takeout",
       "turn": 1,
-      "vx": 0.1289,
-      "vy": 2.7585,
-      "target_x": 0.173,
-      "target_y": 38.319,
-      "wp": 0.0372,
-      "stability": 0.021,
-      "stability_std": 0.009,
-      "template": "C2c. 後投・ハンマーなし・ビハインド",
+      "vx": 0.1281,
+      "vy": 2.8682,
+      "target_x": -0.144,
+      "target_y": 38.014,
+      "wp": 0.4479,
+      "stability": 0.0245,
+      "stability_std": 0.0094,
+      "template": "デフォルト",
       "future": [
         {
-          "x": -0.291,
-          "y": 36.247,
+          "x": -0.516,
+          "y": 36.372,
           "color": 0,
-          "dist": 2.1775,
+          "dist": 2.0975,
           "is_shot_stone": false
         },
         {
-          "x": -1.187,
-          "y": 36.104,
+          "x": -1.188,
+          "y": 36.103,
           "color": 0,
-          "dist": 2.5891,
+          "dist": 2.5905,
           "is_shot_stone": false
         },
         {
-          "x": 0.263,
-          "y": 39.548,
+          "x": -0.016,
+          "y": 36.161,
           "color": 0,
-          "dist": 1.1729,
+          "dist": 2.2441,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.264,
+          "y": 39.549,
+          "color": 0,
+          "dist": 1.1741,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.1873,
+          "y": 38.3639,
+          "color": 0,
+          "dist": 0.1917,
           "is_shot_stone": true
         },
         {
-          "x": 2.3573,
-          "y": 38.5528,
-          "color": 0,
-          "dist": 2.3619,
+          "x": -0.144,
+          "y": 38.014,
+          "color": 1,
+          "dist": 0.4167,
           "is_shot_stone": false
         },
         {
-          "x": -2.2676,
-          "y": 41.3783,
+          "x": 4.9582,
+          "y": 53.7457,
           "color": 1,
-          "dist": 3.7393,
+          "dist": 16.1221,
           "is_shot_stone": false
         },
         {
-          "x": -0.2619,
-          "y": 37.9743,
+          "x": -0.006,
+          "y": 40.131,
           "color": 1,
-          "dist": 0.5041,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.243,
-          "y": 36.365,
-          "color": 1,
-          "dist": 2.0544,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.6666,
-          "y": 43.291,
-          "color": 1,
-          "dist": 5.1624,
+          "dist": 1.726,
           "is_shot_stone": false
         }
       ]
@@ -85,67 +85,67 @@
     {
       "rank": 2,
       "type": "takeout",
-      "turn": -1,
-      "vx": -0.0677,
-      "vy": 2.8085,
-      "target_x": 0.173,
-      "target_y": 38.319,
-      "wp": 0.4372,
-      "stability": 0.0192,
-      "stability_std": 0.1493,
-      "template": "C2c. 後投・ハンマーなし・ビハインド",
+      "turn": 1,
+      "vx": 0.1306,
+      "vy": 2.8255,
+      "target_x": -0.006,
+      "target_y": 40.131,
+      "wp": 0.4477,
+      "stability": 0.0239,
+      "stability_std": 0.0118,
+      "template": "デフォルト",
       "future": [
         {
-          "x": -0.291,
-          "y": 36.247,
+          "x": -0.516,
+          "y": 36.372,
           "color": 0,
-          "dist": 2.1775,
+          "dist": 2.0975,
           "is_shot_stone": false
         },
         {
-          "x": -1.187,
-          "y": 36.104,
+          "x": -1.188,
+          "y": 36.103,
           "color": 0,
-          "dist": 2.5891,
+          "dist": 2.5905,
           "is_shot_stone": false
         },
         {
-          "x": 0.263,
-          "y": 39.548,
+          "x": -0.016,
+          "y": 36.161,
           "color": 0,
-          "dist": 1.1729,
+          "dist": 2.2441,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.264,
+          "y": 39.549,
+          "color": 0,
+          "dist": 1.1741,
           "is_shot_stone": true
         },
         {
-          "x": 0.0355,
-          "y": 36.1083,
+          "x": 0.1304,
+          "y": 38.2368,
           "color": 0,
-          "dist": 2.297,
+          "dist": 0.2128,
           "is_shot_stone": false
         },
         {
-          "x": -5.6377,
-          "y": 46.7958,
+          "x": -0.144,
+          "y": 38.014,
           "color": 1,
-          "dist": 10.1088,
+          "dist": 0.4167,
           "is_shot_stone": false
         },
         {
-          "x": 2.023,
-          "y": 39.4062,
+          "x": 4.0329,
+          "y": 52.9498,
           "color": 1,
-          "dist": 2.2572,
+          "dist": 15.0936,
           "is_shot_stone": false
         },
         {
-          "x": 1.3088,
-          "y": 37.5749,
-          "color": 1,
-          "dist": 1.5499,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.002,
+          "x": -0.006,
           "y": 40.131,
           "color": 1,
           "dist": 1.726,
@@ -156,67 +156,67 @@
     {
       "rank": 3,
       "type": "takeout",
-      "turn": -1,
-      "vx": -0.0677,
-      "vy": 2.8585,
-      "target_x": 0.173,
-      "target_y": 38.319,
-      "wp": 0.0372,
-      "stability": 0.0173,
-      "stability_std": 0.0011,
-      "template": "C2c. 後投・ハンマーなし・ビハインド",
+      "turn": 1,
+      "vx": 0.1314,
+      "vy": 2.7783,
+      "target_x": 0.647,
+      "target_y": 38.398,
+      "wp": 0.4489,
+      "stability": 0.0228,
+      "stability_std": 0.0116,
+      "template": "デフォルト",
       "future": [
         {
-          "x": -0.678,
-          "y": 36.4829,
+          "x": -0.516,
+          "y": 36.372,
           "color": 0,
-          "dist": 2.0381,
+          "dist": 2.0975,
           "is_shot_stone": false
         },
         {
-          "x": -1.187,
-          "y": 36.104,
+          "x": -1.188,
+          "y": 36.103,
           "color": 0,
-          "dist": 2.5891,
+          "dist": 2.5905,
           "is_shot_stone": false
         },
         {
-          "x": 0.263,
-          "y": 39.548,
+          "x": -0.016,
+          "y": 36.161,
           "color": 0,
-          "dist": 1.1729,
+          "dist": 2.2441,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.264,
+          "y": 39.549,
+          "color": 0,
+          "dist": 1.1741,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.022,
+          "y": 38.3101,
+          "color": 0,
+          "dist": 0.0974,
           "is_shot_stone": true
         },
         {
-          "x": -0.0317,
-          "y": 36.1164,
-          "color": 0,
-          "dist": 2.2889,
-          "is_shot_stone": false
-        },
-        {
-          "x": -2.022,
-          "y": 45.1903,
+          "x": -0.144,
+          "y": 38.014,
           "color": 1,
-          "dist": 7.0802,
+          "dist": 0.4167,
           "is_shot_stone": false
         },
         {
-          "x": 0.2466,
-          "y": 38.0385,
+          "x": 3.9666,
+          "y": 50.6146,
           "color": 1,
-          "dist": 0.4417,
+          "dist": 12.8377,
           "is_shot_stone": false
         },
         {
-          "x": 5.4178,
-          "y": 40.7858,
-          "color": 1,
-          "dist": 5.9178,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.002,
+          "x": -0.006,
           "y": 40.131,
           "color": 1,
           "dist": 1.726,
@@ -227,5 +227,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T01:12:58"
+  "updated_at": "2026-06-09T01:14:33"
 }
