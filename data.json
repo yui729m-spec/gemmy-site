@@ -1,6 +1,11 @@
 {
   "mode": "standby",
-  "schedule": {},
+  "schedule": {
+    "tournament": "日本カーリング選手権大会 横浜2026",
+    "match": "フォルティウス vs SC軽井沢クラブ",
+    "datetime": "2026-06-11T18:00:00",
+    "note": "https://www.youtube.com/live/ODu8XXLaTLs?si=d8S6wh--7SHHyPbQ"
+  },
   "end_no": 9,
   "shot_no": 15,
   "my_score": 7,
