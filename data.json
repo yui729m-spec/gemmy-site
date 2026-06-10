@@ -14,13 +14,56 @@
     {
       "rank": 1,
       "type": "draw",
+      "turn": -1,
+      "vx": -0.054,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.9508,
+      "stability": 0.7888,
+      "stability_std": 0.0847,
+      "template": "A1. 序投・ハンマーあり",
+      "future": [
+        {
+          "x": -0.06,
+          "y": 37.568,
+          "color": 0,
+          "dist": 0.8391,
+          "is_shot_stone": true
+        },
+        {
+          "x": 1.2379,
+          "y": 38.2905,
+          "color": 0,
+          "dist": 1.2432,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.29,
+          "y": 35.725,
+          "color": 1,
+          "dist": 2.6956,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.252,
+          "y": 36.053,
+          "color": 1,
+          "dist": 2.3655,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "draw",
       "turn": 1,
       "vx": 0.054,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.9508,
-      "stability": 0.8484,
+      "stability": 0.7884,
       "stability_std": 0.0849,
       "template": "A1. 序投・ハンマーあり",
       "future": [
@@ -55,49 +98,6 @@
       ]
     },
     {
-      "rank": 2,
-      "type": "come_around",
-      "turn": -1,
-      "vx": -0.1121,
-      "vy": 2.3936,
-      "target_x": 0.54,
-      "target_y": 37.568,
-      "wp": 0.9508,
-      "stability": 0.7886,
-      "stability_std": 0.086,
-      "template": "A1. 序投・ハンマーあり",
-      "future": [
-        {
-          "x": -0.06,
-          "y": 37.568,
-          "color": 0,
-          "dist": 0.8391,
-          "is_shot_stone": true
-        },
-        {
-          "x": -0.5835,
-          "y": 36.7441,
-          "color": 0,
-          "dist": 1.7604,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.29,
-          "y": 35.725,
-          "color": 1,
-          "dist": 2.6956,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.9544,
-          "y": 36.5896,
-          "color": 1,
-          "dist": 2.051,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
       "rank": 3,
       "type": "guard",
       "turn": -1,
@@ -106,8 +106,8 @@
       "target_x": -0.042,
       "target_y": 35.068,
       "wp": 0.7858,
-      "stability": 0.7858,
-      "stability_std": 0.0,
+      "stability": 0.7805,
+      "stability_std": 0.0056,
       "template": "A1. 序投・ハンマーあり",
       "future": [
         {
@@ -143,5 +143,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-10T05:29:09"
+  "updated_at": "2026-06-10T05:30:15"
 }
