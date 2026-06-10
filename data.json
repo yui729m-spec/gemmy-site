@@ -169,22 +169,22 @@
     },
     {
       "rank": 3,
-      "type": "freeze",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.0809,
-      "vy": 2.3294,
-      "target_x": 0.1991,
-      "target_y": 37.763,
+      "vx": -0.114,
+      "vy": 2.45,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
       "template": "C1b. 後投・ハンマーあり・リード",
       "future": [
         {
-          "x": -0.167,
-          "y": 37.38,
+          "x": -0.5768,
+          "y": 37.5947,
           "color": 0,
-          "dist": 1.0385,
+          "dist": 0.9946,
           "is_shot_stone": false
         },
         {
@@ -195,10 +195,10 @@
           "is_shot_stone": false
         },
         {
-          "x": -0.088,
-          "y": 37.72,
+          "x": 0.0852,
+          "y": 38.549,
           "color": 0,
-          "dist": 0.6906,
+          "dist": 0.1674,
           "is_shot_stone": true
         },
         {
@@ -216,10 +216,10 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.8746,
-          "y": 35.6164,
+          "x": 0.1236,
+          "y": 37.1738,
           "color": 0,
-          "dist": 2.9226,
+          "dist": 1.2374,
           "is_shot_stone": false
         },
         {
@@ -230,17 +230,17 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.181,
-          "y": 37.463,
+          "x": 0.3037,
+          "y": 37.6645,
           "color": 1,
-          "dist": 0.9592,
+          "dist": 0.8003,
           "is_shot_stone": false
         },
         {
-          "x": 0.2404,
-          "y": 35.186,
+          "x": 0.294,
+          "y": 35.145,
           "color": 1,
-          "dist": 3.2279,
+          "dist": 3.2732,
           "is_shot_stone": false
         }
       ]
@@ -248,5 +248,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-10T06:28:17"
+  "updated_at": "2026-06-10T06:29:47"
 }
