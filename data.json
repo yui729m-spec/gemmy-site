@@ -14,13 +14,13 @@
     {
       "rank": 1,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.054,
+      "turn": 1,
+      "vx": 0.084,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.99,
-      "stability": 0.9701,
+      "stability": 0.9584,
       "stability_std": 0.0165,
       "template": "B3. 中投・ハンマーあり・同点",
       "future": [
@@ -53,10 +53,74 @@
           "is_shot_stone": true
         },
         {
-          "x": 1.2379,
-          "y": 38.2905,
+          "x": -0.5933,
+          "y": 37.5138,
           "color": 0,
-          "dist": 1.2432,
+          "dist": 1.0706,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.4818,
+          "y": 32.7455,
+          "color": 1,
+          "dist": 5.68,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.2853,
+          "y": 35.3459,
+          "color": 1,
+          "dist": 3.0723,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "freeze",
+      "turn": -1,
+      "vx": -0.0529,
+      "vy": 2.3759,
+      "target_x": -0.4883,
+      "target_y": 38.739,
+      "wp": 0.99,
+      "stability": 0.9584,
+      "stability_std": 0.0165,
+      "template": "B3. 中投・ハンマーあり・同点",
+      "future": [
+        {
+          "x": -0.637,
+          "y": 37.816,
+          "color": 0,
+          "dist": 0.8676,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.465,
+          "y": 38.439,
+          "color": 0,
+          "dist": 0.4662,
+          "is_shot_stone": true
+        },
+        {
+          "x": -0.462,
+          "y": 34.956,
+          "color": 0,
+          "dist": 3.4798,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.306,
+          "y": 38.069,
+          "color": 0,
+          "dist": 0.4545,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.2119,
+          "y": 37.461,
+          "color": 0,
+          "dist": 1.5362,
           "is_shot_stone": false
         },
         {
@@ -76,7 +140,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "type": "draw",
       "turn": -1,
       "vx": -0.0561,
@@ -84,8 +148,8 @@
       "target_x": -0.4,
       "target_y": 38.005,
       "wp": 0.99,
-      "stability": 0.9584,
-      "stability_std": 0.0165,
+      "stability": 0.9543,
+      "stability_std": 0.013,
       "template": "B3. 中投・ハンマーあり・同点",
       "future": [
         {
@@ -138,73 +202,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "freeze",
-      "turn": -1,
-      "vx": -0.0537,
-      "vy": 2.3819,
-      "target_x": -0.6689,
-      "target_y": 38.116,
-      "wp": 0.99,
-      "stability": 0.9543,
-      "stability_std": 0.013,
-      "template": "B3. 中投・ハンマーあり・同点",
-      "future": [
-        {
-          "x": -0.637,
-          "y": 37.816,
-          "color": 0,
-          "dist": 0.8676,
-          "is_shot_stone": true
-        },
-        {
-          "x": -0.465,
-          "y": 38.439,
-          "color": 0,
-          "dist": 0.4662,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.462,
-          "y": 34.956,
-          "color": 0,
-          "dist": 3.4798,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.306,
-          "y": 38.069,
-          "color": 0,
-          "dist": 0.4545,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.2103,
-          "y": 37.6671,
-          "color": 0,
-          "dist": 1.4175,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.446,
-          "y": 32.737,
-          "color": 1,
-          "dist": 5.6855,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.216,
-          "y": 35.318,
-          "color": 1,
-          "dist": 3.0945,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-10T04:46:09"
+  "updated_at": "2026-06-10T04:46:33"
 }
