@@ -129,6 +129,119 @@
       "type": "takeout",
       "turn": -1,
       "vx": -0.1275,
+      "vy": 2.8258,
+      "target_x": 0.374,
+      "target_y": 37.949,
+      "wp": 0.99,
+      "stability": 0.99,
+      "stability_std": 0.0,
+      "template": "デフォルト",
+      "future": [
+        {
+          "x": -0.023,
+          "y": 39.279,
+          "color": 0,
+          "dist": 0.8743,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.297,
+          "y": 34.182,
+          "color": 0,
+          "dist": 4.2334,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.264,
+          "y": 38.047,
+          "color": 0,
+          "dist": 1.3137,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.7456,
+          "y": 40.6061,
+          "color": 0,
+          "dist": 2.3239,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.7241,
+          "y": 37.7629,
+          "color": 0,
+          "dist": 1.8398,
+          "is_shot_stone": true
+        },
+        {
+          "x": -3.3449,
+          "y": 40.1091,
+          "color": 0,
+          "dist": 3.754,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.021,
+          "y": 37.15,
+          "color": 1,
+          "dist": 1.2552,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.3842,
+          "y": 38.0144,
+          "color": 1,
+          "dist": 1.4383,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.7472,
+          "y": 37.5017,
+          "color": 1,
+          "dist": 1.9669,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.825,
+          "y": 39.132,
+          "color": 1,
+          "dist": 1.9645,
+          "is_shot_stone": false
+        },
+        {
+          "x": 2.8451,
+          "y": 40.2268,
+          "color": 1,
+          "dist": 3.3784,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.598,
+          "y": 34.606,
+          "color": 1,
+          "dist": 3.8458,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.74,
+          "y": 36.782,
+          "color": 1,
+          "dist": 1.7837,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.0011,
+          "y": 37.8595,
+          "color": 1,
+          "dist": 1.1401,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "type": "takeout",
+      "turn": -1,
+      "vx": -0.1275,
       "vy": 2.8758,
       "target_x": 0.374,
       "target_y": 37.949,
@@ -236,122 +349,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "takeout",
-      "turn": -1,
-      "vx": -0.1275,
-      "vy": 2.8258,
-      "target_x": 0.374,
-      "target_y": 37.949,
-      "wp": 0.99,
-      "stability": 0.9652,
-      "stability_std": 0.0261,
-      "template": "デフォルト",
-      "future": [
-        {
-          "x": -0.023,
-          "y": 39.279,
-          "color": 0,
-          "dist": 0.8743,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.297,
-          "y": 34.182,
-          "color": 0,
-          "dist": 4.2334,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.264,
-          "y": 38.047,
-          "color": 0,
-          "dist": 1.3137,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.7456,
-          "y": 40.6061,
-          "color": 0,
-          "dist": 2.3239,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.7241,
-          "y": 37.7629,
-          "color": 0,
-          "dist": 1.8398,
-          "is_shot_stone": true
-        },
-        {
-          "x": -3.3449,
-          "y": 40.1091,
-          "color": 0,
-          "dist": 3.754,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.021,
-          "y": 37.15,
-          "color": 1,
-          "dist": 1.2552,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.3842,
-          "y": 38.0144,
-          "color": 1,
-          "dist": 1.4383,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.7472,
-          "y": 37.5017,
-          "color": 1,
-          "dist": 1.9669,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.825,
-          "y": 39.132,
-          "color": 1,
-          "dist": 1.9645,
-          "is_shot_stone": false
-        },
-        {
-          "x": 2.8451,
-          "y": 40.2268,
-          "color": 1,
-          "dist": 3.3784,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.598,
-          "y": 34.606,
-          "color": 1,
-          "dist": 3.8458,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.74,
-          "y": 36.782,
-          "color": 1,
-          "dist": 1.7837,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.0011,
-          "y": 37.8595,
-          "color": 1,
-          "dist": 1.1401,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-10T06:45:12"
+  "updated_at": "2026-06-10T06:45:58"
 }
