@@ -127,12 +127,12 @@
     },
     {
       "rank": 3,
-      "type": "draw",
+      "type": "takeout",
       "turn": -1,
-      "vx": -0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
+      "vx": -0.1081,
+      "vy": 2.9499,
+      "target_x": -1.154,
+      "target_y": 35.178,
       "wp": 0.99,
       "stability": 0.99,
       "stability_std": 0.0,
@@ -143,20 +143,20 @@
           "y": 37.951,
           "color": 0,
           "dist": 0.4683,
-          "is_shot_stone": true
-        },
-        {
-          "x": 1.3369,
-          "y": 38.4364,
-          "color": 0,
-          "dist": 1.3373,
           "is_shot_stone": false
         },
         {
-          "x": -0.1835,
-          "y": 34.6917,
+          "x": 0.463,
+          "y": 36.77,
           "color": 0,
-          "dist": 3.7179,
+          "dist": 1.6993,
+          "is_shot_stone": true
+        },
+        {
+          "x": 1.362,
+          "y": 59.7595,
+          "color": 0,
+          "dist": 21.3979,
           "is_shot_stone": false
         },
         {
@@ -174,10 +174,10 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.2672,
-          "y": 36.5492,
+          "x": -0.069,
+          "y": 34.964,
           "color": 1,
-          "dist": 1.8749,
+          "dist": 3.4417,
           "is_shot_stone": false
         }
       ]
@@ -185,5 +185,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-10T06:03:32"
+  "updated_at": "2026-06-10T06:04:01"
 }
