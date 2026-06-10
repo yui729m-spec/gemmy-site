@@ -1,11 +1,6 @@
 {
   "mode": "standby",
-  "schedule": {
-    "tournament": "日本カーリング選手権大会 横浜2026",
-    "match": "中部電力 vs LOCOSOLARE",
-    "datetime": "2026-06-10T13:30:00",
-    "note": "6/10(水)後1:30ー4:00【NHKBS】"
-  },
+  "schedule": {},
   "end_no": 8,
   "shot_no": 14,
   "my_score": 10,
@@ -358,5 +353,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-09T22:31:54"
+  "updated_at": "2026-06-10T04:29:29"
 }
