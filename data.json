@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 5,
-  "shot_no": 11,
+  "shot_no": 13,
   "my_score": 2,
   "opp_score": 4,
   "score_diff": -2,
@@ -16,147 +16,147 @@
       "type": "takeout",
       "turn": -1,
       "vx": -0.0675,
-      "vy": 2.7745,
+      "vy": 2.8245,
       "target_x": 0.359,
-      "target_y": 37.974,
-      "wp": 0.6025,
-      "stability": 0.3298,
-      "stability_std": 0.2089,
-      "template": "C1c. 後投・ハンマーあり・ビハインド",
+      "target_y": 37.975,
+      "wp": 0.6027,
+      "stability": 0.2408,
+      "stability_std": 0.2622,
+      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
       "future": [
         {
-          "x": -1.037,
+          "x": -1.215,
+          "y": 37.905,
+          "color": 0,
+          "dist": 1.3139,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.038,
           "y": 35.302,
           "color": 0,
-          "dist": 3.2717,
+          "dist": 3.272,
           "is_shot_stone": false
         },
         {
-          "x": -1.38,
-          "y": 38.263,
+          "x": -0.5238,
+          "y": 37.9895,
           "color": 0,
-          "dist": 1.3873,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.1135,
-          "y": 37.7293,
-          "color": 0,
-          "dist": 0.6851,
+          "dist": 0.6686,
           "is_shot_stone": true
         },
         {
-          "x": 2.7476,
-          "y": 52.2226,
+          "x": -0.245,
+          "y": 41.9396,
           "color": 1,
-          "dist": 14.0882,
+          "dist": 3.5431,
           "is_shot_stone": false
         },
         {
-          "x": 1.31,
-          "y": 40.252,
+          "x": 7.9566,
+          "y": 46.0643,
           "color": 1,
-          "dist": 2.2644,
+          "dist": 11.0441,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.0675,
-      "vy": 2.8245,
-      "target_x": 0.359,
-      "target_y": 37.974,
-      "wp": 0.6027,
-      "stability": 0.2679,
-      "stability_std": 0.2768,
-      "template": "C1c. 後投・ハンマーあり・ビハインド",
+      "vx": -0.1136,
+      "vy": 2.4247,
+      "target_x": 0.4,
+      "target_y": 38.005,
+      "wp": 0.397,
+      "stability": 0.1245,
+      "stability_std": 0.2324,
+      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
       "future": [
         {
-          "x": -1.037,
+          "x": -1.215,
+          "y": 37.905,
+          "color": 0,
+          "dist": 1.3139,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.038,
           "y": 35.302,
           "color": 0,
-          "dist": 3.2717,
+          "dist": 3.272,
           "is_shot_stone": false
         },
         {
-          "x": -1.38,
-          "y": 38.263,
+          "x": -0.2699,
+          "y": 38.3941,
           "color": 0,
-          "dist": 1.3873,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.527,
-          "y": 37.9905,
-          "color": 0,
-          "dist": 0.6704,
+          "dist": 0.2701,
           "is_shot_stone": true
         },
         {
-          "x": -0.2533,
-          "y": 41.9658,
+          "x": 0.805,
+          "y": 38.2886,
           "color": 1,
-          "dist": 3.5698,
+          "dist": 0.8133,
           "is_shot_stone": false
         },
         {
-          "x": 7.9399,
-          "y": 46.0077,
+          "x": 1.309,
+          "y": 40.256,
           "color": 1,
-          "dist": 10.9929,
+          "dist": 2.2671,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "freeze",
+      "type": "takeout",
       "turn": -1,
-      "vx": -0.1172,
-      "vy": 2.4138,
-      "target_x": -1.449,
-      "target_y": 38.563,
-      "wp": 0.398,
-      "stability": 0.1408,
-      "stability_std": 0.264,
-      "template": "C1c. 後投・ハンマーあり・ビハインド",
+      "vx": -0.0668,
+      "vy": 2.8492,
+      "target_x": 1.309,
+      "target_y": 40.256,
+      "wp": 0.6011,
+      "stability": 0.0726,
+      "stability_std": 0.2752,
+      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
       "future": [
         {
-          "x": -1.037,
-          "y": 35.302,
+          "x": -1.215,
+          "y": 37.905,
           "color": 0,
-          "dist": 3.2717,
+          "dist": 1.3139,
           "is_shot_stone": false
         },
         {
-          "x": -1.38,
-          "y": 38.263,
+          "x": -1.038,
+          "y": 35.302,
           "color": 0,
-          "dist": 1.3873,
+          "dist": 3.272,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.7548,
+          "y": 38.1108,
+          "color": 0,
+          "dist": 0.8101,
           "is_shot_stone": true
         },
         {
-          "x": -0.1793,
-          "y": 38.4292,
-          "color": 0,
-          "dist": 0.1809,
+          "x": 0.4652,
+          "y": 40.6478,
+          "color": 1,
+          "dist": 2.2905,
           "is_shot_stone": false
         },
         {
-          "x": 0.5843,
-          "y": 38.089,
+          "x": 9.0081,
+          "y": 49.2518,
           "color": 1,
-          "dist": 0.6643,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.31,
-          "y": 40.252,
-          "color": 1,
-          "dist": 2.2644,
+          "dist": 14.0996,
           "is_shot_stone": false
         }
       ]
@@ -164,5 +164,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-11T10:06:10"
+  "updated_at": "2026-06-11T10:08:03"
 }
