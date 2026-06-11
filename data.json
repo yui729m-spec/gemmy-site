@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 9,
-  "shot_no": 11,
+  "shot_no": 13,
   "my_score": 7,
   "opp_score": 5,
   "score_diff": 2,
@@ -13,366 +13,387 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "freeze",
-      "turn": -1,
-      "vx": -0.0814,
-      "vy": 2.311,
-      "target_x": -0.1837,
-      "target_y": 38.576,
-      "wp": 0.0832,
-      "stability": 0.0832,
-      "stability_std": 0.0,
-      "template": "C1b. 後投・ハンマーあり・リード",
+      "type": "takeout",
+      "turn": 1,
+      "vx": 0.0976,
+      "vy": 2.8112,
+      "target_x": -0.212,
+      "target_y": 38.26,
+      "wp": 0.0775,
+      "stability": 0.0432,
+      "stability_std": 0.1175,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.6628,
-          "y": 35.3173,
+          "x": 1.3487,
+          "y": 35.5342,
           "color": 0,
-          "dist": 3.1581,
+          "dist": 3.1718,
           "is_shot_stone": false
         },
         {
-          "x": 1.197,
-          "y": 36.137,
+          "x": 1.196,
+          "y": 36.136,
           "color": 0,
-          "dist": 2.5645,
+          "dist": 2.5649,
           "is_shot_stone": false
         },
         {
-          "x": 1.145,
+          "x": 1.146,
           "y": 35.317,
           "color": 0,
-          "dist": 3.2934,
+          "dist": 3.2938,
           "is_shot_stone": false
         },
         {
-          "x": 0.905,
-          "y": 36.27,
+          "x": 4.2011,
+          "y": 42.7302,
           "color": 0,
-          "dist": 2.3189,
+          "dist": 6.0297,
           "is_shot_stone": false
         },
         {
           "x": -0.658,
-          "y": 34.99,
+          "y": 34.991,
           "color": 0,
-          "dist": 3.4778,
+          "dist": 3.4768,
           "is_shot_stone": false
         },
         {
-          "x": 2.132,
-          "y": 36.168,
+          "x": 0.9216,
+          "y": 35.9284,
           "color": 0,
-          "dist": 3.0902,
+          "dist": 2.6425,
           "is_shot_stone": false
         },
         {
-          "x": 1.25,
-          "y": 39.184,
+          "x": 1.009,
+          "y": 34.051,
           "color": 0,
-          "dist": 1.4729,
+          "dist": 4.4694,
           "is_shot_stone": false
         },
         {
-          "x": 0.616,
-          "y": 38.379,
+          "x": -1.3886,
+          "y": 38.0323,
           "color": 0,
-          "dist": 0.6165,
+          "dist": 1.4378,
           "is_shot_stone": true
         },
         {
-          "x": -0.1852,
-          "y": 37.9411,
+          "x": -0.1162,
+          "y": 37.9719,
           "color": 1,
-          "dist": 0.4995,
+          "dist": 0.4484,
           "is_shot_stone": false
         },
         {
-          "x": -0.3238,
-          "y": 38.2203,
+          "x": -0.212,
+          "y": 38.26,
           "color": 1,
-          "dist": 0.3728,
+          "dist": 0.2568,
           "is_shot_stone": false
         },
         {
-          "x": -0.222,
-          "y": 35.272,
+          "x": -0.2234,
+          "y": 35.2708,
           "color": 1,
-          "dist": 3.1409,
+          "dist": 3.1421,
           "is_shot_stone": false
         },
         {
-          "x": -0.333,
-          "y": 33.731,
+          "x": -0.2988,
+          "y": 37.7531,
           "color": 1,
-          "dist": 4.6858,
+          "dist": 0.7171,
           "is_shot_stone": false
         },
         {
-          "x": -0.0552,
-          "y": 38.3157,
+          "x": 0.937,
+          "y": 32.159,
           "color": 1,
-          "dist": 0.105,
+          "dist": 6.3159,
           "is_shot_stone": false
         },
         {
-          "x": -0.169,
-          "y": 37.494,
+          "x": 1.383,
+          "y": 38.75,
           "color": 1,
-          "dist": 0.9265,
+          "dist": 1.4254,
           "is_shot_stone": false
         },
         {
-          "x": 0.0752,
-          "y": 38.0569,
+          "x": 1.5683,
+          "y": 35.7158,
           "color": 1,
-          "dist": 0.3562,
+          "dist": 3.1131,
+          "is_shot_stone": false
+        },
+        {
+          "x": -4.1851,
+          "y": 37.7991,
+          "color": 1,
+          "dist": 4.2287,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "freeze",
+      "type": "takeout",
       "turn": -1,
-      "vx": -0.1114,
-      "vy": 2.261,
-      "target_x": -0.1837,
-      "target_y": 38.576,
-      "wp": 0.0832,
-      "stability": 0.0832,
-      "stability_std": 0.0,
-      "template": "C1b. 後投・ハンマーあり・リード",
+      "vx": -0.1292,
+      "vy": 2.8112,
+      "target_x": -0.212,
+      "target_y": 38.26,
+      "wp": 0.06,
+      "stability": 0.0404,
+      "stability_std": 0.2207,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.1443,
-          "y": 33.7317,
+          "x": 1.3487,
+          "y": 35.5342,
           "color": 0,
-          "dist": 4.6755,
+          "dist": 3.1718,
           "is_shot_stone": false
         },
         {
-          "x": 1.197,
-          "y": 36.137,
+          "x": 1.196,
+          "y": 36.136,
           "color": 0,
-          "dist": 2.5645,
+          "dist": 2.5649,
           "is_shot_stone": false
         },
         {
-          "x": 1.145,
+          "x": 1.146,
           "y": 35.317,
           "color": 0,
-          "dist": 3.2934,
+          "dist": 3.2938,
           "is_shot_stone": false
         },
         {
-          "x": 0.905,
-          "y": 36.27,
+          "x": 0.904,
+          "y": 36.269,
           "color": 0,
-          "dist": 2.3189,
+          "dist": 2.3194,
           "is_shot_stone": false
         },
         {
-          "x": -0.658,
-          "y": 34.99,
+          "x": -2.6188,
+          "y": 53.8639,
           "color": 0,
-          "dist": 3.4778,
+          "dist": 15.6792,
           "is_shot_stone": false
         },
         {
-          "x": 2.132,
-          "y": 36.168,
+          "x": -0.5789,
+          "y": 34.7082,
           "color": 0,
-          "dist": 3.0902,
+          "dist": 3.7419,
           "is_shot_stone": false
         },
         {
-          "x": 1.25,
-          "y": 39.184,
+          "x": 1.009,
+          "y": 34.051,
           "color": 0,
-          "dist": 1.4729,
+          "dist": 4.4694,
           "is_shot_stone": false
         },
         {
-          "x": 0.616,
-          "y": 38.379,
+          "x": -1.489,
+          "y": 37.317,
           "color": 0,
-          "dist": 0.6165,
+          "dist": 1.8441,
           "is_shot_stone": true
         },
         {
-          "x": -0.1852,
-          "y": 37.9411,
+          "x": -0.1162,
+          "y": 37.9719,
           "color": 1,
-          "dist": 0.4995,
+          "dist": 0.4484,
           "is_shot_stone": false
         },
         {
-          "x": -0.3238,
-          "y": 38.2203,
+          "x": -0.212,
+          "y": 38.26,
           "color": 1,
-          "dist": 0.3728,
+          "dist": 0.2568,
           "is_shot_stone": false
         },
         {
-          "x": -0.222,
-          "y": 35.272,
+          "x": -0.223,
+          "y": 35.2711,
           "color": 1,
-          "dist": 3.1409,
+          "dist": 3.1419,
           "is_shot_stone": false
         },
         {
-          "x": -0.333,
-          "y": 33.731,
+          "x": -0.2988,
+          "y": 37.7531,
           "color": 1,
-          "dist": 4.6858,
+          "dist": 0.7171,
           "is_shot_stone": false
         },
         {
-          "x": -0.0552,
-          "y": 38.3157,
+          "x": 0.937,
+          "y": 32.159,
           "color": 1,
-          "dist": 0.105,
+          "dist": 6.3159,
           "is_shot_stone": false
         },
         {
-          "x": -0.169,
-          "y": 37.494,
+          "x": 1.383,
+          "y": 38.75,
           "color": 1,
-          "dist": 0.9265,
+          "dist": 1.4254,
           "is_shot_stone": false
         },
         {
-          "x": 0.0752,
-          "y": 38.0569,
+          "x": 1.5683,
+          "y": 35.7158,
           "color": 1,
-          "dist": 0.3562,
+          "dist": 3.1131,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.016,
+          "y": 35.4669,
+          "color": 1,
+          "dist": 2.9381,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "draw",
+      "type": "takeout",
       "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.0835,
-      "stability": 0.0832,
-      "stability_std": 0.0004,
-      "template": "C1b. 後投・ハンマーあり・リード",
+      "vx": -0.1292,
+      "vy": 2.7612,
+      "target_x": -0.212,
+      "target_y": 38.26,
+      "wp": 0.06,
+      "stability": 0.0382,
+      "stability_std": 0.2173,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 0.733,
-          "y": 38.1132,
+          "x": 1.3487,
+          "y": 35.5342,
           "color": 0,
-          "dist": 0.789,
+          "dist": 3.1718,
           "is_shot_stone": false
         },
         {
-          "x": 1.197,
-          "y": 36.137,
+          "x": 1.196,
+          "y": 36.136,
           "color": 0,
-          "dist": 2.5645,
+          "dist": 2.5649,
           "is_shot_stone": false
         },
         {
-          "x": 1.145,
+          "x": 1.146,
           "y": 35.317,
           "color": 0,
-          "dist": 3.2934,
+          "dist": 3.2938,
           "is_shot_stone": false
         },
         {
-          "x": 0.905,
-          "y": 36.27,
+          "x": 0.904,
+          "y": 36.269,
           "color": 0,
-          "dist": 2.3189,
+          "dist": 2.3194,
           "is_shot_stone": false
         },
         {
-          "x": -0.658,
-          "y": 34.99,
+          "x": -3.0662,
+          "y": 51.4469,
           "color": 0,
-          "dist": 3.4778,
+          "dist": 13.3975,
           "is_shot_stone": false
         },
         {
-          "x": 2.132,
-          "y": 36.168,
+          "x": -0.4848,
+          "y": 34.7259,
           "color": 0,
-          "dist": 3.0902,
+          "dist": 3.7109,
           "is_shot_stone": false
         },
         {
-          "x": 1.25,
-          "y": 39.184,
+          "x": 1.009,
+          "y": 34.051,
           "color": 0,
-          "dist": 1.4729,
+          "dist": 4.4694,
           "is_shot_stone": false
         },
         {
-          "x": 0.5869,
-          "y": 38.5428,
+          "x": -1.489,
+          "y": 37.317,
           "color": 0,
-          "dist": 0.6029,
+          "dist": 1.8441,
           "is_shot_stone": true
         },
         {
-          "x": -0.1852,
-          "y": 37.9411,
+          "x": -0.1162,
+          "y": 37.9719,
           "color": 1,
-          "dist": 0.4995,
+          "dist": 0.4484,
           "is_shot_stone": false
         },
         {
-          "x": -0.3238,
-          "y": 38.2203,
+          "x": -0.212,
+          "y": 38.26,
           "color": 1,
-          "dist": 0.3728,
+          "dist": 0.2568,
           "is_shot_stone": false
         },
         {
-          "x": -0.222,
-          "y": 35.272,
+          "x": -0.223,
+          "y": 35.2711,
           "color": 1,
-          "dist": 3.1409,
+          "dist": 3.1419,
           "is_shot_stone": false
         },
         {
-          "x": -0.333,
-          "y": 33.731,
+          "x": -0.2988,
+          "y": 37.7531,
           "color": 1,
-          "dist": 4.6858,
+          "dist": 0.7171,
           "is_shot_stone": false
         },
         {
-          "x": -0.0552,
-          "y": 38.3157,
+          "x": 0.937,
+          "y": 32.159,
           "color": 1,
-          "dist": 0.105,
+          "dist": 6.3159,
           "is_shot_stone": false
         },
         {
-          "x": -0.169,
-          "y": 37.494,
+          "x": 1.383,
+          "y": 38.75,
           "color": 1,
-          "dist": 0.9265,
+          "dist": 1.4254,
           "is_shot_stone": false
         },
         {
-          "x": 0.0752,
-          "y": 38.0569,
+          "x": 1.5683,
+          "y": 35.7158,
           "color": 1,
-          "dist": 0.3562,
+          "dist": 3.1131,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.016,
+          "y": 35.4669,
+          "color": 1,
+          "dist": 2.9381,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "このリードを守りましょう！",
-  "comment_type": "positive",
-  "updated_at": "2026-06-11T11:22:26"
+  "comment": "思い切ってテイクアウトです！",
+  "comment_type": "aggressive",
+  "updated_at": "2026-06-11T11:24:07"
 }
