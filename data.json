@@ -1,5 +1,5 @@
 {
-  "mode": "live",
+  "mode": "standby",
   "schedule": {},
   "end_no": 11,
   "shot_no": 15,
@@ -227,5 +227,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-11T12:01:06"
+  "updated_at": "2026-06-11T21:50:27"
 }
