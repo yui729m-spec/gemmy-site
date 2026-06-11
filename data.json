@@ -15,13 +15,13 @@
       "rank": 1,
       "type": "takeout",
       "turn": 1,
-      "vx": 0.0978,
-      "vy": 2.8092,
-      "target_x": -0.154,
-      "target_y": 38.261,
+      "vx": 0.072,
+      "vy": 2.7854,
+      "target_x": 0.753,
+      "target_y": 38.701,
       "wp": 0.99,
-      "stability": 0.9276,
-      "stability_std": 0.003,
+      "stability": 0.9334,
+      "stability_std": 0.0296,
       "template": "デフォルト",
       "future": [
         {
@@ -39,24 +39,24 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.615,
-          "y": 38.379,
+          "x": 0.7866,
+          "y": 38.3866,
           "color": 0,
-          "dist": 0.6155,
-          "is_shot_stone": false
+          "dist": 0.7869,
+          "is_shot_stone": true
         },
         {
           "x": 0.068,
           "y": 38.804,
           "color": 0,
           "dist": 0.4048,
-          "is_shot_stone": true
+          "is_shot_stone": false
         },
         {
-          "x": 3.7002,
-          "y": 47.2204,
+          "x": -0.1014,
+          "y": 34.8737,
           "color": 0,
-          "dist": 9.5605,
+          "dist": 3.5327,
           "is_shot_stone": false
         },
         {
@@ -74,17 +74,109 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.753,
-          "y": 38.701,
+          "x": 1.1265,
+          "y": 39.6576,
           "color": 1,
-          "dist": 0.8091,
+          "dist": 1.6846,
           "is_shot_stone": false
         },
         {
-          "x": -2.3272,
-          "y": 39.6995,
+          "x": -2.6743,
+          "y": 47.0911,
           "color": 1,
-          "dist": 2.663,
+          "dist": 9.0885,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.5559,
+          "y": 38.0373,
+          "color": 1,
+          "dist": 0.6665,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.0776,
+          "y": 37.4607,
+          "color": 1,
+          "dist": 1.4328,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.9273,
+      "stability": 0.9273,
+      "stability_std": 0.0,
+      "template": "デフォルト",
+      "future": [
+        {
+          "x": -1.49,
+          "y": 37.318,
+          "color": 0,
+          "dist": 1.8444,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.634,
+          "y": 36.781,
+          "color": 0,
+          "dist": 2.3038,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.5867,
+          "y": 38.4625,
+          "color": 0,
+          "dist": 0.5895,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.068,
+          "y": 38.804,
+          "color": 0,
+          "dist": 0.4048,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.7334,
+          "y": 38.1136,
+          "color": 0,
+          "dist": 0.7892,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.709,
+          "y": 33.942,
+          "color": 1,
+          "dist": 4.519,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.546,
+          "y": 35.699,
+          "color": 1,
+          "dist": 3.1165,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.7698,
+          "y": 38.7455,
+          "color": 1,
+          "dist": 0.8417,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.154,
+          "y": 38.261,
+          "color": 1,
+          "dist": 0.2108,
           "is_shot_stone": false
         },
         {
@@ -104,7 +196,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "type": "draw",
       "turn": -1,
       "vx": -0.114,
@@ -194,101 +286,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.072,
-      "vy": 2.7854,
-      "target_x": 0.753,
-      "target_y": 38.701,
-      "wp": 0.99,
-      "stability": 0.9262,
-      "stability_std": 0.0044,
-      "template": "デフォルト",
-      "future": [
-        {
-          "x": -1.49,
-          "y": 37.318,
-          "color": 0,
-          "dist": 1.8444,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.634,
-          "y": 36.781,
-          "color": 0,
-          "dist": 2.3038,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.7866,
-          "y": 38.3866,
-          "color": 0,
-          "dist": 0.7869,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.068,
-          "y": 38.804,
-          "color": 0,
-          "dist": 0.4048,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.1014,
-          "y": 34.8737,
-          "color": 0,
-          "dist": 3.5327,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.709,
-          "y": 33.942,
-          "color": 1,
-          "dist": 4.519,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.546,
-          "y": 35.699,
-          "color": 1,
-          "dist": 3.1165,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.1265,
-          "y": 39.6576,
-          "color": 1,
-          "dist": 1.6846,
-          "is_shot_stone": false
-        },
-        {
-          "x": -2.6743,
-          "y": 47.0911,
-          "color": 1,
-          "dist": 9.0885,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.5559,
-          "y": 38.0373,
-          "color": 1,
-          "dist": 0.6665,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.0776,
-          "y": 37.4607,
-          "color": 1,
-          "dist": 1.4328,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-11T11:16:33"
+  "updated_at": "2026-06-11T11:17:10"
 }
