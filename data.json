@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "schedule": {},
-  "end_no": 5,
-  "shot_no": 15,
-  "my_score": 2,
+  "end_no": 6,
+  "shot_no": 2,
+  "my_score": 4,
   "opp_score": 4,
-  "score_diff": -2,
-  "hammer": true,
+  "score_diff": 0,
+  "hammer": false,
   "my_color": "red",
   "left_team": "フォルティウス",
   "right_team": "SC軽井沢クラブ",
@@ -15,98 +15,70 @@
       "rank": 1,
       "type": "takeout",
       "turn": 1,
-      "vx": 0.1321,
-      "vy": 2.8472,
-      "target_x": 0.636,
-      "target_y": 37.534,
-      "wp": 0.5957,
-      "stability": 0.2157,
-      "stability_std": 0.2414,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "vx": 0.0981,
+      "vy": 2.8154,
+      "target_x": -0.126,
+      "target_y": 38.077,
+      "wp": 0.42,
+      "stability": 0.3081,
+      "stability_std": 0.1551,
+      "template": "A2. 序投・ハンマーなし",
       "future": [
         {
-          "x": -1.215,
-          "y": 37.905,
+          "x": -0.184,
+          "y": 34.425,
           "color": 0,
-          "dist": 1.3139,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.038,
-          "y": 35.302,
-          "color": 0,
-          "dist": 3.272,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.6125,
-          "y": 37.2461,
-          "color": 0,
-          "dist": 1.3108,
+          "dist": 3.9843,
           "is_shot_stone": true
         },
         {
-          "x": 1.311,
-          "y": 40.254,
-          "color": 1,
-          "dist": 2.2666,
+          "x": 4.009,
+          "y": 45.7094,
+          "color": 0,
+          "dist": 8.3323,
           "is_shot_stone": false
         },
         {
-          "x": 1.6198,
-          "y": 55.6698,
+          "x": -3.1446,
+          "y": 40.4146,
           "color": 1,
-          "dist": 17.3406,
+          "dist": 3.7318,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.1321,
-      "vy": 2.8972,
-      "target_x": 0.636,
-      "target_y": 37.534,
-      "wp": 0.5956,
-      "stability": 0.2154,
-      "stability_std": 0.2406,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "type": "guard",
+      "turn": -1,
+      "vx": -0.0791,
+      "vy": 2.2594,
+      "target_x": 0.0,
+      "target_y": 35.905,
+      "wp": 0.215,
+      "stability": 0.215,
+      "stability_std": 0.0,
+      "template": "A2. 序投・ハンマーなし",
       "future": [
         {
-          "x": -1.215,
-          "y": 37.905,
+          "x": -0.184,
+          "y": 34.425,
           "color": 0,
-          "dist": 1.3139,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.038,
-          "y": 35.302,
-          "color": 0,
-          "dist": 3.272,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.6379,
-          "y": 37.2443,
-          "color": 0,
-          "dist": 1.3244,
+          "dist": 3.9843,
           "is_shot_stone": true
         },
         {
-          "x": 1.311,
-          "y": 40.254,
-          "color": 1,
-          "dist": 2.2666,
+          "x": 0.6224,
+          "y": 33.6263,
+          "color": 0,
+          "dist": 4.819,
           "is_shot_stone": false
         },
         {
-          "x": 0.7752,
-          "y": 57.9221,
+          "x": -0.126,
+          "y": 38.077,
           "color": 1,
-          "dist": 19.5325,
+          "dist": 0.3514,
           "is_shot_stone": false
         }
       ]
@@ -114,49 +86,35 @@
     {
       "rank": 3,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.0861,
-      "vy": 2.4247,
-      "target_x": -0.4,
-      "target_y": 38.005,
-      "wp": 0.5889,
-      "stability": 0.0592,
-      "stability_std": 0.2314,
-      "template": "D3. 終投・1点差ビハインド・ハンマーあり",
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.45,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.6535,
+      "stability": 0.2008,
+      "stability_std": 0.0042,
+      "template": "A2. 序投・ハンマーなし",
       "future": [
         {
-          "x": -1.215,
-          "y": 37.905,
+          "x": -0.184,
+          "y": 34.425,
           "color": 0,
-          "dist": 1.3139,
+          "dist": 3.9843,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.0132,
+          "y": 37.8149,
+          "color": 0,
+          "dist": 0.5903,
           "is_shot_stone": true
         },
         {
-          "x": -1.038,
-          "y": 35.302,
-          "color": 0,
-          "dist": 3.272,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.2599,
-          "y": 37.4232,
-          "color": 0,
-          "dist": 1.0156,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.311,
-          "y": 40.254,
+          "x": -0.7948,
+          "y": 40.2696,
           "color": 1,
-          "dist": 2.2666,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.4435,
-          "y": 38.8826,
-          "color": 1,
-          "dist": 1.5204,
+          "dist": 2.0269,
           "is_shot_stone": false
         }
       ]
@@ -164,5 +122,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-11T10:10:40"
+  "updated_at": "2026-06-11T10:18:15"
 }
