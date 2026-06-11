@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 1,
-  "shot_no": 1,
+  "shot_no": 5,
   "my_score": 0,
   "opp_score": 0,
   "score_diff": 0,
@@ -15,27 +15,27 @@
       "rank": 1,
       "type": "draw",
       "turn": 1,
-      "vx": 0.084,
+      "vx": 0.114,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.7116,
-      "stability": 0.5713,
-      "stability_std": 0.1174,
-      "template": "A1. 序投・ハンマーあり",
+      "wp": 0.7169,
+      "stability": 0.6638,
+      "stability_std": 0.0486,
+      "template": "B3. 中投・ハンマーあり・同点",
       "future": [
         {
-          "x": -0.7603,
-          "y": 38.33,
+          "x": -0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 0.764,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": -0.123,
-          "y": 37.094,
+          "x": 1.769,
+          "y": 37.487,
           "color": 1,
-          "dist": 1.3168,
+          "dist": 1.993,
           "is_shot_stone": false
         }
       ]
@@ -49,9 +49,9 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.7116,
-      "stability": 0.5693,
-      "stability_std": 0.1169,
-      "template": "A1. 序投・ハンマーあり",
+      "stability": 0.6331,
+      "stability_std": 0.0582,
+      "template": "B3. 中投・ハンマーあり・同点",
       "future": [
         {
           "x": 0.7603,
@@ -61,39 +61,39 @@
           "is_shot_stone": true
         },
         {
-          "x": -0.123,
-          "y": 37.094,
+          "x": 1.769,
+          "y": 37.487,
           "color": 1,
-          "dist": 1.3168,
+          "dist": 1.993,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
-      "turn": 1,
-      "vx": 0.0695,
-      "vy": 2.9076,
-      "target_x": -0.123,
-      "target_y": 37.094,
-      "wp": 0.7124,
-      "stability": 0.4955,
-      "stability_std": 0.0932,
-      "template": "A1. 序投・ハンマーあり",
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7169,
+      "stability": 0.6119,
+      "stability_std": 0.064,
+      "template": "B3. 中投・ハンマーあり・同点",
       "future": [
         {
-          "x": -0.1708,
-          "y": 36.8081,
+          "x": 0.2827,
+          "y": 38.3796,
           "color": 0,
-          "dist": 1.606,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": 1.242,
-          "y": 57.969,
+          "x": 1.769,
+          "y": 37.487,
           "color": 1,
-          "dist": 19.6033,
+          "dist": 1.993,
           "is_shot_stone": false
         }
       ]
@@ -101,5 +101,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-11T09:04:09"
+  "updated_at": "2026-06-11T09:05:38"
 }
