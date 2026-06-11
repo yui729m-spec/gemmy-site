@@ -13,6 +13,49 @@
   "recommendations": [
     {
       "rank": 1,
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.8769,
+      "stability": 0.8678,
+      "stability_std": 0.0053,
+      "template": "D1. 終投・ハンマーあり・同点",
+      "future": [
+        {
+          "x": -1.488,
+          "y": 37.867,
+          "color": 0,
+          "dist": 1.5823,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.2827,
+          "y": 38.3796,
+          "color": 0,
+          "dist": 0.2838,
+          "is_shot_stone": true
+        },
+        {
+          "x": -1.297,
+          "y": 39.716,
+          "color": 1,
+          "dist": 1.8442,
+          "is_shot_stone": false
+        },
+        {
+          "x": 1.288,
+          "y": 37.08,
+          "color": 1,
+          "dist": 1.8479,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "type": "freeze",
       "turn": -1,
       "vx": -0.1178,
@@ -20,8 +63,8 @@
       "target_x": -1.5624,
       "target_y": 38.167,
       "wp": 0.8724,
-      "stability": 0.8178,
-      "stability_std": 0.0549,
+      "stability": 0.8651,
+      "stability_std": 0.0036,
       "template": "D1. 終投・ハンマーあり・同点",
       "future": [
         {
@@ -55,7 +98,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "type": "freeze",
       "turn": 1,
       "vx": 0.1081,
@@ -63,8 +106,8 @@
       "target_x": -1.5624,
       "target_y": 38.167,
       "wp": 0.8718,
-      "stability": 0.8175,
-      "stability_std": 0.0549,
+      "stability": 0.8172,
+      "stability_std": 0.0547,
       "template": "D1. 終投・ハンマーあり・同点",
       "future": [
         {
@@ -96,52 +139,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "draw",
-      "turn": -1,
-      "vx": -0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.8769,
-      "stability": 0.7863,
-      "stability_std": 0.0697,
-      "template": "D1. 終投・ハンマーあり・同点",
-      "future": [
-        {
-          "x": -1.488,
-          "y": 37.867,
-          "color": 0,
-          "dist": 1.5823,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.2827,
-          "y": 38.3796,
-          "color": 0,
-          "dist": 0.2838,
-          "is_shot_stone": true
-        },
-        {
-          "x": -1.297,
-          "y": 39.716,
-          "color": 1,
-          "dist": 1.8442,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.288,
-          "y": 37.08,
-          "color": 1,
-          "dist": 1.8479,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-11T09:24:58"
+  "updated_at": "2026-06-11T09:26:28"
 }
