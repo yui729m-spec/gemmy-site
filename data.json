@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 4,
-  "shot_no": 7,
+  "shot_no": 9,
   "my_score": 2,
   "opp_score": 3,
   "score_diff": -1,
@@ -14,56 +14,56 @@
     {
       "rank": 1,
       "type": "draw",
-      "turn": 1,
-      "vx": 0.054,
+      "turn": -1,
+      "vx": -0.114,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.2264,
-      "stability": 0.1197,
-      "stability_std": 0.0873,
-      "template": "B1. 中投・ハンマーあり・相手No1",
+      "wp": 0.5969,
+      "stability": 0.1339,
+      "stability_std": 0.1856,
+      "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
-          "x": 0.667,
-          "y": 35.331,
-          "color": 0,
-          "dist": 3.1455,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.337,
+          "x": 0.334,
           "y": 35.942,
           "color": 0,
-          "dist": 2.4859,
+          "dist": 2.4855,
           "is_shot_stone": false
         },
         {
-          "x": -1.2379,
-          "y": 38.2905,
+          "x": -0.402,
+          "y": 35.948,
           "color": 0,
-          "dist": 1.2432,
+          "dist": 2.4897,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.669,
+          "y": 35.328,
+          "color": 0,
+          "dist": 3.1489,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.2827,
+          "y": 38.3796,
+          "color": 0,
+          "dist": 0.2838,
           "is_shot_stone": true
         },
         {
-          "x": -1.663,
+          "x": -1.662,
           "y": 38.645,
           "color": 1,
-          "dist": 1.6802,
+          "dist": 1.6792,
           "is_shot_stone": false
         },
         {
-          "x": -0.029,
-          "y": 35.964,
+          "x": -0.503,
+          "y": 38.303,
           "color": 1,
-          "dist": 2.4412,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.064,
-          "y": 38.036,
-          "color": 1,
-          "dist": 0.3745,
+          "dist": 0.5132,
           "is_shot_stone": false
         }
       ]
@@ -72,112 +72,112 @@
       "rank": 2,
       "type": "draw",
       "turn": 1,
-      "vx": 0.084,
+      "vx": 0.114,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.2316,
-      "stability": 0.0511,
-      "stability_std": 0.0919,
-      "template": "B1. 中投・ハンマーあり・相手No1",
+      "wp": 0.5979,
+      "stability": 0.061,
+      "stability_std": 0.2046,
+      "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
-          "x": 0.667,
-          "y": 35.331,
-          "color": 0,
-          "dist": 3.1455,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.337,
+          "x": 0.334,
           "y": 35.942,
           "color": 0,
-          "dist": 2.4859,
+          "dist": 2.4855,
           "is_shot_stone": false
         },
         {
-          "x": -0.7603,
-          "y": 38.33,
+          "x": -0.402,
+          "y": 35.948,
           "color": 0,
-          "dist": 0.764,
+          "dist": 2.4897,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.669,
+          "y": 35.328,
+          "color": 0,
+          "dist": 3.1489,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.1704,
+          "y": 38.3226,
+          "color": 0,
+          "dist": 0.1893,
           "is_shot_stone": true
         },
         {
-          "x": -1.663,
+          "x": -1.662,
           "y": 38.645,
           "color": 1,
-          "dist": 1.6802,
+          "dist": 1.6792,
           "is_shot_stone": false
         },
         {
-          "x": -0.029,
-          "y": 35.964,
+          "x": -0.5628,
+          "y": 38.3221,
           "color": 1,
-          "dist": 2.4412,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.064,
-          "y": 38.036,
-          "color": 1,
-          "dist": 0.3745,
+          "dist": 0.5689,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "draw",
+      "type": "takeout",
       "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.2328,
-      "stability": 0.0443,
-      "stability_std": 0.0934,
-      "template": "B1. 中投・ハンマーあり・相手No1",
+      "vx": -0.1067,
+      "vy": 2.8735,
+      "target_x": -1.662,
+      "target_y": 38.645,
+      "wp": 0.5949,
+      "stability": 0.0604,
+      "stability_std": 0.2042,
+      "template": "C1c. 後投・ハンマーあり・ビハインド",
       "future": [
         {
-          "x": 0.667,
-          "y": 35.331,
+          "x": 0.334,
+          "y": 35.942,
           "color": 0,
-          "dist": 3.1455,
+          "dist": 2.4855,
           "is_shot_stone": false
         },
         {
-          "x": 0.1711,
-          "y": 37.7661,
+          "x": -1.3515,
+          "y": 38.6736,
           "color": 0,
-          "dist": 0.6614,
+          "dist": 1.3779,
           "is_shot_stone": true
         },
         {
-          "x": 0.4514,
-          "y": 35.6708,
+          "x": 0.669,
+          "y": 35.328,
           "color": 0,
-          "dist": 2.7712,
+          "dist": 3.1489,
           "is_shot_stone": false
         },
         {
-          "x": -1.663,
-          "y": 38.645,
-          "color": 1,
-          "dist": 1.6802,
+          "x": -0.0991,
+          "y": 35.7098,
+          "color": 0,
+          "dist": 2.697,
           "is_shot_stone": false
         },
         {
-          "x": -0.029,
-          "y": 35.964,
+          "x": -4.4762,
+          "y": 39.6527,
           "color": 1,
-          "dist": 2.4412,
+          "dist": 4.6468,
           "is_shot_stone": false
         },
         {
-          "x": -0.1288,
-          "y": 38.5742,
+          "x": 3.7296,
+          "y": 46.8134,
           "color": 1,
-          "dist": 0.2127,
+          "dist": 9.1984,
           "is_shot_stone": false
         }
       ]
@@ -185,5 +185,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-11T09:45:47"
+  "updated_at": "2026-06-11T09:47:34"
 }
