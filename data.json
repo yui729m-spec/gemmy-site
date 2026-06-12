@@ -1,11 +1,6 @@
 {
   "mode": "standby",
-  "schedule": {
-    "tournament": "日本カーリング選手権大会 横浜2026",
-    "match": "SC軽井沢クラブ vs 北海道銀行",
-    "datetime": "2026-06-12T13:30:00",
-    "note": "6/12(金)後1:30ー4:00【NHKBS】"
-  },
+  "schedule": {},
   "end_no": 11,
   "shot_no": 15,
   "my_score": 7,
@@ -232,5 +227,5 @@
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-11T21:50:30"
+  "updated_at": "2026-06-12T04:39:37"
 }
