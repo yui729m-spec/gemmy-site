@@ -1,5 +1,5 @@
 {
-  "mode": "live",
+  "mode": "standby",
   "schedule": {},
   "end_no": 9,
   "shot_no": 12,
@@ -164,5 +164,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-13T07:17:18"
+  "updated_at": "2026-06-13T07:22:13"
 }
