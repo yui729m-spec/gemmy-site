@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 7,
-  "shot_no": 10,
+  "shot_no": 12,
   "my_score": 7,
   "opp_score": 4,
   "score_diff": 3,
@@ -15,169 +15,211 @@
       "rank": 1,
       "type": "takeout",
       "turn": -1,
-      "vx": -0.0965,
-      "vy": 2.8861,
-      "target_x": 1.155,
-      "target_y": 36.811,
-      "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
-      "template": "C4. 後投・大差リード",
+      "vx": -0.1285,
+      "vy": 2.7642,
+      "target_x": -0.013,
+      "target_y": 38.729,
+      "wp": 0.9128,
+      "stability": 0.921,
+      "stability_std": 0.036,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 1.089,
-          "y": 37.858,
+          "x": 1.088,
+          "y": 37.859,
           "color": 0,
-          "dist": 1.2187,
-          "is_shot_stone": true
+          "dist": 1.2173,
+          "is_shot_stone": false
         },
         {
           "x": 0.313,
-          "y": 35.596,
+          "y": 35.599,
           "color": 0,
-          "dist": 2.8264,
+          "dist": 2.8234,
           "is_shot_stone": false
         },
         {
-          "x": 1.4539,
-          "y": 57.0061,
+          "x": -0.009,
+          "y": 39.059,
           "color": 0,
-          "dist": 18.6579,
+          "dist": 0.6541,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.5983,
+          "y": 52.0398,
+          "color": 0,
+          "dist": 13.6479,
           "is_shot_stone": false
         },
         {
-          "x": 1.155,
-          "y": 36.811,
+          "x": 1.152,
+          "y": 36.812,
           "color": 1,
-          "dist": 1.9685,
+          "dist": 1.9659,
           "is_shot_stone": false
         },
         {
-          "x": 1.853,
-          "y": 36.823,
+          "x": 1.852,
+          "y": 36.824,
           "color": 1,
-          "dist": 2.4365,
+          "dist": 2.435,
           "is_shot_stone": false
         },
         {
-          "x": 1.36,
-          "y": 35.627,
+          "x": 1.364,
+          "y": 35.626,
           "color": 1,
-          "dist": 3.093,
+          "dist": 3.0957,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.013,
+          "y": 38.729,
+          "color": 1,
+          "dist": 0.3243,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1265,
-      "vy": 2.8361,
-      "target_x": 1.155,
-      "target_y": 36.811,
+      "vx": -0.114,
+      "vy": 2.45,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
-      "template": "C4. 後投・大差リード",
+      "stability": 0.9204,
+      "stability_std": 0.0364,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 1.089,
-          "y": 37.858,
+          "x": 1.088,
+          "y": 37.859,
           "color": 0,
-          "dist": 1.2187,
-          "is_shot_stone": true
+          "dist": 1.2173,
+          "is_shot_stone": false
         },
         {
           "x": 0.313,
-          "y": 35.596,
+          "y": 35.599,
           "color": 0,
-          "dist": 2.8264,
+          "dist": 2.8234,
           "is_shot_stone": false
         },
         {
-          "x": 0.768,
-          "y": 54.9781,
+          "x": -0.0562,
+          "y": 40.0001,
           "color": 0,
-          "dist": 16.5909,
+          "dist": 1.5961,
           "is_shot_stone": false
         },
         {
-          "x": 1.155,
-          "y": 36.811,
+          "x": 0.2889,
+          "y": 38.5582,
+          "color": 0,
+          "dist": 0.327,
+          "is_shot_stone": true
+        },
+        {
+          "x": 1.152,
+          "y": 36.812,
           "color": 1,
-          "dist": 1.9685,
+          "dist": 1.9659,
           "is_shot_stone": false
         },
         {
-          "x": 1.853,
-          "y": 36.823,
+          "x": 1.852,
+          "y": 36.824,
           "color": 1,
-          "dist": 2.4365,
+          "dist": 2.435,
           "is_shot_stone": false
         },
         {
-          "x": 1.36,
-          "y": 35.627,
+          "x": 1.364,
+          "y": 35.626,
           "color": 1,
-          "dist": 3.093,
+          "dist": 3.0957,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.0534,
+          "y": 38.7708,
+          "color": 1,
+          "dist": 0.3697,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.1265,
-      "vy": 2.8861,
-      "target_x": 1.155,
-      "target_y": 36.811,
+      "vx": -0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
-      "template": "C4. 後投・大差リード",
+      "stability": 0.9128,
+      "stability_std": 0.0004,
+      "template": "デフォルト",
       "future": [
         {
-          "x": 1.089,
-          "y": 37.858,
+          "x": 1.088,
+          "y": 37.859,
           "color": 0,
-          "dist": 1.2187,
+          "dist": 1.2173,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.0594,
+          "y": 38.3936,
+          "color": 0,
+          "dist": 0.0605,
           "is_shot_stone": true
         },
         {
-          "x": 0.313,
-          "y": 35.596,
+          "x": -0.009,
+          "y": 39.059,
           "color": 0,
-          "dist": 2.8264,
+          "dist": 0.6541,
           "is_shot_stone": false
         },
         {
-          "x": 0.8637,
-          "y": 57.073,
+          "x": 0.4064,
+          "y": 35.3222,
           "color": 0,
-          "dist": 18.688,
+          "dist": 3.1095,
           "is_shot_stone": false
         },
         {
-          "x": 1.155,
-          "y": 36.811,
+          "x": 1.152,
+          "y": 36.812,
           "color": 1,
-          "dist": 1.9685,
+          "dist": 1.9659,
           "is_shot_stone": false
         },
         {
-          "x": 1.853,
-          "y": 36.823,
+          "x": 1.852,
+          "y": 36.824,
           "color": 1,
-          "dist": 2.4365,
+          "dist": 2.435,
           "is_shot_stone": false
         },
         {
-          "x": 1.36,
-          "y": 35.627,
+          "x": 1.364,
+          "y": 35.626,
           "color": 1,
-          "dist": 3.093,
+          "dist": 3.0957,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.013,
+          "y": 38.729,
+          "color": 1,
+          "dist": 0.3243,
           "is_shot_stone": false
         }
       ]
@@ -185,5 +227,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-13T06:40:39"
+  "updated_at": "2026-06-13T06:42:04"
 }
