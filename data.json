@@ -1,12 +1,12 @@
 {
   "mode": "live",
   "schedule": {},
-  "end_no": 3,
-  "shot_no": 14,
+  "end_no": 4,
+  "shot_no": 1,
   "my_score": 2,
-  "opp_score": 0,
-  "score_diff": 2,
-  "hammer": false,
+  "opp_score": 2,
+  "score_diff": 0,
+  "hammer": true,
   "my_color": "yellow",
   "left_team": "フォルティウス",
   "right_team": "北海道銀行",
@@ -19,10 +19,10 @@
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
-      "wp": 0.9116,
-      "stability": 0.6188,
-      "stability_std": 0.1962,
-      "template": "D4. 終投・1点リード・ハンマーなし",
+      "wp": 0.7716,
+      "stability": 0.6274,
+      "stability_std": 0.0949,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
           "x": -0.7603,
@@ -32,116 +32,74 @@
           "is_shot_stone": true
         },
         {
-          "x": 0.247,
-          "y": 36.423,
+          "x": -0.025,
+          "y": 36.076,
           "color": 1,
-          "dist": 1.9973,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.654,
-          "y": 38.42,
-          "color": 1,
-          "dist": 1.6541,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.013,
-          "y": 36.933,
-          "color": 1,
-          "dist": 1.7869,
+          "dist": 2.3291,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "draw",
-      "turn": 1,
-      "vx": 0.114,
-      "vy": 2.4,
+      "type": "guard",
+      "turn": -1,
+      "vx": -0.0791,
+      "vy": 2.2594,
       "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.909,
-      "stability": 0.5007,
-      "stability_std": 0.2772,
-      "template": "D4. 終投・1点リード・ハンマーなし",
+      "target_y": 35.905,
+      "wp": 0.595,
+      "stability": 0.5897,
+      "stability_std": 0.0056,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": -0.705,
-          "y": 37.682,
+          "x": 0.6224,
+          "y": 33.6263,
           "color": 0,
-          "dist": 1.0098,
+          "dist": 4.819,
           "is_shot_stone": true
         },
         {
-          "x": 0.3755,
-          "y": 36.5142,
+          "x": -0.025,
+          "y": 36.076,
           "color": 1,
-          "dist": 1.9277,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.654,
-          "y": 38.42,
-          "color": 1,
-          "dist": 1.6541,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.013,
-          "y": 36.933,
-          "color": 1,
-          "dist": 1.7869,
+          "dist": 2.3291,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 3,
-      "type": "takeout",
+      "type": "guard",
       "turn": -1,
-      "vx": -0.0701,
-      "vy": 2.9374,
-      "target_x": 0.247,
-      "target_y": 36.423,
-      "wp": 0.58,
-      "stability": 0.42,
-      "stability_std": 0.0,
-      "template": "D4. 終投・1点リード・ハンマーなし",
+      "vx": -0.1091,
+      "vy": 2.2094,
+      "target_x": 0.0,
+      "target_y": 35.905,
+      "wp": 0.595,
+      "stability": 0.5865,
+      "stability_std": 0.0071,
+      "template": "A1. 序投・ハンマーあり",
       "future": [
         {
-          "x": -2.9718,
-          "y": 38.1631,
+          "x": 0.1184,
+          "y": 32.0842,
           "color": 0,
-          "dist": 2.9817,
+          "dist": 6.3219,
           "is_shot_stone": true
         },
         {
-          "x": 6.1406,
-          "y": 50.8777,
+          "x": -0.025,
+          "y": 36.076,
           "color": 1,
-          "dist": 13.9023,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.9286,
-          "y": 38.3803,
-          "color": 1,
-          "dist": 1.9288,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.013,
-          "y": 36.933,
-          "color": 1,
-          "dist": 1.7869,
+          "dist": 2.3291,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "このリードを守りましょう！",
-  "comment_type": "positive",
-  "updated_at": "2026-06-13T05:41:37"
+  "comment": "ハンマーを活かしましょう！",
+  "comment_type": "thinking",
+  "updated_at": "2026-06-13T05:44:55"
 }
