@@ -1,6 +1,11 @@
 {
   "mode": "standby",
-  "schedule": {},
+  "schedule": {
+    "tournament": "日本カーリング選手権大会 横浜2026",
+    "match": "北海道銀行 vs フォルティウス",
+    "datetime": "2026-06-13T14:00:00",
+    "note": "6/13(土)後2:00ー5:00【NHKBS】"
+  },
   "end_no": 10,
   "shot_no": 15,
   "my_score": 5,
