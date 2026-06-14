@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 5,
-  "shot_no": 10,
+  "shot_no": 12,
   "my_score": 3,
   "opp_score": 1,
   "score_diff": 2,
@@ -15,112 +15,112 @@
       "rank": 1,
       "type": "takeout",
       "turn": -1,
-      "vx": -0.0708,
-      "vy": 2.9235,
-      "target_x": 0.377,
-      "target_y": 35.608,
+      "vx": -0.0991,
+      "vy": 2.8674,
+      "target_x": 0.34,
+      "target_y": 39.908,
       "wp": 0.99,
-      "stability": 0.6642,
-      "stability_std": 0.1702,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "stability": 0.99,
+      "stability_std": 0.0,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
-          "x": -0.389,
-          "y": 35.969,
+          "x": -6.3751,
+          "y": 49.7451,
           "color": 0,
-          "dist": 2.4669,
-          "is_shot_stone": true
+          "dist": 13.0092,
+          "is_shot_stone": false
         },
         {
           "x": -1.012,
-          "y": 38.458,
+          "y": 38.46,
           "color": 0,
-          "dist": 1.0134,
-          "is_shot_stone": false
+          "dist": 1.0135,
+          "is_shot_stone": true
         },
         {
-          "x": 5.1707,
-          "y": 43.5346,
+          "x": 0.057,
+          "y": 37.537,
           "color": 0,
-          "dist": 7.2835,
+          "dist": 0.8699,
           "is_shot_stone": false
         },
         {
-          "x": -5.1789,
-          "y": 44.1597,
-          "color": 1,
-          "dist": 7.7419,
+          "x": 1.8361,
+          "y": 36.9513,
+          "color": 0,
+          "dist": 2.3419,
           "is_shot_stone": false
         },
         {
-          "x": 0.333,
-          "y": 39.904,
+          "x": 0.34,
+          "y": 39.908,
           "color": 1,
-          "dist": 1.5355,
+          "dist": 1.541,
           "is_shot_stone": false
         },
         {
-          "x": 0.377,
-          "y": 35.608,
+          "x": 0.487,
+          "y": 35.662,
           "color": 1,
-          "dist": 2.8223,
+          "dist": 2.7859,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "draw",
-      "turn": 1,
-      "vx": 0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
+      "type": "takeout",
+      "turn": -1,
+      "vx": -0.1291,
+      "vy": 2.8174,
+      "target_x": 0.34,
+      "target_y": 39.908,
       "wp": 0.99,
-      "stability": 0.6229,
-      "stability_std": 0.1342,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "stability": 0.99,
+      "stability_std": 0.0,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
-          "x": -0.4606,
-          "y": 38.6039,
+          "x": 5.1605,
+          "y": 41.7665,
           "color": 0,
-          "dist": 0.5017,
-          "is_shot_stone": true
+          "dist": 6.1587,
+          "is_shot_stone": false
         },
         {
           "x": -1.012,
-          "y": 38.458,
+          "y": 38.46,
           "color": 0,
-          "dist": 1.0134,
-          "is_shot_stone": false
+          "dist": 1.0135,
+          "is_shot_stone": true
         },
         {
-          "x": -0.4083,
-          "y": 35.6799,
+          "x": 0.057,
+          "y": 37.537,
           "color": 0,
-          "dist": 2.7555,
+          "dist": 0.8699,
           "is_shot_stone": false
         },
         {
-          "x": -0.062,
-          "y": 37.785,
-          "color": 1,
-          "dist": 0.6231,
+          "x": -5.1024,
+          "y": 41.2204,
+          "color": 0,
+          "dist": 5.8276,
           "is_shot_stone": false
         },
         {
-          "x": 0.333,
-          "y": 39.904,
+          "x": 0.34,
+          "y": 39.908,
           "color": 1,
-          "dist": 1.5355,
+          "dist": 1.541,
           "is_shot_stone": false
         },
         {
-          "x": 0.377,
-          "y": 35.608,
+          "x": 0.487,
+          "y": 35.662,
           "color": 1,
-          "dist": 2.8223,
+          "dist": 2.7859,
           "is_shot_stone": false
         }
       ]
@@ -128,56 +128,56 @@
     {
       "rank": 3,
       "type": "takeout",
-      "turn": 1,
-      "vx": 0.0715,
-      "vy": 2.9172,
-      "target_x": 0.333,
-      "target_y": 39.904,
+      "turn": -1,
+      "vx": -0.1291,
+      "vy": 2.8674,
+      "target_x": 0.34,
+      "target_y": 39.908,
       "wp": 0.99,
-      "stability": 0.6222,
-      "stability_std": 0.1344,
-      "template": "C2. 後投・ハンマーなし・1点リード",
+      "stability": 0.99,
+      "stability_std": 0.0,
+      "template": "D4. 終投・1点リード・ハンマーなし",
       "future": [
         {
-          "x": -0.389,
-          "y": 35.969,
+          "x": 4.8202,
+          "y": 40.8568,
           "color": 0,
-          "dist": 2.4669,
+          "dist": 5.408,
           "is_shot_stone": false
         },
         {
           "x": -1.012,
-          "y": 38.458,
+          "y": 38.46,
           "color": 0,
-          "dist": 1.0134,
+          "dist": 1.0135,
           "is_shot_stone": true
         },
         {
-          "x": -0.7975,
-          "y": 37.681,
+          "x": 0.057,
+          "y": 37.537,
           "color": 0,
-          "dist": 1.0771,
+          "dist": 0.8699,
           "is_shot_stone": false
         },
         {
-          "x": 0.2846,
-          "y": 39.6192,
-          "color": 1,
-          "dist": 1.2472,
+          "x": -5.8223,
+          "y": 43.3611,
+          "color": 0,
+          "dist": 7.6461,
           "is_shot_stone": false
         },
         {
-          "x": 2.9719,
-          "y": 56.6067,
+          "x": 0.34,
+          "y": 39.908,
           "color": 1,
-          "dist": 18.4427,
+          "dist": 1.541,
           "is_shot_stone": false
         },
         {
-          "x": 0.377,
-          "y": 35.608,
+          "x": 0.487,
+          "y": 35.662,
           "color": 1,
-          "dist": 2.8223,
+          "dist": 2.7859,
           "is_shot_stone": false
         }
       ]
@@ -185,5 +185,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-14T06:08:06"
+  "updated_at": "2026-06-14T06:10:02"
 }
