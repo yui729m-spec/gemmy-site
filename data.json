@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 6,
-  "shot_no": 4,
+  "shot_no": 6,
   "my_score": 4,
   "opp_score": 1,
   "score_diff": 3,
@@ -13,36 +13,43 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "draw",
-      "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
+      "type": "takeout",
+      "turn": 1,
+      "vx": 0.1305,
+      "vy": 2.8343,
+      "target_x": 0.349,
+      "target_y": 37.704,
       "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
+      "stability": 0.8727,
+      "stability_std": 0.0613,
       "template": "デフォルト",
       "future": [
         {
-          "x": -0.007,
-          "y": 37.835,
+          "x": 0.205,
+          "y": 34.559,
           "color": 0,
-          "dist": 0.57,
+          "dist": 3.8515,
           "is_shot_stone": true
         },
         {
-          "x": 0.7603,
-          "y": 38.33,
+          "x": 5.0017,
+          "y": 44.2818,
           "color": 0,
-          "dist": 0.764,
+          "dist": 7.7171,
           "is_shot_stone": false
         },
         {
-          "x": 1.194,
-          "y": 34.752,
+          "x": 1.195,
+          "y": 34.748,
           "color": 1,
-          "dist": 3.8432,
+          "dist": 3.8473,
+          "is_shot_stone": false
+        },
+        {
+          "x": -3.9084,
+          "y": 41.5303,
+          "color": 1,
+          "dist": 5.0043,
           "is_shot_stone": false
         }
       ]
@@ -50,35 +57,42 @@
     {
       "rank": 2,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.114,
-      "vy": 2.35,
+      "turn": 1,
+      "vx": 0.084,
+      "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
+      "stability": 0.8622,
+      "stability_std": 0.0468,
       "template": "デフォルト",
       "future": [
         {
-          "x": -0.007,
-          "y": 37.835,
+          "x": 0.205,
+          "y": 34.559,
           "color": 0,
-          "dist": 0.57,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.2162,
-          "y": 36.6731,
-          "color": 0,
-          "dist": 1.7453,
+          "dist": 3.8515,
           "is_shot_stone": false
         },
         {
-          "x": 1.194,
-          "y": 34.752,
+          "x": -0.7603,
+          "y": 38.33,
+          "color": 0,
+          "dist": 0.764,
+          "is_shot_stone": true
+        },
+        {
+          "x": 1.195,
+          "y": 34.748,
           "color": 1,
-          "dist": 3.8432,
+          "dist": 3.8473,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.349,
+          "y": 37.704,
+          "color": 1,
+          "dist": 0.7831,
           "is_shot_stone": false
         }
       ]
@@ -87,40 +101,47 @@
       "rank": 3,
       "type": "draw",
       "turn": -1,
-      "vx": -0.114,
+      "vx": -0.084,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
+      "stability": 0.8615,
+      "stability_std": 0.0035,
       "template": "デフォルト",
       "future": [
         {
-          "x": -0.1746,
-          "y": 38.1856,
+          "x": -0.322,
+          "y": 38.1805,
           "color": 0,
-          "dist": 0.2804,
+          "dist": 0.3925,
           "is_shot_stone": true
         },
         {
-          "x": 0.3093,
-          "y": 37.7022,
+          "x": 0.3596,
+          "y": 34.2988,
           "color": 0,
-          "dist": 0.7679,
+          "dist": 4.1219,
           "is_shot_stone": false
         },
         {
-          "x": 1.194,
-          "y": 34.752,
+          "x": 1.195,
+          "y": 34.748,
           "color": 1,
-          "dist": 3.8432,
+          "dist": 3.8473,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.349,
+          "y": 37.704,
+          "color": 1,
+          "dist": 0.7831,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "このリードを守りましょう！",
-  "comment_type": "positive",
-  "updated_at": "2026-06-14T06:22:05"
+  "comment": "思い切ってテイクアウトです！",
+  "comment_type": "aggressive",
+  "updated_at": "2026-06-14T06:22:51"
 }
