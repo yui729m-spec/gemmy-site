@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 4,
-  "shot_no": 13,
+  "shot_no": 15,
   "my_score": 2,
   "opp_score": 1,
   "score_diff": 1,
@@ -15,48 +15,55 @@
       "rank": 1,
       "type": "takeout",
       "turn": -1,
-      "vx": -0.0695,
-      "vy": 2.8329,
-      "target_x": -0.098,
-      "target_y": 37.659,
-      "wp": 0.9571,
-      "stability": 0.5871,
-      "stability_std": 0.0,
+      "vx": -0.1002,
+      "vy": 2.8857,
+      "target_x": 0.236,
+      "target_y": 40.349,
+      "wp": 0.9523,
+      "stability": 0.5911,
+      "stability_std": 0.0047,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.923,
-          "y": 40.16,
+          "y": 40.162,
           "color": 0,
-          "dist": 2.6035,
+          "dist": 2.6048,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.1861,
+          "y": 37.7298,
+          "color": 0,
+          "dist": 0.7004,
           "is_shot_stone": false
         },
         {
           "x": 0.086,
-          "y": 39.582,
+          "y": 39.576,
           "color": 0,
-          "dist": 1.1801,
+          "dist": 1.1742,
           "is_shot_stone": true
         },
         {
-          "x": 0.149,
-          "y": 35.1551,
+          "x": -1.5068,
+          "y": 34.567,
           "color": 0,
-          "dist": 3.2533,
+          "dist": 4.1232,
           "is_shot_stone": false
         },
         {
-          "x": 2.1336,
-          "y": 38.7148,
+          "x": 6.5281,
+          "y": 52.4123,
           "color": 1,
-          "dist": 2.156,
+          "dist": 15.4539,
           "is_shot_stone": false
         },
         {
-          "x": -6.4509,
-          "y": 49.1306,
+          "x": -0.1239,
+          "y": 37.6557,
           "color": 1,
-          "dist": 12.516,
+          "dist": 0.7595,
           "is_shot_stone": false
         },
         {
@@ -67,10 +74,17 @@
           "is_shot_stone": false
         },
         {
-          "x": -0.216,
-          "y": 34.41,
+          "x": -0.469,
+          "y": 40.124,
           "color": 1,
-          "dist": 4.0008,
+          "dist": 1.7818,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.0395,
+          "y": 35.1553,
+          "color": 1,
+          "dist": 3.25,
           "is_shot_stone": false
         }
       ]
@@ -79,62 +93,76 @@
       "rank": 2,
       "type": "takeout",
       "turn": -1,
-      "vx": -0.1021,
-      "vy": 2.9297,
-      "target_x": 0.096,
-      "target_y": 35.441,
-      "wp": 0.9471,
-      "stability": 0.5871,
+      "vx": -0.0695,
+      "vy": 2.7829,
+      "target_x": -0.096,
+      "target_y": 37.66,
+      "wp": 0.9501,
+      "stability": 0.5901,
       "stability_std": 0.0,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.923,
-          "y": 40.16,
+          "y": 40.162,
           "color": 0,
-          "dist": 2.6035,
+          "dist": 2.6048,
           "is_shot_stone": false
         },
         {
-          "x": 0.086,
-          "y": 39.582,
+          "x": 0.371,
+          "y": 37.581,
           "color": 0,
-          "dist": 1.1801,
-          "is_shot_stone": false
-        },
-        {
-          "x": -2.9375,
-          "y": 35.5289,
-          "color": 0,
-          "dist": 4.1111,
+          "dist": 0.9037,
           "is_shot_stone": true
         },
         {
-          "x": 3.5267,
-          "y": 44.8361,
-          "color": 1,
-          "dist": 7.3346,
+          "x": 4.7426,
+          "y": 44.6533,
+          "color": 0,
+          "dist": 7.8443,
           "is_shot_stone": false
         },
         {
-          "x": -1.6504,
-          "y": 38.8153,
-          "color": 1,
-          "dist": 1.7006,
+          "x": 0.3525,
+          "y": 35.1912,
+          "color": 0,
+          "dist": 3.2331,
           "is_shot_stone": false
         },
         {
-          "x": 0.236,
-          "y": 40.349,
+          "x": -0.195,
+          "y": 37.3741,
           "color": 1,
-          "dist": 1.9583,
+          "dist": 1.0492,
           "is_shot_stone": false
         },
         {
-          "x": 2.238,
-          "y": 35.3601,
+          "x": -2.4009,
+          "y": 41.2836,
           "color": 1,
-          "dist": 3.7789,
+          "dist": 3.7484,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.1796,
+          "y": 40.4213,
+          "color": 1,
+          "dist": 2.0242,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.469,
+          "y": 40.124,
+          "color": 1,
+          "dist": 1.7818,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.216,
+          "y": 34.409,
+          "color": 1,
+          "dist": 4.0018,
           "is_shot_stone": false
         }
       ]
@@ -142,49 +170,56 @@
     {
       "rank": 3,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.084,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.5871,
-      "stability": 0.5871,
+      "turn": 1,
+      "vx": 0.1136,
+      "vy": 2.3747,
+      "target_x": -0.4,
+      "target_y": 38.005,
+      "wp": 0.5917,
+      "stability": 0.5901,
       "stability_std": 0.0,
       "template": "デフォルト",
       "future": [
         {
           "x": -1.923,
-          "y": 40.16,
+          "y": 40.162,
           "color": 0,
-          "dist": 2.6035,
+          "dist": 2.6048,
           "is_shot_stone": false
         },
         {
-          "x": 0.086,
-          "y": 39.582,
+          "x": 0.4865,
+          "y": 37.8275,
           "color": 0,
-          "dist": 1.1801,
+          "dist": 0.7551,
           "is_shot_stone": true
         },
         {
-          "x": 1.1794,
-          "y": 37.8784,
+          "x": 0.086,
+          "y": 39.576,
           "color": 0,
-          "dist": 1.2916,
+          "dist": 1.1742,
           "is_shot_stone": false
         },
         {
-          "x": 0.0486,
-          "y": 35.4647,
-          "color": 1,
-          "dist": 2.9407,
+          "x": 0.0058,
+          "y": 35.1628,
+          "color": 0,
+          "dist": 3.2422,
           "is_shot_stone": false
         },
         {
-          "x": -0.098,
-          "y": 37.659,
+          "x": 0.2391,
+          "y": 37.3222,
           "color": 1,
-          "dist": 0.7524,
+          "dist": 1.1089,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.096,
+          "y": 37.66,
+          "color": 1,
+          "dist": 0.7512,
           "is_shot_stone": false
         },
         {
@@ -195,10 +230,17 @@
           "is_shot_stone": false
         },
         {
-          "x": -0.216,
-          "y": 34.41,
+          "x": -0.469,
+          "y": 40.124,
           "color": 1,
-          "dist": 4.0008,
+          "dist": 1.7818,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.216,
+          "y": 34.409,
+          "color": 1,
+          "dist": 4.0018,
           "is_shot_stone": false
         }
       ]
@@ -206,5 +248,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-14T05:54:32"
+  "updated_at": "2026-06-14T05:57:34"
 }
