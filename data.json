@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 3,
-  "shot_no": 4,
+  "shot_no": 6,
   "my_score": 2,
   "opp_score": 0,
   "score_diff": 2,
@@ -13,72 +13,72 @@
   "recommendations": [
     {
       "rank": 1,
-      "type": "freeze",
+      "type": "takeout",
       "turn": 1,
-      "vx": 0.1103,
-      "vy": 2.3574,
-      "target_x": -0.1691,
-      "target_y": 38.423,
-      "wp": 0.99,
-      "stability": 0.9481,
-      "stability_std": 0.0347,
+      "vx": 0.0716,
+      "vy": 2.8969,
+      "target_x": 0.042,
+      "target_y": 36.19,
+      "wp": 0.9007,
+      "stability": 0.74,
+      "stability_std": 0.0,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -0.161,
-          "y": 38.123,
+          "x": -0.7944,
+          "y": 36.8316,
           "color": 0,
-          "dist": 0.3247,
+          "dist": 1.7626,
           "is_shot_stone": true
         },
         {
-          "x": -0.2844,
-          "y": 36.9185,
-          "color": 0,
-          "dist": 1.5134,
+          "x": 6.131,
+          "y": 51.2108,
+          "color": 1,
+          "dist": 14.1978,
           "is_shot_stone": false
         },
         {
-          "x": -0.657,
-          "y": 35.963,
+          "x": -1.2003,
+          "y": 35.8017,
           "color": 1,
-          "dist": 2.5288,
+          "dist": 2.8667,
           "is_shot_stone": false
         }
       ]
     },
     {
       "rank": 2,
-      "type": "freeze",
-      "turn": -1,
-      "vx": -0.1119,
-      "vy": 2.3763,
-      "target_x": -0.153,
-      "target_y": 37.823,
-      "wp": 0.99,
-      "stability": 0.9481,
-      "stability_std": 0.0347,
+      "type": "takeout",
+      "turn": 1,
+      "vx": 0.0692,
+      "vy": 2.9606,
+      "target_x": -0.659,
+      "target_y": 35.964,
+      "wp": 0.901,
+      "stability": 0.74,
+      "stability_std": 0.0,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -0.161,
-          "y": 38.123,
+          "x": -0.786,
+          "y": 36.8514,
           "color": 0,
-          "dist": 0.3247,
+          "dist": 1.7411,
           "is_shot_stone": true
         },
         {
-          "x": 0.284,
-          "y": 37.5624,
-          "color": 0,
-          "dist": 0.8892,
+          "x": 6.9477,
+          "y": 53.3871,
+          "color": 1,
+          "dist": 16.5147,
           "is_shot_stone": false
         },
         {
-          "x": -0.657,
-          "y": 35.963,
+          "x": -1.3215,
+          "y": 35.7787,
           "color": 1,
-          "dist": 2.5288,
+          "dist": 2.9401,
           "is_shot_stone": false
         }
       ]
@@ -86,41 +86,41 @@
     {
       "rank": 3,
       "type": "draw",
-      "turn": -1,
-      "vx": -0.114,
-      "vy": 2.35,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.99,
-      "stability": 0.9348,
-      "stability_std": 0.0368,
+      "turn": 1,
+      "vx": 0.0836,
+      "vy": 2.4247,
+      "target_x": -0.4,
+      "target_y": 38.805,
+      "wp": 0.9158,
+      "stability": 0.7354,
+      "stability_std": 0.1221,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -0.161,
-          "y": 38.123,
+          "x": 0.2304,
+          "y": 38.1028,
           "color": 0,
-          "dist": 0.3247,
+          "dist": 0.38,
           "is_shot_stone": true
         },
         {
-          "x": 0.2162,
-          "y": 36.6731,
-          "color": 0,
-          "dist": 1.7453,
+          "x": 0.042,
+          "y": 36.19,
+          "color": 1,
+          "dist": 2.2154,
           "is_shot_stone": false
         },
         {
-          "x": -0.657,
-          "y": 35.963,
+          "x": -0.9822,
+          "y": 36.1249,
           "color": 1,
-          "dist": 2.5288,
+          "dist": 2.4827,
           "is_shot_stone": false
         }
       ]
     }
   ],
-  "comment": "このリードを守りましょう！",
-  "comment_type": "positive",
-  "updated_at": "2026-06-14T05:34:42"
+  "comment": "思い切ってテイクアウトです！",
+  "comment_type": "aggressive",
+  "updated_at": "2026-06-14T05:34:56"
 }
