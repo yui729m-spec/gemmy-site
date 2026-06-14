@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 2,
-  "shot_no": 4,
+  "shot_no": 6,
   "my_score": 2,
   "opp_score": 0,
   "score_diff": 2,
@@ -20,15 +20,15 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.8569,
-      "stability": 0.8464,
-      "stability_std": 0.0037,
+      "stability": 0.8514,
+      "stability_std": 0.0024,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.851,
+          "x": -1.849,
           "y": 38.663,
           "color": 0,
-          "dist": 1.8689,
+          "dist": 1.8669,
           "is_shot_stone": false
         },
         {
@@ -56,15 +56,15 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.8569,
-      "stability": 0.7951,
-      "stability_std": 0.0552,
+      "stability": 0.7637,
+      "stability_std": 0.07,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.851,
+          "x": -1.849,
           "y": 38.663,
           "color": 0,
-          "dist": 1.8689,
+          "dist": 1.8669,
           "is_shot_stone": false
         },
         {
@@ -85,29 +85,29 @@
     },
     {
       "rank": 3,
-      "type": "guard",
+      "type": "draw",
       "turn": -1,
-      "vx": -0.0791,
-      "vy": 2.2594,
+      "vx": -0.084,
+      "vy": 2.4,
       "target_x": 0.0,
-      "target_y": 35.905,
-      "wp": 0.715,
-      "stability": 0.7097,
-      "stability_std": 0.0056,
+      "target_y": 38.405,
+      "wp": 0.8516,
+      "stability": 0.7636,
+      "stability_std": 0.0696,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.851,
+          "x": -1.849,
           "y": 38.663,
           "color": 0,
-          "dist": 1.8689,
+          "dist": 1.8669,
           "is_shot_stone": false
         },
         {
-          "x": 0.6224,
-          "y": 33.6263,
+          "x": 0.7603,
+          "y": 38.33,
           "color": 0,
-          "dist": 4.819,
+          "dist": 0.764,
           "is_shot_stone": true
         },
         {
@@ -122,5 +122,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-14T05:22:15"
+  "updated_at": "2026-06-14T05:22:59"
 }
