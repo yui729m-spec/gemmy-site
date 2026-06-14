@@ -14,92 +14,14 @@
     {
       "rank": 1,
       "type": "takeout",
-      "turn": 1,
-      "vx": 0.0648,
-      "vy": 2.8669,
-      "target_x": -1.464,
-      "target_y": 37.959,
-      "wp": 0.6026,
-      "stability": 0.4143,
-      "stability_std": 0.3008,
-      "template": "デフォルト",
-      "future": [
-        {
-          "x": -0.6792,
-          "y": 38.4199,
-          "color": 0,
-          "dist": 0.6794,
-          "is_shot_stone": true
-        },
-        {
-          "x": -1.3,
-          "y": 39.174,
-          "color": 0,
-          "dist": 1.5104,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.107,
-          "y": 37.594,
-          "color": 0,
-          "dist": 0.818,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.312,
-          "y": 39.907,
-          "color": 0,
-          "dist": 1.5341,
-          "is_shot_stone": false
-        },
-        {
-          "x": 1.5392,
-          "y": 36.0046,
-          "color": 0,
-          "dist": 2.8515,
-          "is_shot_stone": false
-        },
-        {
-          "x": -10.4741,
-          "y": 46.2469,
-          "color": 1,
-          "dist": 13.0844,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.336,
-          "y": 37.851,
-          "color": 1,
-          "dist": 0.6479,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.98,
-          "y": 39.428,
-          "color": 1,
-          "dist": 1.4167,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.1053,
-          "y": 39.3281,
-          "color": 1,
-          "dist": 0.9291,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 2,
-      "type": "takeout",
       "turn": -1,
       "vx": -0.1308,
       "vy": 2.7753,
       "target_x": -0.518,
       "target_y": 38.661,
       "wp": 0.6011,
-      "stability": 0.3756,
-      "stability_std": 0.1152,
+      "stability": 0.4623,
+      "stability_std": 0.1109,
       "template": "デフォルト",
       "future": [
         {
@@ -149,6 +71,84 @@
           "y": 42.1835,
           "color": 1,
           "dist": 5.5196,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.98,
+          "y": 39.428,
+          "color": 1,
+          "dist": 1.4167,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.518,
+          "y": 38.661,
+          "color": 1,
+          "dist": 0.5778,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.084,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.99,
+      "stability": 0.3786,
+      "stability_std": 0.2374,
+      "template": "デフォルト",
+      "future": [
+        {
+          "x": -0.0621,
+          "y": 37.3538,
+          "color": 0,
+          "dist": 1.053,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.3,
+          "y": 39.174,
+          "color": 0,
+          "dist": 1.5104,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.4563,
+          "y": 38.3187,
+          "color": 0,
+          "dist": 0.4644,
+          "is_shot_stone": true
+        },
+        {
+          "x": 0.312,
+          "y": 39.907,
+          "color": 0,
+          "dist": 1.5341,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.4392,
+          "y": 35.2023,
+          "color": 0,
+          "dist": 3.2327,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.464,
+          "y": 37.959,
+          "color": 1,
+          "dist": 1.5304,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.336,
+          "y": 37.851,
+          "color": 1,
+          "dist": 0.6479,
           "is_shot_stone": false
         },
         {
@@ -248,5 +248,5 @@
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-14T06:48:22"
+  "updated_at": "2026-06-14T06:50:13"
 }
