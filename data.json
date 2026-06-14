@@ -20,8 +20,8 @@
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.7169,
-      "stability": 0.7095,
-      "stability_std": 0.0039,
+      "stability": 0.7093,
+      "stability_std": 0.0059,
       "template": "D1. 終投・ハンマーあり・同点",
       "future": [
         {
@@ -50,50 +50,14 @@
     {
       "rank": 2,
       "type": "draw",
-      "turn": 1,
-      "vx": 0.114,
-      "vy": 2.4,
-      "target_x": 0.0,
-      "target_y": 38.405,
-      "wp": 0.7169,
-      "stability": 0.7061,
-      "stability_std": 0.0046,
-      "template": "D1. 終投・ハンマーあり・同点",
-      "future": [
-        {
-          "x": -0.2827,
-          "y": 38.3796,
-          "color": 0,
-          "dist": 0.2838,
-          "is_shot_stone": true
-        },
-        {
-          "x": -2.154,
-          "y": 36.681,
-          "color": 1,
-          "dist": 2.759,
-          "is_shot_stone": false
-        },
-        {
-          "x": -2.116,
-          "y": 37.882,
-          "color": 1,
-          "dist": 2.1797,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "type": "draw",
       "turn": -1,
       "vx": -0.084,
       "vy": 2.4,
       "target_x": 0.0,
       "target_y": 38.405,
       "wp": 0.7116,
-      "stability": 0.6354,
-      "stability_std": 0.0607,
+      "stability": 0.7042,
+      "stability_std": 0.005,
       "template": "D1. 終投・ハンマーあり・同点",
       "future": [
         {
@@ -118,9 +82,45 @@
           "is_shot_stone": false
         }
       ]
+    },
+    {
+      "rank": 3,
+      "type": "draw",
+      "turn": 1,
+      "vx": 0.114,
+      "vy": 2.4,
+      "target_x": 0.0,
+      "target_y": 38.405,
+      "wp": 0.7169,
+      "stability": 0.6659,
+      "stability_std": 0.0497,
+      "template": "D1. 終投・ハンマーあり・同点",
+      "future": [
+        {
+          "x": -0.2827,
+          "y": 38.3796,
+          "color": 0,
+          "dist": 0.2838,
+          "is_shot_stone": true
+        },
+        {
+          "x": -2.154,
+          "y": 36.681,
+          "color": 1,
+          "dist": 2.759,
+          "is_shot_stone": false
+        },
+        {
+          "x": -2.116,
+          "y": 37.882,
+          "color": 1,
+          "dist": 2.1797,
+          "is_shot_stone": false
+        }
+      ]
     }
   ],
   "comment": "ハンマーを活かしましょう！",
   "comment_type": "thinking",
-  "updated_at": "2026-06-14T05:15:48"
+  "updated_at": "2026-06-14T05:16:33"
 }
