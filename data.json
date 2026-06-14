@@ -14,14 +14,50 @@
     {
       "rank": 1,
       "type": "freeze",
+      "turn": 1,
+      "vx": 0.1103,
+      "vy": 2.3574,
+      "target_x": -0.1691,
+      "target_y": 38.423,
+      "wp": 0.99,
+      "stability": 0.9481,
+      "stability_std": 0.0347,
+      "template": "B2. 中投・ハンマーなし・自石No1",
+      "future": [
+        {
+          "x": -0.161,
+          "y": 38.123,
+          "color": 0,
+          "dist": 0.3247,
+          "is_shot_stone": true
+        },
+        {
+          "x": -0.2844,
+          "y": 36.9185,
+          "color": 0,
+          "dist": 1.5134,
+          "is_shot_stone": false
+        },
+        {
+          "x": -0.657,
+          "y": 35.963,
+          "color": 1,
+          "dist": 2.5288,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "freeze",
       "turn": -1,
       "vx": -0.1119,
       "vy": 2.3763,
       "target_x": -0.153,
       "target_y": 37.823,
       "wp": 0.99,
-      "stability": 0.964,
-      "stability_std": 0.0274,
+      "stability": 0.9481,
+      "stability_std": 0.0347,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
@@ -48,49 +84,13 @@
       ]
     },
     {
-      "rank": 2,
-      "type": "freeze",
-      "turn": -1,
-      "vx": -0.1113,
-      "vy": 2.3574,
-      "target_x": -0.1691,
-      "target_y": 38.423,
-      "wp": 0.99,
-      "stability": 0.9348,
-      "stability_std": 0.0368,
-      "template": "B2. 中投・ハンマーなし・自石No1",
-      "future": [
-        {
-          "x": -0.161,
-          "y": 38.123,
-          "color": 0,
-          "dist": 0.3247,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.2685,
-          "y": 36.9202,
-          "color": 0,
-          "dist": 1.5089,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.657,
-          "y": 35.963,
-          "color": 1,
-          "dist": 2.5288,
-          "is_shot_stone": false
-        }
-      ]
-    },
-    {
       "rank": 3,
-      "type": "freeze",
-      "turn": 1,
-      "vx": 0.1103,
-      "vy": 2.3574,
-      "target_x": -0.1691,
-      "target_y": 38.423,
+      "type": "draw",
+      "turn": -1,
+      "vx": -0.114,
+      "vy": 2.35,
+      "target_x": 0.0,
+      "target_y": 38.405,
       "wp": 0.99,
       "stability": 0.9348,
       "stability_std": 0.0368,
@@ -104,10 +104,10 @@
           "is_shot_stone": true
         },
         {
-          "x": -0.2844,
-          "y": 36.9185,
+          "x": 0.2162,
+          "y": 36.6731,
           "color": 0,
-          "dist": 1.5134,
+          "dist": 1.7453,
           "is_shot_stone": false
         },
         {
@@ -122,5 +122,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-14T05:33:29"
+  "updated_at": "2026-06-14T05:34:42"
 }
