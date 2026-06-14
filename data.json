@@ -15,6 +15,70 @@
       "rank": 1,
       "type": "takeout",
       "turn": -1,
+      "vx": -0.1035,
+      "vy": 2.8468,
+      "target_x": -1.05,
+      "target_y": 38.202,
+      "wp": 0.99,
+      "stability": 0.99,
+      "stability_std": 0.0,
+      "template": "D4. 終投・1点リード・ハンマーなし",
+      "future": [
+        {
+          "x": -1.1291,
+          "y": 36.393,
+          "color": 0,
+          "dist": 2.3072,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.057,
+          "y": 37.536,
+          "color": 0,
+          "dist": 0.8709,
+          "is_shot_stone": true
+        },
+        {
+          "x": -0.0985,
+          "y": 35.9134,
+          "color": 0,
+          "dist": 2.4936,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.9741,
+          "y": 34.5752,
+          "color": 0,
+          "dist": 4.3087,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.337,
+          "y": 39.905,
+          "color": 1,
+          "dist": 1.5374,
+          "is_shot_stone": false
+        },
+        {
+          "x": 10.2799,
+          "y": 45.6635,
+          "color": 1,
+          "dist": 12.5842,
+          "is_shot_stone": false
+        },
+        {
+          "x": -1.05,
+          "y": 38.202,
+          "color": 1,
+          "dist": 1.0694,
+          "is_shot_stone": false
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "type": "takeout",
+      "turn": -1,
       "vx": -0.1335,
       "vy": 2.7968,
       "target_x": -1.05,
@@ -76,7 +140,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "type": "takeout",
       "turn": -1,
       "vx": -0.1335,
@@ -138,73 +202,9 @@
           "is_shot_stone": false
         }
       ]
-    },
-    {
-      "rank": 3,
-      "type": "guard",
-      "turn": -1,
-      "vx": -0.0803,
-      "vy": 2.2974,
-      "target_x": 0.0399,
-      "target_y": 35.036,
-      "wp": 0.99,
-      "stability": 0.99,
-      "stability_std": 0.0,
-      "template": "D4. 終投・1点リード・ハンマーなし",
-      "future": [
-        {
-          "x": -0.387,
-          "y": 35.971,
-          "color": 0,
-          "dist": 2.4646,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.057,
-          "y": 37.536,
-          "color": 0,
-          "dist": 0.8709,
-          "is_shot_stone": false
-        },
-        {
-          "x": -0.233,
-          "y": 34.127,
-          "color": 0,
-          "dist": 4.2843,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.6601,
-          "y": 34.8675,
-          "color": 0,
-          "dist": 3.5986,
-          "is_shot_stone": true
-        },
-        {
-          "x": 0.337,
-          "y": 39.905,
-          "color": 1,
-          "dist": 1.5374,
-          "is_shot_stone": false
-        },
-        {
-          "x": 0.485,
-          "y": 35.662,
-          "color": 1,
-          "dist": 2.7855,
-          "is_shot_stone": false
-        },
-        {
-          "x": -1.05,
-          "y": 38.202,
-          "color": 1,
-          "dist": 1.0694,
-          "is_shot_stone": false
-        }
-      ]
     }
   ],
   "comment": "思い切ってテイクアウトです！",
   "comment_type": "aggressive",
-  "updated_at": "2026-06-14T06:12:18"
+  "updated_at": "2026-06-14T06:12:56"
 }
