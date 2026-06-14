@@ -2,7 +2,7 @@
   "mode": "live",
   "schedule": {},
   "end_no": 10,
-  "shot_no": 4,
+  "shot_no": 6,
   "my_score": 6,
   "opp_score": 4,
   "score_diff": 2,
@@ -15,28 +15,35 @@
       "rank": 1,
       "type": "guard",
       "turn": -1,
-      "vx": -0.0803,
-      "vy": 2.2891,
-      "target_x": -0.042,
-      "target_y": 35.226,
-      "wp": 0.99,
-      "stability": 0.99,
+      "vx": -0.0779,
+      "vy": 2.3118,
+      "target_x": 0.9072,
+      "target_y": 34.819,
+      "wp": 0.717,
+      "stability": 0.717,
       "stability_std": 0.0,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.869,
-          "y": 37.251,
+          "x": -1.867,
+          "y": 37.25,
           "color": 0,
-          "dist": 2.1966,
+          "dist": 2.1954,
           "is_shot_stone": false
         },
         {
-          "x": -0.319,
-          "y": 36.043,
+          "x": 1.296,
+          "y": 37.319,
           "color": 0,
-          "dist": 2.3834,
-          "is_shot_stone": true
+          "dist": 1.6909,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.155,
+          "y": 35.782,
+          "color": 0,
+          "dist": 2.6276,
+          "is_shot_stone": false
         },
         {
           "x": -0.06,
@@ -46,31 +53,31 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.6482,
-          "y": 34.5949,
+          "x": 0.718,
+          "y": 35.3425,
           "color": 0,
-          "dist": 3.8649,
-          "is_shot_stone": false
+          "dist": 3.1456,
+          "is_shot_stone": true
         },
         {
-          "x": 0.043,
-          "y": 34.555,
+          "x": 0.322,
+          "y": 38.166,
           "color": 1,
-          "dist": 3.8502,
+          "dist": 0.401,
           "is_shot_stone": false
         },
         {
           "x": -0.19,
-          "y": 37.0,
+          "y": 37.002,
           "color": 1,
-          "dist": 1.4178,
+          "dist": 1.4158,
           "is_shot_stone": false
         },
         {
-          "x": 1.224,
-          "y": 34.976,
+          "x": 1.23,
+          "y": 34.974,
           "color": 1,
-          "dist": 3.6409,
+          "dist": 3.6448,
           "is_shot_stone": false
         }
       ]
@@ -79,27 +86,34 @@
       "rank": 2,
       "type": "guard",
       "turn": -1,
-      "vx": -0.1103,
-      "vy": 2.2391,
-      "target_x": -0.042,
-      "target_y": 35.226,
-      "wp": 0.99,
-      "stability": 0.99,
+      "vx": -0.1079,
+      "vy": 2.2618,
+      "target_x": 0.9072,
+      "target_y": 34.819,
+      "wp": 0.717,
+      "stability": 0.717,
       "stability_std": 0.0,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.869,
-          "y": 37.251,
+          "x": -1.867,
+          "y": 37.25,
           "color": 0,
-          "dist": 2.1966,
+          "dist": 2.1954,
           "is_shot_stone": false
         },
         {
-          "x": -0.319,
-          "y": 36.043,
+          "x": 1.296,
+          "y": 37.319,
           "color": 0,
-          "dist": 2.3834,
+          "dist": 1.6909,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.155,
+          "y": 35.782,
+          "color": 0,
+          "dist": 2.6276,
           "is_shot_stone": true
         },
         {
@@ -110,31 +124,31 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.1357,
-          "y": 33.0263,
+          "x": 0.1978,
+          "y": 33.7521,
           "color": 0,
-          "dist": 5.3804,
+          "dist": 4.6571,
           "is_shot_stone": false
         },
         {
-          "x": 0.043,
-          "y": 34.555,
+          "x": 0.322,
+          "y": 38.166,
           "color": 1,
-          "dist": 3.8502,
+          "dist": 0.401,
           "is_shot_stone": false
         },
         {
           "x": -0.19,
-          "y": 37.0,
+          "y": 37.002,
           "color": 1,
-          "dist": 1.4178,
+          "dist": 1.4158,
           "is_shot_stone": false
         },
         {
-          "x": 1.224,
-          "y": 34.976,
+          "x": 1.23,
+          "y": 34.974,
           "color": 1,
-          "dist": 3.6409,
+          "dist": 3.6448,
           "is_shot_stone": false
         }
       ]
@@ -143,28 +157,35 @@
       "rank": 3,
       "type": "guard",
       "turn": -1,
-      "vx": -0.1103,
-      "vy": 2.2891,
-      "target_x": -0.042,
-      "target_y": 35.226,
-      "wp": 0.99,
-      "stability": 0.99,
+      "vx": -0.1079,
+      "vy": 2.3118,
+      "target_x": 0.9072,
+      "target_y": 34.819,
+      "wp": 0.717,
+      "stability": 0.717,
       "stability_std": 0.0,
       "template": "B2. 中投・ハンマーなし・自石No1",
       "future": [
         {
-          "x": -1.869,
-          "y": 37.251,
+          "x": -1.867,
+          "y": 37.25,
           "color": 0,
-          "dist": 2.1966,
+          "dist": 2.1954,
           "is_shot_stone": false
         },
         {
-          "x": -0.319,
-          "y": 36.043,
+          "x": 1.296,
+          "y": 37.319,
           "color": 0,
-          "dist": 2.3834,
-          "is_shot_stone": true
+          "dist": 1.6909,
+          "is_shot_stone": false
+        },
+        {
+          "x": 0.155,
+          "y": 35.782,
+          "color": 0,
+          "dist": 2.6276,
+          "is_shot_stone": false
         },
         {
           "x": -0.06,
@@ -174,31 +195,31 @@
           "is_shot_stone": false
         },
         {
-          "x": 0.1534,
-          "y": 34.2862,
+          "x": 0.2606,
+          "y": 35.3865,
           "color": 0,
-          "dist": 4.1217,
-          "is_shot_stone": false
+          "dist": 3.0298,
+          "is_shot_stone": true
         },
         {
-          "x": -0.0007,
-          "y": 34.8423,
+          "x": 0.322,
+          "y": 38.166,
           "color": 1,
-          "dist": 3.5627,
+          "dist": 0.401,
           "is_shot_stone": false
         },
         {
           "x": -0.19,
-          "y": 37.0,
+          "y": 37.002,
           "color": 1,
-          "dist": 1.4178,
+          "dist": 1.4158,
           "is_shot_stone": false
         },
         {
-          "x": 1.224,
-          "y": 34.976,
+          "x": 1.23,
+          "y": 34.974,
           "color": 1,
-          "dist": 3.6409,
+          "dist": 3.6448,
           "is_shot_stone": false
         }
       ]
@@ -206,5 +227,5 @@
   ],
   "comment": "このリードを守りましょう！",
   "comment_type": "positive",
-  "updated_at": "2026-06-14T07:27:31"
+  "updated_at": "2026-06-14T07:28:56"
 }
